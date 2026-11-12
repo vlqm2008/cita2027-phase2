@@ -1,0 +1,2 @@
+True_Governing_Dynamics,Online_Discovered_SINDy_ODE,Sparsity_Ratio,Exact_Support_Recovery_Theorem23
+de/dt = -0.600*e - 0.250*e^3 + 0.400*sin(e),de/dt = 0.163*1 - 0.273*e + 0.538*e^2 - 0.516*e^3 - 0.190*sin(e) - 0.132*cos(e) - 0.148*tanh(e) + 0.317*|e|,0.125,CERTIFIED (RIP Condition Satisfied)

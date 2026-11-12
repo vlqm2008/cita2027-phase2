@@ -15,6 +15,9 @@ from cita2027.adaptation.changepoint_martingale import (
     ChangePointMartingaleAdapter,
     StreamingChangePointMartingale,
 )
+from cita2027.adaptation.contrastive_cross_horizon import (
+    ContrastiveCrossHorizonAdapter,
+)
 from cita2027.adaptation.correctors import HypothesisH1_SharedStateCorrector
 from cita2027.adaptation.differentially_private_adaptation import (
     DifferentiallyPrivateCrossHorizonAdapter,
@@ -35,8 +38,16 @@ from cita2027.adaptation.feedback_queue import (
     CausalFeedbackQueue,
     ForecastFeedbackItem,
 )
+from cita2027.adaptation.fractional_brownian_adaptation import (
+    FractionalBrownianCrossHorizonAdapter,
+    OnlineHurstEstimator,
+)
 from cita2027.adaptation.game_theoretic_adaptation import (
     GameTheoreticMinimaxAdapter,
+)
+from cita2027.adaptation.hessian_free_second_order import (
+    HessianFreeCrossHorizonAdapter,
+    TruncatedConjugateGradientSolver,
 )
 from cita2027.adaptation.hyperbolic_adaptation import (
     HyperbolicCrossHorizonAdapter,
@@ -63,6 +74,10 @@ from cita2027.adaptation.neural_sde_adaptation import (
 )
 from cita2027.adaptation.riemannian_natural_gradient import (
     RiemannianNaturalGradientAdapter,
+)
+from cita2027.adaptation.symbolic_equation_discovery import (
+    OnlineSymbolicSINDy,
+    SymbolicCrossHorizonAdapter,
 )
 from cita2027.adaptation.wasserstein_barycenter_adaptation import (
     WassersteinBarycenterCrossHorizonAdapter,
@@ -102,4 +117,11 @@ __all__ = [
     "CausalEnvironmentDetector",
     "CausalIRMCrossHorizonAdapter",
     "WassersteinBarycenterCrossHorizonAdapter",
+    "OnlineHurstEstimator",
+    "FractionalBrownianCrossHorizonAdapter",
+    "ContrastiveCrossHorizonAdapter",
+    "OnlineSymbolicSINDy",
+    "SymbolicCrossHorizonAdapter",
+    "TruncatedConjugateGradientSolver",
+    "HessianFreeCrossHorizonAdapter",
 ]

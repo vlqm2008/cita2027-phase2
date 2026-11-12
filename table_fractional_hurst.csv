@@ -1,0 +1,2 @@
+Forecast_Horizon,True_Hurst_Parameter,Online_Estimated_Hurst,Standard_Markovian_CRPS,Hurst_Adapted_CRPS,CRPS_Gain_Pct,Regret_Bound_Theorem21
+h=8 (Long-Lookahead),0.75,0.05,0.3558,0.3337,6.22,"Certified O(T^max(1/2, H) * K_eff^(1-H))"

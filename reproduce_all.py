@@ -271,22 +271,52 @@ def main():
         "Universal Grand Master Synthesis Atlas & 25-Method Taxonomy (Figure 45 Milestone)",
     )
 
-    # 38. Scientific Integrity & Causal Provenance Audit
+    # 38. Fractional Brownian Motion & Long-Memory Hurst Adaptation (Hurst-H3)
+    timings["Fractional Hurst Adaptation (Hurst-H3)"] = run(
+        [py, "scripts/run_fractional_hurst_benchmarks.py"],
+        "Fractional Brownian Motion & Long-Memory Hurst Exponent Adaptation (Hurst-H3 - fig46)",
+    )
+
+    # 39. Self-Supervised Contrastive Representation Adaptation (Contrastive-H3)
+    timings["Contrastive Representation (Contrastive-H3)"] = run(
+        [py, "scripts/run_contrastive_benchmarks.py"],
+        "Self-Supervised Contrastive Representation Learning (Contrastive-H3 - fig47)",
+    )
+
+    # 40. Symbolic Regression & Interpretable Equation Discovery (Symbolic-H3)
+    timings["Symbolic Equation Discovery (Symbolic-H3)"] = run(
+        [py, "scripts/run_symbolic_benchmarks.py"],
+        "Symbolic Regression & SINDy Governing Equation Discovery (Symbolic-H3 - fig48)",
+    )
+
+    # 41. Curvature-Aware Hessian-Free Second-Order Optimization (HessianFree-H3)
+    timings["Hessian-Free Second-Order (HessianFree-H3)"] = run(
+        [py, "scripts/run_hessian_free_benchmarks.py"],
+        "Curvature-Aware Hessian-Free Krylov Second-Order Optimization (HessianFree-H3 - fig49)",
+    )
+
+    # 42. The Golden Zenith: Universal Masterpiece Research Atlas (Milestone Figure 50)
+    timings["Golden Zenith Universal Atlas (Figure 50)"] = run(
+        [py, "scripts/run_golden_zenith_atlas.py"],
+        "The Golden Zenith: Universal Masterpiece Research Atlas (Figure 50 Milestone)",
+    )
+
+    # 43. Scientific Integrity & Causal Provenance Audit
     timings["Scientific Integrity & Compliance Audit"] = run(
         [py, "scripts/verify_scientific_integrity.py"],
         "Comprehensive Scientific Integrity & Provenance Compliance Audit",
     )
 
-    # 39. Master 10-Phase Pipeline
+    # 44. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 40. Camera-Ready PDF Compilation (45 Figures 300 DPI)
-    timings["Camera-Ready PDF Compilation (45 Figures 300 DPI)"] = run(
+    # 45. Camera-Ready PDF Compilation (50 Figures 300 DPI)
+    timings["Camera-Ready PDF Compilation (50 Figures 300 DPI)"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (45 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (50 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start
