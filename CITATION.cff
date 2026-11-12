@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or empirical benchmark suite, please cite our research paper and repository."
+title: "Asynchronous Cross-Horizon Probabilistic Adaptation for Frozen Time-Series Foundation Models under Distribution Shift"
+authors:
+  - name: "CITA 2027 Collaborator Group C+"
+    affiliation: "CITA 2027 Research Consortium"
+version: 0.2.0
+date-released: 2026-11-13
+license: MIT
+repository-code: "https://github.com/vlqm2008/cita2027-phase2"
+keywords:
+  - "time-series foundation models"
+  - "probabilistic forecasting"
+  - "asynchronous delayed feedback"
+  - "online convex optimization"
+  - "distribution shift"
+  - "conformal prediction"
+  - "dynamic regret bounds"
+  - "pac-bayes generalization"
