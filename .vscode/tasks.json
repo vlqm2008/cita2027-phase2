@@ -2,11 +2,11 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Run Hypothesis H1 Evaluation (Phase 1)",
+            "label": "Run Unified Benchmark (Phase 1 + 2 + 3)",
             "type": "shell",
             "command": "${workspaceFolder}/.venv/Scripts/python.exe",
             "args": [
-                "${workspaceFolder}/scripts/run_hypothesis_h1.py"
+                "${workspaceFolder}/scripts/run_hypothesis_h3.py"
             ],
             "options": {
                 "env": {
@@ -25,7 +25,43 @@
             "problemMatcher": []
         },
         {
-            "label": "Run Pytest Suite",
+            "label": "Run Hypothesis H2 Evaluation (Phase 2)",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "${workspaceFolder}/scripts/run_hypothesis_h2.py"
+            ],
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Hypothesis H1 Evaluation (Phase 1)",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "${workspaceFolder}/scripts/run_hypothesis_h1.py"
+            ],
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Full Pytest Suite",
             "type": "shell",
             "command": "${workspaceFolder}/.venv/Scripts/python.exe",
             "args": [
@@ -39,28 +75,6 @@
                 }
             },
             "group": "test",
-            "presentation": {
-                "reveal": "always",
-                "panel": "shared"
-            },
-            "problemMatcher": []
-        },
-        {
-            "label": "Run Phase 2 Final Test Pipeline",
-            "type": "shell",
-            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
-            "args": [
-                "${workspaceFolder}/scripts/task011_final_test.py",
-                "run",
-                "--root",
-                ".",
-                "--allow-final-test"
-            ],
-            "options": {
-                "env": {
-                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
-                }
-            },
             "presentation": {
                 "reveal": "always",
                 "panel": "shared"
