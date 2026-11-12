@@ -37,6 +37,7 @@ The figures are rendered in 300 DPI publication resolution in `paper_figures/`:
 - **Figure 2 (`paper_figures/fig2_abrupt_reversal_adaptation.png`):** Prequential CRPS trajectory under Abrupt Reversal, showing how $H_2$ and $H_3$ dampen stale-feedback shocks compared to naive uniform updates.
 - **Figure 3 (`paper_figures/fig3_cross_regime_benchmark_summary.png`):** Comprehensive radar and bar benchmark across all 8 distribution shift regimes.
 - **Figure 4 (`paper_figures/fig4_ablation_sensitivity_curves.png`):** 4-panel sensitivity analysis across components, latent dimension $d$, decay rate $\gamma$, and overlap discount $\beta$.
+- **Figure 5 (`paper_figures/fig5_cross_architecture_generalization.png`):** Cross-architecture generalization comparing Chronos-T5 vs. Moirai-1.0-R across SPY and BTCUSDT.
 
 ---
 

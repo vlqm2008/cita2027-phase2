@@ -112,6 +112,24 @@
             "problemMatcher": []
         },
         {
+            "label": "Cross-Architecture Generalization Benchmark (Chronos vs Moirai)",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "${workspaceFolder}/scripts/run_cross_model_comparison.py"
+            ],
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
             "label": "Phase 5: Paired Statistical Significance Tests",
             "type": "shell",
             "command": "${workspaceFolder}/.venv/Scripts/python.exe",
