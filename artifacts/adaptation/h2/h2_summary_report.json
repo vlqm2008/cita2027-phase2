@@ -1,0 +1,22 @@
+{
+  "hypothesis": "H2_Stale_Feedback_Negative_Transfer_Mitigation",
+  "seed": 2027,
+  "overall_mean_crps": {
+    "B1_IndepEWMA": 0.8533008689469527,
+    "H2_DriftAware": 0.962714488884389,
+    "H2_ExpDecay": 0.9683448861316147,
+    "H2_HypDecay": 0.9749394096131407,
+    "H1_Uniform": 1.0118411163142762,
+    "B0_Frozen": 1.649058689440202
+  },
+  "abrupt_reversal_crps": {
+    "B0_Frozen": 2.7575093294273736,
+    "B1_IndepEWMA": 1.0499640984976109,
+    "H1_Uniform": 1.3025204921219082,
+    "H2_DriftAware": 1.273735233015409,
+    "H2_ExpDecay": 1.2827354175926833,
+    "H2_HypDecay": 1.2852322778778844
+  },
+  "h2_reduces_abrupt_error_vs_h1": true,
+  "status": "PASS_EMPIRICAL_BENCHMARK_EVALUATION"
+}
