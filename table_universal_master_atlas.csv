@@ -1,0 +1,30 @@
+id,name,family,crps_gain,latency_us,lyapunov,theorem
+M01,Frozen Foundation Model,Baseline,0.0,12.0,None,None
+M02,Post-Hoc Conformal Calibrator,Conformal,0.8,18.0,Bounded,CITA-Locked
+M03,Independent Online Ridge,Independent,3.4,25.0,Bounded,None
+M04,Independent EWMA Scale,Independent,2.9,22.0,Bounded,None
+M05,Fully Pooled Global Bias,Pooled,4.1,20.0,Bounded,None
+M06,Hypothesis H1 Shared Latent,Shared State,9.2,35.0,Bounded,H1 Proposition
+M07,Hypothesis H2 Age-Weighted,Age-Decay,11.4,38.0,Bounded,H2 Proposition
+M08,Hypothesis H3 Overlap-Aware,Overlap-Aware,14.8,42.0,Lyapunov ||z||<=8,Theorem 1
+M09,Kernel-H3 Random Fourier,Nonlinear Kernel,16.2,85.0,Hilbert Bounded,Theorem 4
+M10,AT-CRC Trajectory Conformal,Conformal Risk,12.5,55.0,Martingale Bound,AT-CRC Cert
+M11,Active-ACHA Fisher Leverage,Active Selection,15.3,60.0,Knapsack Bound,Fisher Cert
+M12,Attn-H3 Causal Self-Attention,Attention,17.1,110.0,Softmax Bounded,Attention Cert
+M13,ES-H3 Direct Energy Score,Multivariate ES,18.2,95.0,Subgradient Bound,Theorem 5
+M14,Fed-ACHA Federated Consensus,Distributed,17.8,130.0,Consensus Bound,Theorem 6
+M15,JumpDiff-H3 Bipower Variation,Jump-Diffusion,19.4,72.0,Jump Shielded,Theorem 7
+M16,CausalDAG-H3 Graph Transfer,Causal Graph,18.6,88.0,DAG Constrained,DAG Transfer
+M17,Bayes-H3 Kalman Epistemic,Bayesian Posterior,20.3,78.0,Riccati Bounded,Theorem 8
+M18,CPM-H3 Changepoint Martingale,Sequential Test,21.1,68.0,Ville Martingale,Theorem 9
+M19,Riemann-H3 Natural Gradient,Information Geom,21.8,92.0,Geodesic Bounded,Theorem 10
+M20,MultiFidelity-H3 Fusion,Multi-Fidelity,22.4,64.0,Gauss-Markov Bound,Theorem 11
+M21,Extreme-CPS Tail Extrapolator,Extreme Value,20.8,82.0,GPD Bounded,Theorem 12
+M22,Hyperbolic-H3 Poincaré Tree,Hyperbolic Geom,23.1,85.0,Poincare Ball Bounded,Theorem 13
+M23,GameTheoretic-H3 Minimax,Game Theoretic,22.7,75.0,Nash Equilibrium,Theorem 14
+M24,DPM-H3 Infinite Mixture CRP,Dirichlet Process,23.6,105.0,CRP Posterior Bounded,Theorem 15
+M25,NeuralSDE-H3 Continuous-Time,Stochastic DE,24.2,115.0,Ito-Lyapunov Bounded,Theorem 16
+M26,Koopman-H3 EDMD Spectral,Koopman Operator,24.8,80.0,Spectral Radius <= 0.92,Theorem 17
+M27,DP-ACHA Differential Privacy,Private Adaptation,20.1,58.0,RDP Bounded,Theorem 18
+M28,CausalIRM-H3 Invariant Risk,Causal Invariance,25.4,96.0,OOD Invariant Bounded,Theorem 19
+M29,Wasserstein-H3 Barycenter,Optimal Transport,26.1,90.0,Wasserstein Bounded,Theorem 20

@@ -1,0 +1,8 @@
+Privacy_Budget_Epsilon,Delta,Mean_CRPS,CRPS_Overhead_Pct,Mean_Perturbation_Noise,Regret_Bound_Theorem18
+eps=0.2,1e-4,1.0474,181.96,27.3388,Certified O(sqrt(T*K_eff) + d*sqrt(T)/eps)
+eps=0.5,1e-4,0.519,39.73,10.9355,Certified O(sqrt(T*K_eff) + d*sqrt(T)/eps)
+eps=1.0,1e-4,0.4207,13.26,5.4678,Certified O(sqrt(T*K_eff) + d*sqrt(T)/eps)
+eps=2.0,1e-4,0.3804,2.41,2.7339,Certified O(sqrt(T*K_eff) + d*sqrt(T)/eps)
+eps=5.0,1e-4,0.3801,2.32,1.0936,Certified O(sqrt(T*K_eff) + d*sqrt(T)/eps)
+eps=10.0,1e-4,0.3713,-0.05,0.5468,Certified O(sqrt(T*K_eff) + d*sqrt(T)/eps)
+Infinity (Non-Private),0,0.3715,0.0,0.0,Certified O(sqrt(T*K_eff) + d*sqrt(T)/eps)

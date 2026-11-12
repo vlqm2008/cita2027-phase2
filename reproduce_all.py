@@ -241,22 +241,52 @@ def main():
         "Definitive Grand Horizon Research Atlas (Figure 40 Milestone)",
     )
 
-    # 33. Scientific Integrity & Causal Provenance Audit
+    # 33. Koopman Operator Spectral Cross-Horizon Linearization (Koopman-H3)
+    timings["Koopman Spectral Linearization (Koopman-H3)"] = run(
+        [py, "scripts/run_koopman_benchmarks.py"],
+        "Koopman Spectral Dynamic Mode Decomposition (Koopman-H3 - fig41)",
+    )
+
+    # 34. Differentially Private Cross-Horizon Adaptation (DP-ACHA)
+    timings["Differential Privacy (DP-ACHA)"] = run(
+        [py, "scripts/run_dp_benchmarks.py"],
+        "Differentially Private Cross-Horizon Adaptation (DP-ACHA - fig42)",
+    )
+
+    # 35. Causal Invariant Risk Minimization (CausalIRM-H3)
+    timings["Causal Invariant Risk Minimization (CausalIRM-H3)"] = run(
+        [py, "scripts/run_causal_irm_benchmarks.py"],
+        "Causal Invariant Risk Minimization for OOD Transfer (CausalIRM-H3 - fig43)",
+    )
+
+    # 36. Optimal Transport Wasserstein-2 Barycenter Morphing (Wasserstein-H3)
+    timings["Wasserstein Barycenter Morphing (Wasserstein-H3)"] = run(
+        [py, "scripts/run_wasserstein_benchmarks.py"],
+        "Optimal Transport Wasserstein Barycenter Morphing (Wasserstein-H3 - fig44)",
+    )
+
+    # 37. Universal Grand Master Synthesis Atlas (Milestone Figure 45)
+    timings["Universal Grand Master Atlas (Figure 45)"] = run(
+        [py, "scripts/run_universal_master_atlas.py"],
+        "Universal Grand Master Synthesis Atlas & 25-Method Taxonomy (Figure 45 Milestone)",
+    )
+
+    # 38. Scientific Integrity & Causal Provenance Audit
     timings["Scientific Integrity & Compliance Audit"] = run(
         [py, "scripts/verify_scientific_integrity.py"],
         "Comprehensive Scientific Integrity & Provenance Compliance Audit",
     )
 
-    # 34. Master 10-Phase Pipeline
+    # 39. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 35. Camera-Ready PDF Compilation
-    timings["Camera-Ready PDF Compilation"] = run(
+    # 40. Camera-Ready PDF Compilation (45 Figures 300 DPI)
+    timings["Camera-Ready PDF Compilation (45 Figures 300 DPI)"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (40 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (45 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start

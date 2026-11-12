@@ -7,11 +7,18 @@ from cita2027.adaptation.causal_cross_horizon_discovery import (
     CausalCrossHorizonAdapter,
     OnlineCausalHorizonGraph,
 )
+from cita2027.adaptation.causal_irm_adaptation import (
+    CausalEnvironmentDetector,
+    CausalIRMCrossHorizonAdapter,
+)
 from cita2027.adaptation.changepoint_martingale import (
     ChangePointMartingaleAdapter,
     StreamingChangePointMartingale,
 )
 from cita2027.adaptation.correctors import HypothesisH1_SharedStateCorrector
+from cita2027.adaptation.differentially_private_adaptation import (
+    DifferentiallyPrivateCrossHorizonAdapter,
+)
 from cita2027.adaptation.dirichlet_process_adaptation import (
     DirichletProcessMixtureAdapter,
     DPComponent,
@@ -42,6 +49,10 @@ from cita2027.adaptation.jump_diffusion_adaptation import (
     JumpDiffusionCrossHorizonAdapter,
     JumpDiffusionOnlineFilter,
 )
+from cita2027.adaptation.koopman_adaptation import (
+    KoopmanCrossHorizonAdapter,
+    OnlineExtendedDynamicModeDecomposition,
+)
 from cita2027.adaptation.multifidelity_adaptation import (
     MultiFidelityCrossHorizonAdapter,
     MultiFidelityFeedbackItem,
@@ -52,6 +63,9 @@ from cita2027.adaptation.neural_sde_adaptation import (
 )
 from cita2027.adaptation.riemannian_natural_gradient import (
     RiemannianNaturalGradientAdapter,
+)
+from cita2027.adaptation.wasserstein_barycenter_adaptation import (
+    WassersteinBarycenterCrossHorizonAdapter,
 )
 
 __all__ = [
@@ -82,4 +96,10 @@ __all__ = [
     "DPComponent",
     "NeuralSDECrossHorizonAdapter",
     "ContinuousTimeFeedbackItem",
+    "OnlineExtendedDynamicModeDecomposition",
+    "KoopmanCrossHorizonAdapter",
+    "DifferentiallyPrivateCrossHorizonAdapter",
+    "CausalEnvironmentDetector",
+    "CausalIRMCrossHorizonAdapter",
+    "WassersteinBarycenterCrossHorizonAdapter",
 ]

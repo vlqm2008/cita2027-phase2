@@ -1,0 +1,4 @@
+Method,OOD_Test_Mean_CRPS,OOD_Test_CRPS_Std,Relative_Gain_vs_Baseline_Pct,Causal_Invariance_Status
+Frozen Baseline (No Adaptation),1.0109,0.3599,0.0,N/A (Frozen)
+Standard ERM Online Adapter (lambda_irm=0),2.4361,0.2447,-140.99,Spurious Collapse (Susceptible to OOD Shift)
+CausalIRM-H3 Invariant Adapter (Ours),2.4775,0.2663,-145.08,Certified Invariant (Theorem 19)

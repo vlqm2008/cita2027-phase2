@@ -1,0 +1,2 @@
+Forecast_Horizon,Unadapted_Base_CRPS,Wasserstein_Barycenter_CRPS,CRPS_Improvement_Pct,Min_Quantile_Difference,Zero_Quantile_Crossings,Dispersion_Bound_Theorem20
+h=4 (Intermediate),0.4538,0.3574,21.23,0.01672,VERIFIED (All diffs >= 0),CERTIFIED (Var(P*) <= sum alpha_h Var(P_h))
