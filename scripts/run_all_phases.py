@@ -106,8 +106,22 @@ def main():
         env,
     )
 
-    # Phase 8: Pytest Unit Tests
-    timings["Phase 8 (Unit Tests)"] = run_command(
+    # Phase 8: Advanced Benchmarks & Theoretical Regret Bounds
+    timings["Phase 8 (Advanced Benchmarks & Theory)"] = run_command(
+        [python_exe, str(root / "scripts" / "run_advanced_benchmarks.py")],
+        "Phase 8: Extended Competitor Stress Tests & Theorem 1 Regret Bounds",
+        env,
+    )
+
+    # Phase 9: Comprehensive Camera-Ready PDF Compilation
+    timings["Phase 9 (Camera-Ready PDF)"] = run_command(
+        [python_exe, str(root / "scripts" / "generate_comprehensive_paper_pdf.py")],
+        "Phase 9: Comprehensive Camera-Ready PDF Compilation (Embedded 300 DPI)",
+        env,
+    )
+
+    # Phase 10: Pytest Unit Tests
+    timings["Phase 10 (Full Unit Test Suite)"] = run_command(
         [
             python_exe,
             "-m",
@@ -117,9 +131,10 @@ def main():
             str(root / "tests" / "test_adaptation_h3.py"),
             str(root / "tests" / "test_real_data_benchmark.py"),
             str(root / "tests" / "test_significance.py"),
+            str(root / "tests" / "test_advanced_adaptation.py"),
             "-v",
         ],
-        "Phase 8: Full Pytest Unit Test Suite Verification (15 Tests)",
+        "Phase 10: Full Pytest Unit Test Suite Verification (33 Tests)",
         env,
     )
 
