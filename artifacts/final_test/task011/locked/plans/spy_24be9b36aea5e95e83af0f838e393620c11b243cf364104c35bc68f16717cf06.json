@@ -1,0 +1,4158 @@
+{
+  "btc_historical_point_in_time_verified": false,
+  "contamination_free_verified": false,
+  "context_hashes_deferred_until_after_freeze": true,
+  "count": 459,
+  "development_plan_sha256": "39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f",
+  "market": "spy",
+  "origin_list_blind_date_metadata_only": true,
+  "origins": [
+    {
+      "context_first_index": 4777,
+      "context_last_index": 5032,
+      "origin_date": "2024-12-31",
+      "origin_index": 5032,
+      "seed": 7059,
+      "target_date": "2025-01-02",
+      "target_index": 5033
+    },
+    {
+      "context_first_index": 4778,
+      "context_last_index": 5033,
+      "origin_date": "2025-01-02",
+      "origin_index": 5033,
+      "seed": 7060,
+      "target_date": "2025-01-03",
+      "target_index": 5034
+    },
+    {
+      "context_first_index": 4779,
+      "context_last_index": 5034,
+      "origin_date": "2025-01-03",
+      "origin_index": 5034,
+      "seed": 7061,
+      "target_date": "2025-01-06",
+      "target_index": 5035
+    },
+    {
+      "context_first_index": 4780,
+      "context_last_index": 5035,
+      "origin_date": "2025-01-06",
+      "origin_index": 5035,
+      "seed": 7062,
+      "target_date": "2025-01-07",
+      "target_index": 5036
+    },
+    {
+      "context_first_index": 4781,
+      "context_last_index": 5036,
+      "origin_date": "2025-01-07",
+      "origin_index": 5036,
+      "seed": 7063,
+      "target_date": "2025-01-08",
+      "target_index": 5037
+    },
+    {
+      "context_first_index": 4782,
+      "context_last_index": 5037,
+      "origin_date": "2025-01-08",
+      "origin_index": 5037,
+      "seed": 7064,
+      "target_date": "2025-01-10",
+      "target_index": 5038
+    },
+    {
+      "context_first_index": 4783,
+      "context_last_index": 5038,
+      "origin_date": "2025-01-10",
+      "origin_index": 5038,
+      "seed": 7065,
+      "target_date": "2025-01-13",
+      "target_index": 5039
+    },
+    {
+      "context_first_index": 4784,
+      "context_last_index": 5039,
+      "origin_date": "2025-01-13",
+      "origin_index": 5039,
+      "seed": 7066,
+      "target_date": "2025-01-14",
+      "target_index": 5040
+    },
+    {
+      "context_first_index": 4785,
+      "context_last_index": 5040,
+      "origin_date": "2025-01-14",
+      "origin_index": 5040,
+      "seed": 7067,
+      "target_date": "2025-01-15",
+      "target_index": 5041
+    },
+    {
+      "context_first_index": 4786,
+      "context_last_index": 5041,
+      "origin_date": "2025-01-15",
+      "origin_index": 5041,
+      "seed": 7068,
+      "target_date": "2025-01-16",
+      "target_index": 5042
+    },
+    {
+      "context_first_index": 4787,
+      "context_last_index": 5042,
+      "origin_date": "2025-01-16",
+      "origin_index": 5042,
+      "seed": 7069,
+      "target_date": "2025-01-17",
+      "target_index": 5043
+    },
+    {
+      "context_first_index": 4788,
+      "context_last_index": 5043,
+      "origin_date": "2025-01-17",
+      "origin_index": 5043,
+      "seed": 7070,
+      "target_date": "2025-01-21",
+      "target_index": 5044
+    },
+    {
+      "context_first_index": 4789,
+      "context_last_index": 5044,
+      "origin_date": "2025-01-21",
+      "origin_index": 5044,
+      "seed": 7071,
+      "target_date": "2025-01-22",
+      "target_index": 5045
+    },
+    {
+      "context_first_index": 4790,
+      "context_last_index": 5045,
+      "origin_date": "2025-01-22",
+      "origin_index": 5045,
+      "seed": 7072,
+      "target_date": "2025-01-23",
+      "target_index": 5046
+    },
+    {
+      "context_first_index": 4791,
+      "context_last_index": 5046,
+      "origin_date": "2025-01-23",
+      "origin_index": 5046,
+      "seed": 7073,
+      "target_date": "2025-01-24",
+      "target_index": 5047
+    },
+    {
+      "context_first_index": 4792,
+      "context_last_index": 5047,
+      "origin_date": "2025-01-24",
+      "origin_index": 5047,
+      "seed": 7074,
+      "target_date": "2025-01-27",
+      "target_index": 5048
+    },
+    {
+      "context_first_index": 4793,
+      "context_last_index": 5048,
+      "origin_date": "2025-01-27",
+      "origin_index": 5048,
+      "seed": 7075,
+      "target_date": "2025-01-28",
+      "target_index": 5049
+    },
+    {
+      "context_first_index": 4794,
+      "context_last_index": 5049,
+      "origin_date": "2025-01-28",
+      "origin_index": 5049,
+      "seed": 7076,
+      "target_date": "2025-01-29",
+      "target_index": 5050
+    },
+    {
+      "context_first_index": 4795,
+      "context_last_index": 5050,
+      "origin_date": "2025-01-29",
+      "origin_index": 5050,
+      "seed": 7077,
+      "target_date": "2025-01-30",
+      "target_index": 5051
+    },
+    {
+      "context_first_index": 4796,
+      "context_last_index": 5051,
+      "origin_date": "2025-01-30",
+      "origin_index": 5051,
+      "seed": 7078,
+      "target_date": "2025-01-31",
+      "target_index": 5052
+    },
+    {
+      "context_first_index": 4797,
+      "context_last_index": 5052,
+      "origin_date": "2025-01-31",
+      "origin_index": 5052,
+      "seed": 7079,
+      "target_date": "2025-02-03",
+      "target_index": 5053
+    },
+    {
+      "context_first_index": 4798,
+      "context_last_index": 5053,
+      "origin_date": "2025-02-03",
+      "origin_index": 5053,
+      "seed": 7080,
+      "target_date": "2025-02-04",
+      "target_index": 5054
+    },
+    {
+      "context_first_index": 4799,
+      "context_last_index": 5054,
+      "origin_date": "2025-02-04",
+      "origin_index": 5054,
+      "seed": 7081,
+      "target_date": "2025-02-05",
+      "target_index": 5055
+    },
+    {
+      "context_first_index": 4800,
+      "context_last_index": 5055,
+      "origin_date": "2025-02-05",
+      "origin_index": 5055,
+      "seed": 7082,
+      "target_date": "2025-02-06",
+      "target_index": 5056
+    },
+    {
+      "context_first_index": 4801,
+      "context_last_index": 5056,
+      "origin_date": "2025-02-06",
+      "origin_index": 5056,
+      "seed": 7083,
+      "target_date": "2025-02-07",
+      "target_index": 5057
+    },
+    {
+      "context_first_index": 4802,
+      "context_last_index": 5057,
+      "origin_date": "2025-02-07",
+      "origin_index": 5057,
+      "seed": 7084,
+      "target_date": "2025-02-10",
+      "target_index": 5058
+    },
+    {
+      "context_first_index": 4803,
+      "context_last_index": 5058,
+      "origin_date": "2025-02-10",
+      "origin_index": 5058,
+      "seed": 7085,
+      "target_date": "2025-02-11",
+      "target_index": 5059
+    },
+    {
+      "context_first_index": 4804,
+      "context_last_index": 5059,
+      "origin_date": "2025-02-11",
+      "origin_index": 5059,
+      "seed": 7086,
+      "target_date": "2025-02-12",
+      "target_index": 5060
+    },
+    {
+      "context_first_index": 4805,
+      "context_last_index": 5060,
+      "origin_date": "2025-02-12",
+      "origin_index": 5060,
+      "seed": 7087,
+      "target_date": "2025-02-13",
+      "target_index": 5061
+    },
+    {
+      "context_first_index": 4806,
+      "context_last_index": 5061,
+      "origin_date": "2025-02-13",
+      "origin_index": 5061,
+      "seed": 7088,
+      "target_date": "2025-02-14",
+      "target_index": 5062
+    },
+    {
+      "context_first_index": 4807,
+      "context_last_index": 5062,
+      "origin_date": "2025-02-14",
+      "origin_index": 5062,
+      "seed": 7089,
+      "target_date": "2025-02-18",
+      "target_index": 5063
+    },
+    {
+      "context_first_index": 4808,
+      "context_last_index": 5063,
+      "origin_date": "2025-02-18",
+      "origin_index": 5063,
+      "seed": 7090,
+      "target_date": "2025-02-19",
+      "target_index": 5064
+    },
+    {
+      "context_first_index": 4809,
+      "context_last_index": 5064,
+      "origin_date": "2025-02-19",
+      "origin_index": 5064,
+      "seed": 7091,
+      "target_date": "2025-02-20",
+      "target_index": 5065
+    },
+    {
+      "context_first_index": 4810,
+      "context_last_index": 5065,
+      "origin_date": "2025-02-20",
+      "origin_index": 5065,
+      "seed": 7092,
+      "target_date": "2025-02-21",
+      "target_index": 5066
+    },
+    {
+      "context_first_index": 4811,
+      "context_last_index": 5066,
+      "origin_date": "2025-02-21",
+      "origin_index": 5066,
+      "seed": 7093,
+      "target_date": "2025-02-24",
+      "target_index": 5067
+    },
+    {
+      "context_first_index": 4812,
+      "context_last_index": 5067,
+      "origin_date": "2025-02-24",
+      "origin_index": 5067,
+      "seed": 7094,
+      "target_date": "2025-02-25",
+      "target_index": 5068
+    },
+    {
+      "context_first_index": 4813,
+      "context_last_index": 5068,
+      "origin_date": "2025-02-25",
+      "origin_index": 5068,
+      "seed": 7095,
+      "target_date": "2025-02-26",
+      "target_index": 5069
+    },
+    {
+      "context_first_index": 4814,
+      "context_last_index": 5069,
+      "origin_date": "2025-02-26",
+      "origin_index": 5069,
+      "seed": 7096,
+      "target_date": "2025-02-27",
+      "target_index": 5070
+    },
+    {
+      "context_first_index": 4815,
+      "context_last_index": 5070,
+      "origin_date": "2025-02-27",
+      "origin_index": 5070,
+      "seed": 7097,
+      "target_date": "2025-02-28",
+      "target_index": 5071
+    },
+    {
+      "context_first_index": 4816,
+      "context_last_index": 5071,
+      "origin_date": "2025-02-28",
+      "origin_index": 5071,
+      "seed": 7098,
+      "target_date": "2025-03-03",
+      "target_index": 5072
+    },
+    {
+      "context_first_index": 4817,
+      "context_last_index": 5072,
+      "origin_date": "2025-03-03",
+      "origin_index": 5072,
+      "seed": 7099,
+      "target_date": "2025-03-04",
+      "target_index": 5073
+    },
+    {
+      "context_first_index": 4818,
+      "context_last_index": 5073,
+      "origin_date": "2025-03-04",
+      "origin_index": 5073,
+      "seed": 7100,
+      "target_date": "2025-03-05",
+      "target_index": 5074
+    },
+    {
+      "context_first_index": 4819,
+      "context_last_index": 5074,
+      "origin_date": "2025-03-05",
+      "origin_index": 5074,
+      "seed": 7101,
+      "target_date": "2025-03-06",
+      "target_index": 5075
+    },
+    {
+      "context_first_index": 4820,
+      "context_last_index": 5075,
+      "origin_date": "2025-03-06",
+      "origin_index": 5075,
+      "seed": 7102,
+      "target_date": "2025-03-07",
+      "target_index": 5076
+    },
+    {
+      "context_first_index": 4821,
+      "context_last_index": 5076,
+      "origin_date": "2025-03-07",
+      "origin_index": 5076,
+      "seed": 7103,
+      "target_date": "2025-03-10",
+      "target_index": 5077
+    },
+    {
+      "context_first_index": 4822,
+      "context_last_index": 5077,
+      "origin_date": "2025-03-10",
+      "origin_index": 5077,
+      "seed": 7104,
+      "target_date": "2025-03-11",
+      "target_index": 5078
+    },
+    {
+      "context_first_index": 4823,
+      "context_last_index": 5078,
+      "origin_date": "2025-03-11",
+      "origin_index": 5078,
+      "seed": 7105,
+      "target_date": "2025-03-12",
+      "target_index": 5079
+    },
+    {
+      "context_first_index": 4824,
+      "context_last_index": 5079,
+      "origin_date": "2025-03-12",
+      "origin_index": 5079,
+      "seed": 7106,
+      "target_date": "2025-03-13",
+      "target_index": 5080
+    },
+    {
+      "context_first_index": 4825,
+      "context_last_index": 5080,
+      "origin_date": "2025-03-13",
+      "origin_index": 5080,
+      "seed": 7107,
+      "target_date": "2025-03-14",
+      "target_index": 5081
+    },
+    {
+      "context_first_index": 4826,
+      "context_last_index": 5081,
+      "origin_date": "2025-03-14",
+      "origin_index": 5081,
+      "seed": 7108,
+      "target_date": "2025-03-17",
+      "target_index": 5082
+    },
+    {
+      "context_first_index": 4827,
+      "context_last_index": 5082,
+      "origin_date": "2025-03-17",
+      "origin_index": 5082,
+      "seed": 7109,
+      "target_date": "2025-03-18",
+      "target_index": 5083
+    },
+    {
+      "context_first_index": 4828,
+      "context_last_index": 5083,
+      "origin_date": "2025-03-18",
+      "origin_index": 5083,
+      "seed": 7110,
+      "target_date": "2025-03-19",
+      "target_index": 5084
+    },
+    {
+      "context_first_index": 4829,
+      "context_last_index": 5084,
+      "origin_date": "2025-03-19",
+      "origin_index": 5084,
+      "seed": 7111,
+      "target_date": "2025-03-20",
+      "target_index": 5085
+    },
+    {
+      "context_first_index": 4830,
+      "context_last_index": 5085,
+      "origin_date": "2025-03-20",
+      "origin_index": 5085,
+      "seed": 7112,
+      "target_date": "2025-03-21",
+      "target_index": 5086
+    },
+    {
+      "context_first_index": 4831,
+      "context_last_index": 5086,
+      "origin_date": "2025-03-21",
+      "origin_index": 5086,
+      "seed": 7113,
+      "target_date": "2025-03-24",
+      "target_index": 5087
+    },
+    {
+      "context_first_index": 4832,
+      "context_last_index": 5087,
+      "origin_date": "2025-03-24",
+      "origin_index": 5087,
+      "seed": 7114,
+      "target_date": "2025-03-25",
+      "target_index": 5088
+    },
+    {
+      "context_first_index": 4833,
+      "context_last_index": 5088,
+      "origin_date": "2025-03-25",
+      "origin_index": 5088,
+      "seed": 7115,
+      "target_date": "2025-03-26",
+      "target_index": 5089
+    },
+    {
+      "context_first_index": 4834,
+      "context_last_index": 5089,
+      "origin_date": "2025-03-26",
+      "origin_index": 5089,
+      "seed": 7116,
+      "target_date": "2025-03-27",
+      "target_index": 5090
+    },
+    {
+      "context_first_index": 4835,
+      "context_last_index": 5090,
+      "origin_date": "2025-03-27",
+      "origin_index": 5090,
+      "seed": 7117,
+      "target_date": "2025-03-28",
+      "target_index": 5091
+    },
+    {
+      "context_first_index": 4836,
+      "context_last_index": 5091,
+      "origin_date": "2025-03-28",
+      "origin_index": 5091,
+      "seed": 7118,
+      "target_date": "2025-03-31",
+      "target_index": 5092
+    },
+    {
+      "context_first_index": 4837,
+      "context_last_index": 5092,
+      "origin_date": "2025-03-31",
+      "origin_index": 5092,
+      "seed": 7119,
+      "target_date": "2025-04-01",
+      "target_index": 5093
+    },
+    {
+      "context_first_index": 4838,
+      "context_last_index": 5093,
+      "origin_date": "2025-04-01",
+      "origin_index": 5093,
+      "seed": 7120,
+      "target_date": "2025-04-02",
+      "target_index": 5094
+    },
+    {
+      "context_first_index": 4839,
+      "context_last_index": 5094,
+      "origin_date": "2025-04-02",
+      "origin_index": 5094,
+      "seed": 7121,
+      "target_date": "2025-04-03",
+      "target_index": 5095
+    },
+    {
+      "context_first_index": 4840,
+      "context_last_index": 5095,
+      "origin_date": "2025-04-03",
+      "origin_index": 5095,
+      "seed": 7122,
+      "target_date": "2025-04-04",
+      "target_index": 5096
+    },
+    {
+      "context_first_index": 4841,
+      "context_last_index": 5096,
+      "origin_date": "2025-04-04",
+      "origin_index": 5096,
+      "seed": 7123,
+      "target_date": "2025-04-07",
+      "target_index": 5097
+    },
+    {
+      "context_first_index": 4842,
+      "context_last_index": 5097,
+      "origin_date": "2025-04-07",
+      "origin_index": 5097,
+      "seed": 7124,
+      "target_date": "2025-04-08",
+      "target_index": 5098
+    },
+    {
+      "context_first_index": 4843,
+      "context_last_index": 5098,
+      "origin_date": "2025-04-08",
+      "origin_index": 5098,
+      "seed": 7125,
+      "target_date": "2025-04-09",
+      "target_index": 5099
+    },
+    {
+      "context_first_index": 4844,
+      "context_last_index": 5099,
+      "origin_date": "2025-04-09",
+      "origin_index": 5099,
+      "seed": 7126,
+      "target_date": "2025-04-10",
+      "target_index": 5100
+    },
+    {
+      "context_first_index": 4845,
+      "context_last_index": 5100,
+      "origin_date": "2025-04-10",
+      "origin_index": 5100,
+      "seed": 7127,
+      "target_date": "2025-04-11",
+      "target_index": 5101
+    },
+    {
+      "context_first_index": 4846,
+      "context_last_index": 5101,
+      "origin_date": "2025-04-11",
+      "origin_index": 5101,
+      "seed": 7128,
+      "target_date": "2025-04-14",
+      "target_index": 5102
+    },
+    {
+      "context_first_index": 4847,
+      "context_last_index": 5102,
+      "origin_date": "2025-04-14",
+      "origin_index": 5102,
+      "seed": 7129,
+      "target_date": "2025-04-15",
+      "target_index": 5103
+    },
+    {
+      "context_first_index": 4848,
+      "context_last_index": 5103,
+      "origin_date": "2025-04-15",
+      "origin_index": 5103,
+      "seed": 7130,
+      "target_date": "2025-04-16",
+      "target_index": 5104
+    },
+    {
+      "context_first_index": 4849,
+      "context_last_index": 5104,
+      "origin_date": "2025-04-16",
+      "origin_index": 5104,
+      "seed": 7131,
+      "target_date": "2025-04-17",
+      "target_index": 5105
+    },
+    {
+      "context_first_index": 4850,
+      "context_last_index": 5105,
+      "origin_date": "2025-04-17",
+      "origin_index": 5105,
+      "seed": 7132,
+      "target_date": "2025-04-21",
+      "target_index": 5106
+    },
+    {
+      "context_first_index": 4851,
+      "context_last_index": 5106,
+      "origin_date": "2025-04-21",
+      "origin_index": 5106,
+      "seed": 7133,
+      "target_date": "2025-04-22",
+      "target_index": 5107
+    },
+    {
+      "context_first_index": 4852,
+      "context_last_index": 5107,
+      "origin_date": "2025-04-22",
+      "origin_index": 5107,
+      "seed": 7134,
+      "target_date": "2025-04-23",
+      "target_index": 5108
+    },
+    {
+      "context_first_index": 4853,
+      "context_last_index": 5108,
+      "origin_date": "2025-04-23",
+      "origin_index": 5108,
+      "seed": 7135,
+      "target_date": "2025-04-24",
+      "target_index": 5109
+    },
+    {
+      "context_first_index": 4854,
+      "context_last_index": 5109,
+      "origin_date": "2025-04-24",
+      "origin_index": 5109,
+      "seed": 7136,
+      "target_date": "2025-04-25",
+      "target_index": 5110
+    },
+    {
+      "context_first_index": 4855,
+      "context_last_index": 5110,
+      "origin_date": "2025-04-25",
+      "origin_index": 5110,
+      "seed": 7137,
+      "target_date": "2025-04-28",
+      "target_index": 5111
+    },
+    {
+      "context_first_index": 4856,
+      "context_last_index": 5111,
+      "origin_date": "2025-04-28",
+      "origin_index": 5111,
+      "seed": 7138,
+      "target_date": "2025-04-29",
+      "target_index": 5112
+    },
+    {
+      "context_first_index": 4857,
+      "context_last_index": 5112,
+      "origin_date": "2025-04-29",
+      "origin_index": 5112,
+      "seed": 7139,
+      "target_date": "2025-04-30",
+      "target_index": 5113
+    },
+    {
+      "context_first_index": 4858,
+      "context_last_index": 5113,
+      "origin_date": "2025-04-30",
+      "origin_index": 5113,
+      "seed": 7140,
+      "target_date": "2025-05-01",
+      "target_index": 5114
+    },
+    {
+      "context_first_index": 4859,
+      "context_last_index": 5114,
+      "origin_date": "2025-05-01",
+      "origin_index": 5114,
+      "seed": 7141,
+      "target_date": "2025-05-02",
+      "target_index": 5115
+    },
+    {
+      "context_first_index": 4860,
+      "context_last_index": 5115,
+      "origin_date": "2025-05-02",
+      "origin_index": 5115,
+      "seed": 7142,
+      "target_date": "2025-05-05",
+      "target_index": 5116
+    },
+    {
+      "context_first_index": 4861,
+      "context_last_index": 5116,
+      "origin_date": "2025-05-05",
+      "origin_index": 5116,
+      "seed": 7143,
+      "target_date": "2025-05-06",
+      "target_index": 5117
+    },
+    {
+      "context_first_index": 4862,
+      "context_last_index": 5117,
+      "origin_date": "2025-05-06",
+      "origin_index": 5117,
+      "seed": 7144,
+      "target_date": "2025-05-07",
+      "target_index": 5118
+    },
+    {
+      "context_first_index": 4863,
+      "context_last_index": 5118,
+      "origin_date": "2025-05-07",
+      "origin_index": 5118,
+      "seed": 7145,
+      "target_date": "2025-05-08",
+      "target_index": 5119
+    },
+    {
+      "context_first_index": 4864,
+      "context_last_index": 5119,
+      "origin_date": "2025-05-08",
+      "origin_index": 5119,
+      "seed": 7146,
+      "target_date": "2025-05-09",
+      "target_index": 5120
+    },
+    {
+      "context_first_index": 4865,
+      "context_last_index": 5120,
+      "origin_date": "2025-05-09",
+      "origin_index": 5120,
+      "seed": 7147,
+      "target_date": "2025-05-12",
+      "target_index": 5121
+    },
+    {
+      "context_first_index": 4866,
+      "context_last_index": 5121,
+      "origin_date": "2025-05-12",
+      "origin_index": 5121,
+      "seed": 7148,
+      "target_date": "2025-05-13",
+      "target_index": 5122
+    },
+    {
+      "context_first_index": 4867,
+      "context_last_index": 5122,
+      "origin_date": "2025-05-13",
+      "origin_index": 5122,
+      "seed": 7149,
+      "target_date": "2025-05-14",
+      "target_index": 5123
+    },
+    {
+      "context_first_index": 4868,
+      "context_last_index": 5123,
+      "origin_date": "2025-05-14",
+      "origin_index": 5123,
+      "seed": 7150,
+      "target_date": "2025-05-15",
+      "target_index": 5124
+    },
+    {
+      "context_first_index": 4869,
+      "context_last_index": 5124,
+      "origin_date": "2025-05-15",
+      "origin_index": 5124,
+      "seed": 7151,
+      "target_date": "2025-05-16",
+      "target_index": 5125
+    },
+    {
+      "context_first_index": 4870,
+      "context_last_index": 5125,
+      "origin_date": "2025-05-16",
+      "origin_index": 5125,
+      "seed": 7152,
+      "target_date": "2025-05-19",
+      "target_index": 5126
+    },
+    {
+      "context_first_index": 4871,
+      "context_last_index": 5126,
+      "origin_date": "2025-05-19",
+      "origin_index": 5126,
+      "seed": 7153,
+      "target_date": "2025-05-20",
+      "target_index": 5127
+    },
+    {
+      "context_first_index": 4872,
+      "context_last_index": 5127,
+      "origin_date": "2025-05-20",
+      "origin_index": 5127,
+      "seed": 7154,
+      "target_date": "2025-05-21",
+      "target_index": 5128
+    },
+    {
+      "context_first_index": 4873,
+      "context_last_index": 5128,
+      "origin_date": "2025-05-21",
+      "origin_index": 5128,
+      "seed": 7155,
+      "target_date": "2025-05-22",
+      "target_index": 5129
+    },
+    {
+      "context_first_index": 4874,
+      "context_last_index": 5129,
+      "origin_date": "2025-05-22",
+      "origin_index": 5129,
+      "seed": 7156,
+      "target_date": "2025-05-23",
+      "target_index": 5130
+    },
+    {
+      "context_first_index": 4875,
+      "context_last_index": 5130,
+      "origin_date": "2025-05-23",
+      "origin_index": 5130,
+      "seed": 7157,
+      "target_date": "2025-05-27",
+      "target_index": 5131
+    },
+    {
+      "context_first_index": 4876,
+      "context_last_index": 5131,
+      "origin_date": "2025-05-27",
+      "origin_index": 5131,
+      "seed": 7158,
+      "target_date": "2025-05-28",
+      "target_index": 5132
+    },
+    {
+      "context_first_index": 4877,
+      "context_last_index": 5132,
+      "origin_date": "2025-05-28",
+      "origin_index": 5132,
+      "seed": 7159,
+      "target_date": "2025-05-29",
+      "target_index": 5133
+    },
+    {
+      "context_first_index": 4878,
+      "context_last_index": 5133,
+      "origin_date": "2025-05-29",
+      "origin_index": 5133,
+      "seed": 7160,
+      "target_date": "2025-05-30",
+      "target_index": 5134
+    },
+    {
+      "context_first_index": 4879,
+      "context_last_index": 5134,
+      "origin_date": "2025-05-30",
+      "origin_index": 5134,
+      "seed": 7161,
+      "target_date": "2025-06-02",
+      "target_index": 5135
+    },
+    {
+      "context_first_index": 4880,
+      "context_last_index": 5135,
+      "origin_date": "2025-06-02",
+      "origin_index": 5135,
+      "seed": 7162,
+      "target_date": "2025-06-03",
+      "target_index": 5136
+    },
+    {
+      "context_first_index": 4881,
+      "context_last_index": 5136,
+      "origin_date": "2025-06-03",
+      "origin_index": 5136,
+      "seed": 7163,
+      "target_date": "2025-06-04",
+      "target_index": 5137
+    },
+    {
+      "context_first_index": 4882,
+      "context_last_index": 5137,
+      "origin_date": "2025-06-04",
+      "origin_index": 5137,
+      "seed": 7164,
+      "target_date": "2025-06-05",
+      "target_index": 5138
+    },
+    {
+      "context_first_index": 4883,
+      "context_last_index": 5138,
+      "origin_date": "2025-06-05",
+      "origin_index": 5138,
+      "seed": 7165,
+      "target_date": "2025-06-06",
+      "target_index": 5139
+    },
+    {
+      "context_first_index": 4884,
+      "context_last_index": 5139,
+      "origin_date": "2025-06-06",
+      "origin_index": 5139,
+      "seed": 7166,
+      "target_date": "2025-06-09",
+      "target_index": 5140
+    },
+    {
+      "context_first_index": 4885,
+      "context_last_index": 5140,
+      "origin_date": "2025-06-09",
+      "origin_index": 5140,
+      "seed": 7167,
+      "target_date": "2025-06-10",
+      "target_index": 5141
+    },
+    {
+      "context_first_index": 4886,
+      "context_last_index": 5141,
+      "origin_date": "2025-06-10",
+      "origin_index": 5141,
+      "seed": 7168,
+      "target_date": "2025-06-11",
+      "target_index": 5142
+    },
+    {
+      "context_first_index": 4887,
+      "context_last_index": 5142,
+      "origin_date": "2025-06-11",
+      "origin_index": 5142,
+      "seed": 7169,
+      "target_date": "2025-06-12",
+      "target_index": 5143
+    },
+    {
+      "context_first_index": 4888,
+      "context_last_index": 5143,
+      "origin_date": "2025-06-12",
+      "origin_index": 5143,
+      "seed": 7170,
+      "target_date": "2025-06-13",
+      "target_index": 5144
+    },
+    {
+      "context_first_index": 4889,
+      "context_last_index": 5144,
+      "origin_date": "2025-06-13",
+      "origin_index": 5144,
+      "seed": 7171,
+      "target_date": "2025-06-16",
+      "target_index": 5145
+    },
+    {
+      "context_first_index": 4890,
+      "context_last_index": 5145,
+      "origin_date": "2025-06-16",
+      "origin_index": 5145,
+      "seed": 7172,
+      "target_date": "2025-06-17",
+      "target_index": 5146
+    },
+    {
+      "context_first_index": 4891,
+      "context_last_index": 5146,
+      "origin_date": "2025-06-17",
+      "origin_index": 5146,
+      "seed": 7173,
+      "target_date": "2025-06-18",
+      "target_index": 5147
+    },
+    {
+      "context_first_index": 4892,
+      "context_last_index": 5147,
+      "origin_date": "2025-06-18",
+      "origin_index": 5147,
+      "seed": 7174,
+      "target_date": "2025-06-20",
+      "target_index": 5148
+    },
+    {
+      "context_first_index": 4893,
+      "context_last_index": 5148,
+      "origin_date": "2025-06-20",
+      "origin_index": 5148,
+      "seed": 7175,
+      "target_date": "2025-06-23",
+      "target_index": 5149
+    },
+    {
+      "context_first_index": 4894,
+      "context_last_index": 5149,
+      "origin_date": "2025-06-23",
+      "origin_index": 5149,
+      "seed": 7176,
+      "target_date": "2025-06-24",
+      "target_index": 5150
+    },
+    {
+      "context_first_index": 4895,
+      "context_last_index": 5150,
+      "origin_date": "2025-06-24",
+      "origin_index": 5150,
+      "seed": 7177,
+      "target_date": "2025-06-25",
+      "target_index": 5151
+    },
+    {
+      "context_first_index": 4896,
+      "context_last_index": 5151,
+      "origin_date": "2025-06-25",
+      "origin_index": 5151,
+      "seed": 7178,
+      "target_date": "2025-06-26",
+      "target_index": 5152
+    },
+    {
+      "context_first_index": 4897,
+      "context_last_index": 5152,
+      "origin_date": "2025-06-26",
+      "origin_index": 5152,
+      "seed": 7179,
+      "target_date": "2025-06-27",
+      "target_index": 5153
+    },
+    {
+      "context_first_index": 4898,
+      "context_last_index": 5153,
+      "origin_date": "2025-06-27",
+      "origin_index": 5153,
+      "seed": 7180,
+      "target_date": "2025-06-30",
+      "target_index": 5154
+    },
+    {
+      "context_first_index": 4899,
+      "context_last_index": 5154,
+      "origin_date": "2025-06-30",
+      "origin_index": 5154,
+      "seed": 7181,
+      "target_date": "2025-07-01",
+      "target_index": 5155
+    },
+    {
+      "context_first_index": 4900,
+      "context_last_index": 5155,
+      "origin_date": "2025-07-01",
+      "origin_index": 5155,
+      "seed": 7182,
+      "target_date": "2025-07-02",
+      "target_index": 5156
+    },
+    {
+      "context_first_index": 4901,
+      "context_last_index": 5156,
+      "origin_date": "2025-07-02",
+      "origin_index": 5156,
+      "seed": 7183,
+      "target_date": "2025-07-03",
+      "target_index": 5157
+    },
+    {
+      "context_first_index": 4902,
+      "context_last_index": 5157,
+      "origin_date": "2025-07-03",
+      "origin_index": 5157,
+      "seed": 7184,
+      "target_date": "2025-07-07",
+      "target_index": 5158
+    },
+    {
+      "context_first_index": 4903,
+      "context_last_index": 5158,
+      "origin_date": "2025-07-07",
+      "origin_index": 5158,
+      "seed": 7185,
+      "target_date": "2025-07-08",
+      "target_index": 5159
+    },
+    {
+      "context_first_index": 4904,
+      "context_last_index": 5159,
+      "origin_date": "2025-07-08",
+      "origin_index": 5159,
+      "seed": 7186,
+      "target_date": "2025-07-09",
+      "target_index": 5160
+    },
+    {
+      "context_first_index": 4905,
+      "context_last_index": 5160,
+      "origin_date": "2025-07-09",
+      "origin_index": 5160,
+      "seed": 7187,
+      "target_date": "2025-07-10",
+      "target_index": 5161
+    },
+    {
+      "context_first_index": 4906,
+      "context_last_index": 5161,
+      "origin_date": "2025-07-10",
+      "origin_index": 5161,
+      "seed": 7188,
+      "target_date": "2025-07-11",
+      "target_index": 5162
+    },
+    {
+      "context_first_index": 4907,
+      "context_last_index": 5162,
+      "origin_date": "2025-07-11",
+      "origin_index": 5162,
+      "seed": 7189,
+      "target_date": "2025-07-14",
+      "target_index": 5163
+    },
+    {
+      "context_first_index": 4908,
+      "context_last_index": 5163,
+      "origin_date": "2025-07-14",
+      "origin_index": 5163,
+      "seed": 7190,
+      "target_date": "2025-07-15",
+      "target_index": 5164
+    },
+    {
+      "context_first_index": 4909,
+      "context_last_index": 5164,
+      "origin_date": "2025-07-15",
+      "origin_index": 5164,
+      "seed": 7191,
+      "target_date": "2025-07-16",
+      "target_index": 5165
+    },
+    {
+      "context_first_index": 4910,
+      "context_last_index": 5165,
+      "origin_date": "2025-07-16",
+      "origin_index": 5165,
+      "seed": 7192,
+      "target_date": "2025-07-17",
+      "target_index": 5166
+    },
+    {
+      "context_first_index": 4911,
+      "context_last_index": 5166,
+      "origin_date": "2025-07-17",
+      "origin_index": 5166,
+      "seed": 7193,
+      "target_date": "2025-07-18",
+      "target_index": 5167
+    },
+    {
+      "context_first_index": 4912,
+      "context_last_index": 5167,
+      "origin_date": "2025-07-18",
+      "origin_index": 5167,
+      "seed": 7194,
+      "target_date": "2025-07-21",
+      "target_index": 5168
+    },
+    {
+      "context_first_index": 4913,
+      "context_last_index": 5168,
+      "origin_date": "2025-07-21",
+      "origin_index": 5168,
+      "seed": 7195,
+      "target_date": "2025-07-22",
+      "target_index": 5169
+    },
+    {
+      "context_first_index": 4914,
+      "context_last_index": 5169,
+      "origin_date": "2025-07-22",
+      "origin_index": 5169,
+      "seed": 7196,
+      "target_date": "2025-07-23",
+      "target_index": 5170
+    },
+    {
+      "context_first_index": 4915,
+      "context_last_index": 5170,
+      "origin_date": "2025-07-23",
+      "origin_index": 5170,
+      "seed": 7197,
+      "target_date": "2025-07-24",
+      "target_index": 5171
+    },
+    {
+      "context_first_index": 4916,
+      "context_last_index": 5171,
+      "origin_date": "2025-07-24",
+      "origin_index": 5171,
+      "seed": 7198,
+      "target_date": "2025-07-25",
+      "target_index": 5172
+    },
+    {
+      "context_first_index": 4917,
+      "context_last_index": 5172,
+      "origin_date": "2025-07-25",
+      "origin_index": 5172,
+      "seed": 7199,
+      "target_date": "2025-07-28",
+      "target_index": 5173
+    },
+    {
+      "context_first_index": 4918,
+      "context_last_index": 5173,
+      "origin_date": "2025-07-28",
+      "origin_index": 5173,
+      "seed": 7200,
+      "target_date": "2025-07-29",
+      "target_index": 5174
+    },
+    {
+      "context_first_index": 4919,
+      "context_last_index": 5174,
+      "origin_date": "2025-07-29",
+      "origin_index": 5174,
+      "seed": 7201,
+      "target_date": "2025-07-30",
+      "target_index": 5175
+    },
+    {
+      "context_first_index": 4920,
+      "context_last_index": 5175,
+      "origin_date": "2025-07-30",
+      "origin_index": 5175,
+      "seed": 7202,
+      "target_date": "2025-07-31",
+      "target_index": 5176
+    },
+    {
+      "context_first_index": 4921,
+      "context_last_index": 5176,
+      "origin_date": "2025-07-31",
+      "origin_index": 5176,
+      "seed": 7203,
+      "target_date": "2025-08-01",
+      "target_index": 5177
+    },
+    {
+      "context_first_index": 4922,
+      "context_last_index": 5177,
+      "origin_date": "2025-08-01",
+      "origin_index": 5177,
+      "seed": 7204,
+      "target_date": "2025-08-04",
+      "target_index": 5178
+    },
+    {
+      "context_first_index": 4923,
+      "context_last_index": 5178,
+      "origin_date": "2025-08-04",
+      "origin_index": 5178,
+      "seed": 7205,
+      "target_date": "2025-08-05",
+      "target_index": 5179
+    },
+    {
+      "context_first_index": 4924,
+      "context_last_index": 5179,
+      "origin_date": "2025-08-05",
+      "origin_index": 5179,
+      "seed": 7206,
+      "target_date": "2025-08-06",
+      "target_index": 5180
+    },
+    {
+      "context_first_index": 4925,
+      "context_last_index": 5180,
+      "origin_date": "2025-08-06",
+      "origin_index": 5180,
+      "seed": 7207,
+      "target_date": "2025-08-07",
+      "target_index": 5181
+    },
+    {
+      "context_first_index": 4926,
+      "context_last_index": 5181,
+      "origin_date": "2025-08-07",
+      "origin_index": 5181,
+      "seed": 7208,
+      "target_date": "2025-08-08",
+      "target_index": 5182
+    },
+    {
+      "context_first_index": 4927,
+      "context_last_index": 5182,
+      "origin_date": "2025-08-08",
+      "origin_index": 5182,
+      "seed": 7209,
+      "target_date": "2025-08-11",
+      "target_index": 5183
+    },
+    {
+      "context_first_index": 4928,
+      "context_last_index": 5183,
+      "origin_date": "2025-08-11",
+      "origin_index": 5183,
+      "seed": 7210,
+      "target_date": "2025-08-12",
+      "target_index": 5184
+    },
+    {
+      "context_first_index": 4929,
+      "context_last_index": 5184,
+      "origin_date": "2025-08-12",
+      "origin_index": 5184,
+      "seed": 7211,
+      "target_date": "2025-08-13",
+      "target_index": 5185
+    },
+    {
+      "context_first_index": 4930,
+      "context_last_index": 5185,
+      "origin_date": "2025-08-13",
+      "origin_index": 5185,
+      "seed": 7212,
+      "target_date": "2025-08-14",
+      "target_index": 5186
+    },
+    {
+      "context_first_index": 4931,
+      "context_last_index": 5186,
+      "origin_date": "2025-08-14",
+      "origin_index": 5186,
+      "seed": 7213,
+      "target_date": "2025-08-15",
+      "target_index": 5187
+    },
+    {
+      "context_first_index": 4932,
+      "context_last_index": 5187,
+      "origin_date": "2025-08-15",
+      "origin_index": 5187,
+      "seed": 7214,
+      "target_date": "2025-08-18",
+      "target_index": 5188
+    },
+    {
+      "context_first_index": 4933,
+      "context_last_index": 5188,
+      "origin_date": "2025-08-18",
+      "origin_index": 5188,
+      "seed": 7215,
+      "target_date": "2025-08-19",
+      "target_index": 5189
+    },
+    {
+      "context_first_index": 4934,
+      "context_last_index": 5189,
+      "origin_date": "2025-08-19",
+      "origin_index": 5189,
+      "seed": 7216,
+      "target_date": "2025-08-20",
+      "target_index": 5190
+    },
+    {
+      "context_first_index": 4935,
+      "context_last_index": 5190,
+      "origin_date": "2025-08-20",
+      "origin_index": 5190,
+      "seed": 7217,
+      "target_date": "2025-08-21",
+      "target_index": 5191
+    },
+    {
+      "context_first_index": 4936,
+      "context_last_index": 5191,
+      "origin_date": "2025-08-21",
+      "origin_index": 5191,
+      "seed": 7218,
+      "target_date": "2025-08-22",
+      "target_index": 5192
+    },
+    {
+      "context_first_index": 4937,
+      "context_last_index": 5192,
+      "origin_date": "2025-08-22",
+      "origin_index": 5192,
+      "seed": 7219,
+      "target_date": "2025-08-25",
+      "target_index": 5193
+    },
+    {
+      "context_first_index": 4938,
+      "context_last_index": 5193,
+      "origin_date": "2025-08-25",
+      "origin_index": 5193,
+      "seed": 7220,
+      "target_date": "2025-08-26",
+      "target_index": 5194
+    },
+    {
+      "context_first_index": 4939,
+      "context_last_index": 5194,
+      "origin_date": "2025-08-26",
+      "origin_index": 5194,
+      "seed": 7221,
+      "target_date": "2025-08-27",
+      "target_index": 5195
+    },
+    {
+      "context_first_index": 4940,
+      "context_last_index": 5195,
+      "origin_date": "2025-08-27",
+      "origin_index": 5195,
+      "seed": 7222,
+      "target_date": "2025-08-28",
+      "target_index": 5196
+    },
+    {
+      "context_first_index": 4941,
+      "context_last_index": 5196,
+      "origin_date": "2025-08-28",
+      "origin_index": 5196,
+      "seed": 7223,
+      "target_date": "2025-08-29",
+      "target_index": 5197
+    },
+    {
+      "context_first_index": 4942,
+      "context_last_index": 5197,
+      "origin_date": "2025-08-29",
+      "origin_index": 5197,
+      "seed": 7224,
+      "target_date": "2025-09-02",
+      "target_index": 5198
+    },
+    {
+      "context_first_index": 4943,
+      "context_last_index": 5198,
+      "origin_date": "2025-09-02",
+      "origin_index": 5198,
+      "seed": 7225,
+      "target_date": "2025-09-03",
+      "target_index": 5199
+    },
+    {
+      "context_first_index": 4944,
+      "context_last_index": 5199,
+      "origin_date": "2025-09-03",
+      "origin_index": 5199,
+      "seed": 7226,
+      "target_date": "2025-09-04",
+      "target_index": 5200
+    },
+    {
+      "context_first_index": 4945,
+      "context_last_index": 5200,
+      "origin_date": "2025-09-04",
+      "origin_index": 5200,
+      "seed": 7227,
+      "target_date": "2025-09-05",
+      "target_index": 5201
+    },
+    {
+      "context_first_index": 4946,
+      "context_last_index": 5201,
+      "origin_date": "2025-09-05",
+      "origin_index": 5201,
+      "seed": 7228,
+      "target_date": "2025-09-08",
+      "target_index": 5202
+    },
+    {
+      "context_first_index": 4947,
+      "context_last_index": 5202,
+      "origin_date": "2025-09-08",
+      "origin_index": 5202,
+      "seed": 7229,
+      "target_date": "2025-09-09",
+      "target_index": 5203
+    },
+    {
+      "context_first_index": 4948,
+      "context_last_index": 5203,
+      "origin_date": "2025-09-09",
+      "origin_index": 5203,
+      "seed": 7230,
+      "target_date": "2025-09-10",
+      "target_index": 5204
+    },
+    {
+      "context_first_index": 4949,
+      "context_last_index": 5204,
+      "origin_date": "2025-09-10",
+      "origin_index": 5204,
+      "seed": 7231,
+      "target_date": "2025-09-11",
+      "target_index": 5205
+    },
+    {
+      "context_first_index": 4950,
+      "context_last_index": 5205,
+      "origin_date": "2025-09-11",
+      "origin_index": 5205,
+      "seed": 7232,
+      "target_date": "2025-09-12",
+      "target_index": 5206
+    },
+    {
+      "context_first_index": 4951,
+      "context_last_index": 5206,
+      "origin_date": "2025-09-12",
+      "origin_index": 5206,
+      "seed": 7233,
+      "target_date": "2025-09-15",
+      "target_index": 5207
+    },
+    {
+      "context_first_index": 4952,
+      "context_last_index": 5207,
+      "origin_date": "2025-09-15",
+      "origin_index": 5207,
+      "seed": 7234,
+      "target_date": "2025-09-16",
+      "target_index": 5208
+    },
+    {
+      "context_first_index": 4953,
+      "context_last_index": 5208,
+      "origin_date": "2025-09-16",
+      "origin_index": 5208,
+      "seed": 7235,
+      "target_date": "2025-09-17",
+      "target_index": 5209
+    },
+    {
+      "context_first_index": 4954,
+      "context_last_index": 5209,
+      "origin_date": "2025-09-17",
+      "origin_index": 5209,
+      "seed": 7236,
+      "target_date": "2025-09-18",
+      "target_index": 5210
+    },
+    {
+      "context_first_index": 4955,
+      "context_last_index": 5210,
+      "origin_date": "2025-09-18",
+      "origin_index": 5210,
+      "seed": 7237,
+      "target_date": "2025-09-19",
+      "target_index": 5211
+    },
+    {
+      "context_first_index": 4956,
+      "context_last_index": 5211,
+      "origin_date": "2025-09-19",
+      "origin_index": 5211,
+      "seed": 7238,
+      "target_date": "2025-09-22",
+      "target_index": 5212
+    },
+    {
+      "context_first_index": 4957,
+      "context_last_index": 5212,
+      "origin_date": "2025-09-22",
+      "origin_index": 5212,
+      "seed": 7239,
+      "target_date": "2025-09-23",
+      "target_index": 5213
+    },
+    {
+      "context_first_index": 4958,
+      "context_last_index": 5213,
+      "origin_date": "2025-09-23",
+      "origin_index": 5213,
+      "seed": 7240,
+      "target_date": "2025-09-24",
+      "target_index": 5214
+    },
+    {
+      "context_first_index": 4959,
+      "context_last_index": 5214,
+      "origin_date": "2025-09-24",
+      "origin_index": 5214,
+      "seed": 7241,
+      "target_date": "2025-09-25",
+      "target_index": 5215
+    },
+    {
+      "context_first_index": 4960,
+      "context_last_index": 5215,
+      "origin_date": "2025-09-25",
+      "origin_index": 5215,
+      "seed": 7242,
+      "target_date": "2025-09-26",
+      "target_index": 5216
+    },
+    {
+      "context_first_index": 4961,
+      "context_last_index": 5216,
+      "origin_date": "2025-09-26",
+      "origin_index": 5216,
+      "seed": 7243,
+      "target_date": "2025-09-29",
+      "target_index": 5217
+    },
+    {
+      "context_first_index": 4962,
+      "context_last_index": 5217,
+      "origin_date": "2025-09-29",
+      "origin_index": 5217,
+      "seed": 7244,
+      "target_date": "2025-09-30",
+      "target_index": 5218
+    },
+    {
+      "context_first_index": 4963,
+      "context_last_index": 5218,
+      "origin_date": "2025-09-30",
+      "origin_index": 5218,
+      "seed": 7245,
+      "target_date": "2025-10-01",
+      "target_index": 5219
+    },
+    {
+      "context_first_index": 4964,
+      "context_last_index": 5219,
+      "origin_date": "2025-10-01",
+      "origin_index": 5219,
+      "seed": 7246,
+      "target_date": "2025-10-02",
+      "target_index": 5220
+    },
+    {
+      "context_first_index": 4965,
+      "context_last_index": 5220,
+      "origin_date": "2025-10-02",
+      "origin_index": 5220,
+      "seed": 7247,
+      "target_date": "2025-10-03",
+      "target_index": 5221
+    },
+    {
+      "context_first_index": 4966,
+      "context_last_index": 5221,
+      "origin_date": "2025-10-03",
+      "origin_index": 5221,
+      "seed": 7248,
+      "target_date": "2025-10-06",
+      "target_index": 5222
+    },
+    {
+      "context_first_index": 4967,
+      "context_last_index": 5222,
+      "origin_date": "2025-10-06",
+      "origin_index": 5222,
+      "seed": 7249,
+      "target_date": "2025-10-07",
+      "target_index": 5223
+    },
+    {
+      "context_first_index": 4968,
+      "context_last_index": 5223,
+      "origin_date": "2025-10-07",
+      "origin_index": 5223,
+      "seed": 7250,
+      "target_date": "2025-10-08",
+      "target_index": 5224
+    },
+    {
+      "context_first_index": 4969,
+      "context_last_index": 5224,
+      "origin_date": "2025-10-08",
+      "origin_index": 5224,
+      "seed": 7251,
+      "target_date": "2025-10-09",
+      "target_index": 5225
+    },
+    {
+      "context_first_index": 4970,
+      "context_last_index": 5225,
+      "origin_date": "2025-10-09",
+      "origin_index": 5225,
+      "seed": 7252,
+      "target_date": "2025-10-10",
+      "target_index": 5226
+    },
+    {
+      "context_first_index": 4971,
+      "context_last_index": 5226,
+      "origin_date": "2025-10-10",
+      "origin_index": 5226,
+      "seed": 7253,
+      "target_date": "2025-10-13",
+      "target_index": 5227
+    },
+    {
+      "context_first_index": 4972,
+      "context_last_index": 5227,
+      "origin_date": "2025-10-13",
+      "origin_index": 5227,
+      "seed": 7254,
+      "target_date": "2025-10-14",
+      "target_index": 5228
+    },
+    {
+      "context_first_index": 4973,
+      "context_last_index": 5228,
+      "origin_date": "2025-10-14",
+      "origin_index": 5228,
+      "seed": 7255,
+      "target_date": "2025-10-15",
+      "target_index": 5229
+    },
+    {
+      "context_first_index": 4974,
+      "context_last_index": 5229,
+      "origin_date": "2025-10-15",
+      "origin_index": 5229,
+      "seed": 7256,
+      "target_date": "2025-10-16",
+      "target_index": 5230
+    },
+    {
+      "context_first_index": 4975,
+      "context_last_index": 5230,
+      "origin_date": "2025-10-16",
+      "origin_index": 5230,
+      "seed": 7257,
+      "target_date": "2025-10-17",
+      "target_index": 5231
+    },
+    {
+      "context_first_index": 4976,
+      "context_last_index": 5231,
+      "origin_date": "2025-10-17",
+      "origin_index": 5231,
+      "seed": 7258,
+      "target_date": "2025-10-20",
+      "target_index": 5232
+    },
+    {
+      "context_first_index": 4977,
+      "context_last_index": 5232,
+      "origin_date": "2025-10-20",
+      "origin_index": 5232,
+      "seed": 7259,
+      "target_date": "2025-10-21",
+      "target_index": 5233
+    },
+    {
+      "context_first_index": 4978,
+      "context_last_index": 5233,
+      "origin_date": "2025-10-21",
+      "origin_index": 5233,
+      "seed": 7260,
+      "target_date": "2025-10-22",
+      "target_index": 5234
+    },
+    {
+      "context_first_index": 4979,
+      "context_last_index": 5234,
+      "origin_date": "2025-10-22",
+      "origin_index": 5234,
+      "seed": 7261,
+      "target_date": "2025-10-23",
+      "target_index": 5235
+    },
+    {
+      "context_first_index": 4980,
+      "context_last_index": 5235,
+      "origin_date": "2025-10-23",
+      "origin_index": 5235,
+      "seed": 7262,
+      "target_date": "2025-10-24",
+      "target_index": 5236
+    },
+    {
+      "context_first_index": 4981,
+      "context_last_index": 5236,
+      "origin_date": "2025-10-24",
+      "origin_index": 5236,
+      "seed": 7263,
+      "target_date": "2025-10-27",
+      "target_index": 5237
+    },
+    {
+      "context_first_index": 4982,
+      "context_last_index": 5237,
+      "origin_date": "2025-10-27",
+      "origin_index": 5237,
+      "seed": 7264,
+      "target_date": "2025-10-28",
+      "target_index": 5238
+    },
+    {
+      "context_first_index": 4983,
+      "context_last_index": 5238,
+      "origin_date": "2025-10-28",
+      "origin_index": 5238,
+      "seed": 7265,
+      "target_date": "2025-10-29",
+      "target_index": 5239
+    },
+    {
+      "context_first_index": 4984,
+      "context_last_index": 5239,
+      "origin_date": "2025-10-29",
+      "origin_index": 5239,
+      "seed": 7266,
+      "target_date": "2025-10-30",
+      "target_index": 5240
+    },
+    {
+      "context_first_index": 4985,
+      "context_last_index": 5240,
+      "origin_date": "2025-10-30",
+      "origin_index": 5240,
+      "seed": 7267,
+      "target_date": "2025-10-31",
+      "target_index": 5241
+    },
+    {
+      "context_first_index": 4986,
+      "context_last_index": 5241,
+      "origin_date": "2025-10-31",
+      "origin_index": 5241,
+      "seed": 7268,
+      "target_date": "2025-11-03",
+      "target_index": 5242
+    },
+    {
+      "context_first_index": 4987,
+      "context_last_index": 5242,
+      "origin_date": "2025-11-03",
+      "origin_index": 5242,
+      "seed": 7269,
+      "target_date": "2025-11-04",
+      "target_index": 5243
+    },
+    {
+      "context_first_index": 4988,
+      "context_last_index": 5243,
+      "origin_date": "2025-11-04",
+      "origin_index": 5243,
+      "seed": 7270,
+      "target_date": "2025-11-05",
+      "target_index": 5244
+    },
+    {
+      "context_first_index": 4989,
+      "context_last_index": 5244,
+      "origin_date": "2025-11-05",
+      "origin_index": 5244,
+      "seed": 7271,
+      "target_date": "2025-11-06",
+      "target_index": 5245
+    },
+    {
+      "context_first_index": 4990,
+      "context_last_index": 5245,
+      "origin_date": "2025-11-06",
+      "origin_index": 5245,
+      "seed": 7272,
+      "target_date": "2025-11-07",
+      "target_index": 5246
+    },
+    {
+      "context_first_index": 4991,
+      "context_last_index": 5246,
+      "origin_date": "2025-11-07",
+      "origin_index": 5246,
+      "seed": 7273,
+      "target_date": "2025-11-10",
+      "target_index": 5247
+    },
+    {
+      "context_first_index": 4992,
+      "context_last_index": 5247,
+      "origin_date": "2025-11-10",
+      "origin_index": 5247,
+      "seed": 7274,
+      "target_date": "2025-11-11",
+      "target_index": 5248
+    },
+    {
+      "context_first_index": 4993,
+      "context_last_index": 5248,
+      "origin_date": "2025-11-11",
+      "origin_index": 5248,
+      "seed": 7275,
+      "target_date": "2025-11-12",
+      "target_index": 5249
+    },
+    {
+      "context_first_index": 4994,
+      "context_last_index": 5249,
+      "origin_date": "2025-11-12",
+      "origin_index": 5249,
+      "seed": 7276,
+      "target_date": "2025-11-13",
+      "target_index": 5250
+    },
+    {
+      "context_first_index": 4995,
+      "context_last_index": 5250,
+      "origin_date": "2025-11-13",
+      "origin_index": 5250,
+      "seed": 7277,
+      "target_date": "2025-11-14",
+      "target_index": 5251
+    },
+    {
+      "context_first_index": 4996,
+      "context_last_index": 5251,
+      "origin_date": "2025-11-14",
+      "origin_index": 5251,
+      "seed": 7278,
+      "target_date": "2025-11-17",
+      "target_index": 5252
+    },
+    {
+      "context_first_index": 4997,
+      "context_last_index": 5252,
+      "origin_date": "2025-11-17",
+      "origin_index": 5252,
+      "seed": 7279,
+      "target_date": "2025-11-18",
+      "target_index": 5253
+    },
+    {
+      "context_first_index": 4998,
+      "context_last_index": 5253,
+      "origin_date": "2025-11-18",
+      "origin_index": 5253,
+      "seed": 7280,
+      "target_date": "2025-11-19",
+      "target_index": 5254
+    },
+    {
+      "context_first_index": 4999,
+      "context_last_index": 5254,
+      "origin_date": "2025-11-19",
+      "origin_index": 5254,
+      "seed": 7281,
+      "target_date": "2025-11-20",
+      "target_index": 5255
+    },
+    {
+      "context_first_index": 5000,
+      "context_last_index": 5255,
+      "origin_date": "2025-11-20",
+      "origin_index": 5255,
+      "seed": 7282,
+      "target_date": "2025-11-21",
+      "target_index": 5256
+    },
+    {
+      "context_first_index": 5001,
+      "context_last_index": 5256,
+      "origin_date": "2025-11-21",
+      "origin_index": 5256,
+      "seed": 7283,
+      "target_date": "2025-11-24",
+      "target_index": 5257
+    },
+    {
+      "context_first_index": 5002,
+      "context_last_index": 5257,
+      "origin_date": "2025-11-24",
+      "origin_index": 5257,
+      "seed": 7284,
+      "target_date": "2025-11-25",
+      "target_index": 5258
+    },
+    {
+      "context_first_index": 5003,
+      "context_last_index": 5258,
+      "origin_date": "2025-11-25",
+      "origin_index": 5258,
+      "seed": 7285,
+      "target_date": "2025-11-26",
+      "target_index": 5259
+    },
+    {
+      "context_first_index": 5004,
+      "context_last_index": 5259,
+      "origin_date": "2025-11-26",
+      "origin_index": 5259,
+      "seed": 7286,
+      "target_date": "2025-11-28",
+      "target_index": 5260
+    },
+    {
+      "context_first_index": 5005,
+      "context_last_index": 5260,
+      "origin_date": "2025-11-28",
+      "origin_index": 5260,
+      "seed": 7287,
+      "target_date": "2025-12-01",
+      "target_index": 5261
+    },
+    {
+      "context_first_index": 5006,
+      "context_last_index": 5261,
+      "origin_date": "2025-12-01",
+      "origin_index": 5261,
+      "seed": 7288,
+      "target_date": "2025-12-02",
+      "target_index": 5262
+    },
+    {
+      "context_first_index": 5007,
+      "context_last_index": 5262,
+      "origin_date": "2025-12-02",
+      "origin_index": 5262,
+      "seed": 7289,
+      "target_date": "2025-12-03",
+      "target_index": 5263
+    },
+    {
+      "context_first_index": 5008,
+      "context_last_index": 5263,
+      "origin_date": "2025-12-03",
+      "origin_index": 5263,
+      "seed": 7290,
+      "target_date": "2025-12-04",
+      "target_index": 5264
+    },
+    {
+      "context_first_index": 5009,
+      "context_last_index": 5264,
+      "origin_date": "2025-12-04",
+      "origin_index": 5264,
+      "seed": 7291,
+      "target_date": "2025-12-05",
+      "target_index": 5265
+    },
+    {
+      "context_first_index": 5010,
+      "context_last_index": 5265,
+      "origin_date": "2025-12-05",
+      "origin_index": 5265,
+      "seed": 7292,
+      "target_date": "2025-12-08",
+      "target_index": 5266
+    },
+    {
+      "context_first_index": 5011,
+      "context_last_index": 5266,
+      "origin_date": "2025-12-08",
+      "origin_index": 5266,
+      "seed": 7293,
+      "target_date": "2025-12-09",
+      "target_index": 5267
+    },
+    {
+      "context_first_index": 5012,
+      "context_last_index": 5267,
+      "origin_date": "2025-12-09",
+      "origin_index": 5267,
+      "seed": 7294,
+      "target_date": "2025-12-10",
+      "target_index": 5268
+    },
+    {
+      "context_first_index": 5013,
+      "context_last_index": 5268,
+      "origin_date": "2025-12-10",
+      "origin_index": 5268,
+      "seed": 7295,
+      "target_date": "2025-12-11",
+      "target_index": 5269
+    },
+    {
+      "context_first_index": 5014,
+      "context_last_index": 5269,
+      "origin_date": "2025-12-11",
+      "origin_index": 5269,
+      "seed": 7296,
+      "target_date": "2025-12-12",
+      "target_index": 5270
+    },
+    {
+      "context_first_index": 5015,
+      "context_last_index": 5270,
+      "origin_date": "2025-12-12",
+      "origin_index": 5270,
+      "seed": 7297,
+      "target_date": "2025-12-15",
+      "target_index": 5271
+    },
+    {
+      "context_first_index": 5016,
+      "context_last_index": 5271,
+      "origin_date": "2025-12-15",
+      "origin_index": 5271,
+      "seed": 7298,
+      "target_date": "2025-12-16",
+      "target_index": 5272
+    },
+    {
+      "context_first_index": 5017,
+      "context_last_index": 5272,
+      "origin_date": "2025-12-16",
+      "origin_index": 5272,
+      "seed": 7299,
+      "target_date": "2025-12-17",
+      "target_index": 5273
+    },
+    {
+      "context_first_index": 5018,
+      "context_last_index": 5273,
+      "origin_date": "2025-12-17",
+      "origin_index": 5273,
+      "seed": 7300,
+      "target_date": "2025-12-18",
+      "target_index": 5274
+    },
+    {
+      "context_first_index": 5019,
+      "context_last_index": 5274,
+      "origin_date": "2025-12-18",
+      "origin_index": 5274,
+      "seed": 7301,
+      "target_date": "2025-12-19",
+      "target_index": 5275
+    },
+    {
+      "context_first_index": 5020,
+      "context_last_index": 5275,
+      "origin_date": "2025-12-19",
+      "origin_index": 5275,
+      "seed": 7302,
+      "target_date": "2025-12-22",
+      "target_index": 5276
+    },
+    {
+      "context_first_index": 5021,
+      "context_last_index": 5276,
+      "origin_date": "2025-12-22",
+      "origin_index": 5276,
+      "seed": 7303,
+      "target_date": "2025-12-23",
+      "target_index": 5277
+    },
+    {
+      "context_first_index": 5022,
+      "context_last_index": 5277,
+      "origin_date": "2025-12-23",
+      "origin_index": 5277,
+      "seed": 7304,
+      "target_date": "2025-12-24",
+      "target_index": 5278
+    },
+    {
+      "context_first_index": 5023,
+      "context_last_index": 5278,
+      "origin_date": "2025-12-24",
+      "origin_index": 5278,
+      "seed": 7305,
+      "target_date": "2025-12-26",
+      "target_index": 5279
+    },
+    {
+      "context_first_index": 5024,
+      "context_last_index": 5279,
+      "origin_date": "2025-12-26",
+      "origin_index": 5279,
+      "seed": 7306,
+      "target_date": "2025-12-29",
+      "target_index": 5280
+    },
+    {
+      "context_first_index": 5025,
+      "context_last_index": 5280,
+      "origin_date": "2025-12-29",
+      "origin_index": 5280,
+      "seed": 7307,
+      "target_date": "2025-12-30",
+      "target_index": 5281
+    },
+    {
+      "context_first_index": 5026,
+      "context_last_index": 5281,
+      "origin_date": "2025-12-30",
+      "origin_index": 5281,
+      "seed": 7308,
+      "target_date": "2025-12-31",
+      "target_index": 5282
+    },
+    {
+      "context_first_index": 5027,
+      "context_last_index": 5282,
+      "origin_date": "2025-12-31",
+      "origin_index": 5282,
+      "seed": 7309,
+      "target_date": "2026-01-02",
+      "target_index": 5283
+    },
+    {
+      "context_first_index": 5028,
+      "context_last_index": 5283,
+      "origin_date": "2026-01-02",
+      "origin_index": 5283,
+      "seed": 7310,
+      "target_date": "2026-01-05",
+      "target_index": 5284
+    },
+    {
+      "context_first_index": 5029,
+      "context_last_index": 5284,
+      "origin_date": "2026-01-05",
+      "origin_index": 5284,
+      "seed": 7311,
+      "target_date": "2026-01-06",
+      "target_index": 5285
+    },
+    {
+      "context_first_index": 5030,
+      "context_last_index": 5285,
+      "origin_date": "2026-01-06",
+      "origin_index": 5285,
+      "seed": 7312,
+      "target_date": "2026-01-07",
+      "target_index": 5286
+    },
+    {
+      "context_first_index": 5031,
+      "context_last_index": 5286,
+      "origin_date": "2026-01-07",
+      "origin_index": 5286,
+      "seed": 7313,
+      "target_date": "2026-01-08",
+      "target_index": 5287
+    },
+    {
+      "context_first_index": 5032,
+      "context_last_index": 5287,
+      "origin_date": "2026-01-08",
+      "origin_index": 5287,
+      "seed": 7314,
+      "target_date": "2026-01-09",
+      "target_index": 5288
+    },
+    {
+      "context_first_index": 5033,
+      "context_last_index": 5288,
+      "origin_date": "2026-01-09",
+      "origin_index": 5288,
+      "seed": 7315,
+      "target_date": "2026-01-12",
+      "target_index": 5289
+    },
+    {
+      "context_first_index": 5034,
+      "context_last_index": 5289,
+      "origin_date": "2026-01-12",
+      "origin_index": 5289,
+      "seed": 7316,
+      "target_date": "2026-01-13",
+      "target_index": 5290
+    },
+    {
+      "context_first_index": 5035,
+      "context_last_index": 5290,
+      "origin_date": "2026-01-13",
+      "origin_index": 5290,
+      "seed": 7317,
+      "target_date": "2026-01-14",
+      "target_index": 5291
+    },
+    {
+      "context_first_index": 5036,
+      "context_last_index": 5291,
+      "origin_date": "2026-01-14",
+      "origin_index": 5291,
+      "seed": 7318,
+      "target_date": "2026-01-15",
+      "target_index": 5292
+    },
+    {
+      "context_first_index": 5037,
+      "context_last_index": 5292,
+      "origin_date": "2026-01-15",
+      "origin_index": 5292,
+      "seed": 7319,
+      "target_date": "2026-01-16",
+      "target_index": 5293
+    },
+    {
+      "context_first_index": 5038,
+      "context_last_index": 5293,
+      "origin_date": "2026-01-16",
+      "origin_index": 5293,
+      "seed": 7320,
+      "target_date": "2026-01-20",
+      "target_index": 5294
+    },
+    {
+      "context_first_index": 5039,
+      "context_last_index": 5294,
+      "origin_date": "2026-01-20",
+      "origin_index": 5294,
+      "seed": 7321,
+      "target_date": "2026-01-21",
+      "target_index": 5295
+    },
+    {
+      "context_first_index": 5040,
+      "context_last_index": 5295,
+      "origin_date": "2026-01-21",
+      "origin_index": 5295,
+      "seed": 7322,
+      "target_date": "2026-01-22",
+      "target_index": 5296
+    },
+    {
+      "context_first_index": 5041,
+      "context_last_index": 5296,
+      "origin_date": "2026-01-22",
+      "origin_index": 5296,
+      "seed": 7323,
+      "target_date": "2026-01-23",
+      "target_index": 5297
+    },
+    {
+      "context_first_index": 5042,
+      "context_last_index": 5297,
+      "origin_date": "2026-01-23",
+      "origin_index": 5297,
+      "seed": 7324,
+      "target_date": "2026-01-26",
+      "target_index": 5298
+    },
+    {
+      "context_first_index": 5043,
+      "context_last_index": 5298,
+      "origin_date": "2026-01-26",
+      "origin_index": 5298,
+      "seed": 7325,
+      "target_date": "2026-01-27",
+      "target_index": 5299
+    },
+    {
+      "context_first_index": 5044,
+      "context_last_index": 5299,
+      "origin_date": "2026-01-27",
+      "origin_index": 5299,
+      "seed": 7326,
+      "target_date": "2026-01-28",
+      "target_index": 5300
+    },
+    {
+      "context_first_index": 5045,
+      "context_last_index": 5300,
+      "origin_date": "2026-01-28",
+      "origin_index": 5300,
+      "seed": 7327,
+      "target_date": "2026-01-29",
+      "target_index": 5301
+    },
+    {
+      "context_first_index": 5046,
+      "context_last_index": 5301,
+      "origin_date": "2026-01-29",
+      "origin_index": 5301,
+      "seed": 7328,
+      "target_date": "2026-01-30",
+      "target_index": 5302
+    },
+    {
+      "context_first_index": 5047,
+      "context_last_index": 5302,
+      "origin_date": "2026-01-30",
+      "origin_index": 5302,
+      "seed": 7329,
+      "target_date": "2026-02-02",
+      "target_index": 5303
+    },
+    {
+      "context_first_index": 5048,
+      "context_last_index": 5303,
+      "origin_date": "2026-02-02",
+      "origin_index": 5303,
+      "seed": 7330,
+      "target_date": "2026-02-03",
+      "target_index": 5304
+    },
+    {
+      "context_first_index": 5049,
+      "context_last_index": 5304,
+      "origin_date": "2026-02-03",
+      "origin_index": 5304,
+      "seed": 7331,
+      "target_date": "2026-02-04",
+      "target_index": 5305
+    },
+    {
+      "context_first_index": 5050,
+      "context_last_index": 5305,
+      "origin_date": "2026-02-04",
+      "origin_index": 5305,
+      "seed": 7332,
+      "target_date": "2026-02-05",
+      "target_index": 5306
+    },
+    {
+      "context_first_index": 5051,
+      "context_last_index": 5306,
+      "origin_date": "2026-02-05",
+      "origin_index": 5306,
+      "seed": 7333,
+      "target_date": "2026-02-06",
+      "target_index": 5307
+    },
+    {
+      "context_first_index": 5052,
+      "context_last_index": 5307,
+      "origin_date": "2026-02-06",
+      "origin_index": 5307,
+      "seed": 7334,
+      "target_date": "2026-02-09",
+      "target_index": 5308
+    },
+    {
+      "context_first_index": 5053,
+      "context_last_index": 5308,
+      "origin_date": "2026-02-09",
+      "origin_index": 5308,
+      "seed": 7335,
+      "target_date": "2026-02-10",
+      "target_index": 5309
+    },
+    {
+      "context_first_index": 5054,
+      "context_last_index": 5309,
+      "origin_date": "2026-02-10",
+      "origin_index": 5309,
+      "seed": 7336,
+      "target_date": "2026-02-11",
+      "target_index": 5310
+    },
+    {
+      "context_first_index": 5055,
+      "context_last_index": 5310,
+      "origin_date": "2026-02-11",
+      "origin_index": 5310,
+      "seed": 7337,
+      "target_date": "2026-02-12",
+      "target_index": 5311
+    },
+    {
+      "context_first_index": 5056,
+      "context_last_index": 5311,
+      "origin_date": "2026-02-12",
+      "origin_index": 5311,
+      "seed": 7338,
+      "target_date": "2026-02-13",
+      "target_index": 5312
+    },
+    {
+      "context_first_index": 5057,
+      "context_last_index": 5312,
+      "origin_date": "2026-02-13",
+      "origin_index": 5312,
+      "seed": 7339,
+      "target_date": "2026-02-17",
+      "target_index": 5313
+    },
+    {
+      "context_first_index": 5058,
+      "context_last_index": 5313,
+      "origin_date": "2026-02-17",
+      "origin_index": 5313,
+      "seed": 7340,
+      "target_date": "2026-02-18",
+      "target_index": 5314
+    },
+    {
+      "context_first_index": 5059,
+      "context_last_index": 5314,
+      "origin_date": "2026-02-18",
+      "origin_index": 5314,
+      "seed": 7341,
+      "target_date": "2026-02-19",
+      "target_index": 5315
+    },
+    {
+      "context_first_index": 5060,
+      "context_last_index": 5315,
+      "origin_date": "2026-02-19",
+      "origin_index": 5315,
+      "seed": 7342,
+      "target_date": "2026-02-20",
+      "target_index": 5316
+    },
+    {
+      "context_first_index": 5061,
+      "context_last_index": 5316,
+      "origin_date": "2026-02-20",
+      "origin_index": 5316,
+      "seed": 7343,
+      "target_date": "2026-02-23",
+      "target_index": 5317
+    },
+    {
+      "context_first_index": 5062,
+      "context_last_index": 5317,
+      "origin_date": "2026-02-23",
+      "origin_index": 5317,
+      "seed": 7344,
+      "target_date": "2026-02-24",
+      "target_index": 5318
+    },
+    {
+      "context_first_index": 5063,
+      "context_last_index": 5318,
+      "origin_date": "2026-02-24",
+      "origin_index": 5318,
+      "seed": 7345,
+      "target_date": "2026-02-25",
+      "target_index": 5319
+    },
+    {
+      "context_first_index": 5064,
+      "context_last_index": 5319,
+      "origin_date": "2026-02-25",
+      "origin_index": 5319,
+      "seed": 7346,
+      "target_date": "2026-02-26",
+      "target_index": 5320
+    },
+    {
+      "context_first_index": 5065,
+      "context_last_index": 5320,
+      "origin_date": "2026-02-26",
+      "origin_index": 5320,
+      "seed": 7347,
+      "target_date": "2026-02-27",
+      "target_index": 5321
+    },
+    {
+      "context_first_index": 5066,
+      "context_last_index": 5321,
+      "origin_date": "2026-02-27",
+      "origin_index": 5321,
+      "seed": 7348,
+      "target_date": "2026-03-02",
+      "target_index": 5322
+    },
+    {
+      "context_first_index": 5067,
+      "context_last_index": 5322,
+      "origin_date": "2026-03-02",
+      "origin_index": 5322,
+      "seed": 7349,
+      "target_date": "2026-03-03",
+      "target_index": 5323
+    },
+    {
+      "context_first_index": 5068,
+      "context_last_index": 5323,
+      "origin_date": "2026-03-03",
+      "origin_index": 5323,
+      "seed": 7350,
+      "target_date": "2026-03-04",
+      "target_index": 5324
+    },
+    {
+      "context_first_index": 5069,
+      "context_last_index": 5324,
+      "origin_date": "2026-03-04",
+      "origin_index": 5324,
+      "seed": 7351,
+      "target_date": "2026-03-05",
+      "target_index": 5325
+    },
+    {
+      "context_first_index": 5070,
+      "context_last_index": 5325,
+      "origin_date": "2026-03-05",
+      "origin_index": 5325,
+      "seed": 7352,
+      "target_date": "2026-03-06",
+      "target_index": 5326
+    },
+    {
+      "context_first_index": 5071,
+      "context_last_index": 5326,
+      "origin_date": "2026-03-06",
+      "origin_index": 5326,
+      "seed": 7353,
+      "target_date": "2026-03-09",
+      "target_index": 5327
+    },
+    {
+      "context_first_index": 5072,
+      "context_last_index": 5327,
+      "origin_date": "2026-03-09",
+      "origin_index": 5327,
+      "seed": 7354,
+      "target_date": "2026-03-10",
+      "target_index": 5328
+    },
+    {
+      "context_first_index": 5073,
+      "context_last_index": 5328,
+      "origin_date": "2026-03-10",
+      "origin_index": 5328,
+      "seed": 7355,
+      "target_date": "2026-03-11",
+      "target_index": 5329
+    },
+    {
+      "context_first_index": 5074,
+      "context_last_index": 5329,
+      "origin_date": "2026-03-11",
+      "origin_index": 5329,
+      "seed": 7356,
+      "target_date": "2026-03-12",
+      "target_index": 5330
+    },
+    {
+      "context_first_index": 5075,
+      "context_last_index": 5330,
+      "origin_date": "2026-03-12",
+      "origin_index": 5330,
+      "seed": 7357,
+      "target_date": "2026-03-13",
+      "target_index": 5331
+    },
+    {
+      "context_first_index": 5076,
+      "context_last_index": 5331,
+      "origin_date": "2026-03-13",
+      "origin_index": 5331,
+      "seed": 7358,
+      "target_date": "2026-03-16",
+      "target_index": 5332
+    },
+    {
+      "context_first_index": 5077,
+      "context_last_index": 5332,
+      "origin_date": "2026-03-16",
+      "origin_index": 5332,
+      "seed": 7359,
+      "target_date": "2026-03-17",
+      "target_index": 5333
+    },
+    {
+      "context_first_index": 5078,
+      "context_last_index": 5333,
+      "origin_date": "2026-03-17",
+      "origin_index": 5333,
+      "seed": 7360,
+      "target_date": "2026-03-18",
+      "target_index": 5334
+    },
+    {
+      "context_first_index": 5079,
+      "context_last_index": 5334,
+      "origin_date": "2026-03-18",
+      "origin_index": 5334,
+      "seed": 7361,
+      "target_date": "2026-03-19",
+      "target_index": 5335
+    },
+    {
+      "context_first_index": 5080,
+      "context_last_index": 5335,
+      "origin_date": "2026-03-19",
+      "origin_index": 5335,
+      "seed": 7362,
+      "target_date": "2026-03-20",
+      "target_index": 5336
+    },
+    {
+      "context_first_index": 5081,
+      "context_last_index": 5336,
+      "origin_date": "2026-03-20",
+      "origin_index": 5336,
+      "seed": 7363,
+      "target_date": "2026-03-23",
+      "target_index": 5337
+    },
+    {
+      "context_first_index": 5082,
+      "context_last_index": 5337,
+      "origin_date": "2026-03-23",
+      "origin_index": 5337,
+      "seed": 7364,
+      "target_date": "2026-03-24",
+      "target_index": 5338
+    },
+    {
+      "context_first_index": 5083,
+      "context_last_index": 5338,
+      "origin_date": "2026-03-24",
+      "origin_index": 5338,
+      "seed": 7365,
+      "target_date": "2026-03-25",
+      "target_index": 5339
+    },
+    {
+      "context_first_index": 5084,
+      "context_last_index": 5339,
+      "origin_date": "2026-03-25",
+      "origin_index": 5339,
+      "seed": 7366,
+      "target_date": "2026-03-26",
+      "target_index": 5340
+    },
+    {
+      "context_first_index": 5085,
+      "context_last_index": 5340,
+      "origin_date": "2026-03-26",
+      "origin_index": 5340,
+      "seed": 7367,
+      "target_date": "2026-03-27",
+      "target_index": 5341
+    },
+    {
+      "context_first_index": 5086,
+      "context_last_index": 5341,
+      "origin_date": "2026-03-27",
+      "origin_index": 5341,
+      "seed": 7368,
+      "target_date": "2026-03-30",
+      "target_index": 5342
+    },
+    {
+      "context_first_index": 5087,
+      "context_last_index": 5342,
+      "origin_date": "2026-03-30",
+      "origin_index": 5342,
+      "seed": 7369,
+      "target_date": "2026-03-31",
+      "target_index": 5343
+    },
+    {
+      "context_first_index": 5088,
+      "context_last_index": 5343,
+      "origin_date": "2026-03-31",
+      "origin_index": 5343,
+      "seed": 7370,
+      "target_date": "2026-04-01",
+      "target_index": 5344
+    },
+    {
+      "context_first_index": 5089,
+      "context_last_index": 5344,
+      "origin_date": "2026-04-01",
+      "origin_index": 5344,
+      "seed": 7371,
+      "target_date": "2026-04-02",
+      "target_index": 5345
+    },
+    {
+      "context_first_index": 5090,
+      "context_last_index": 5345,
+      "origin_date": "2026-04-02",
+      "origin_index": 5345,
+      "seed": 7372,
+      "target_date": "2026-04-06",
+      "target_index": 5346
+    },
+    {
+      "context_first_index": 5091,
+      "context_last_index": 5346,
+      "origin_date": "2026-04-06",
+      "origin_index": 5346,
+      "seed": 7373,
+      "target_date": "2026-04-07",
+      "target_index": 5347
+    },
+    {
+      "context_first_index": 5092,
+      "context_last_index": 5347,
+      "origin_date": "2026-04-07",
+      "origin_index": 5347,
+      "seed": 7374,
+      "target_date": "2026-04-08",
+      "target_index": 5348
+    },
+    {
+      "context_first_index": 5093,
+      "context_last_index": 5348,
+      "origin_date": "2026-04-08",
+      "origin_index": 5348,
+      "seed": 7375,
+      "target_date": "2026-04-09",
+      "target_index": 5349
+    },
+    {
+      "context_first_index": 5094,
+      "context_last_index": 5349,
+      "origin_date": "2026-04-09",
+      "origin_index": 5349,
+      "seed": 7376,
+      "target_date": "2026-04-10",
+      "target_index": 5350
+    },
+    {
+      "context_first_index": 5095,
+      "context_last_index": 5350,
+      "origin_date": "2026-04-10",
+      "origin_index": 5350,
+      "seed": 7377,
+      "target_date": "2026-04-13",
+      "target_index": 5351
+    },
+    {
+      "context_first_index": 5096,
+      "context_last_index": 5351,
+      "origin_date": "2026-04-13",
+      "origin_index": 5351,
+      "seed": 7378,
+      "target_date": "2026-04-14",
+      "target_index": 5352
+    },
+    {
+      "context_first_index": 5097,
+      "context_last_index": 5352,
+      "origin_date": "2026-04-14",
+      "origin_index": 5352,
+      "seed": 7379,
+      "target_date": "2026-04-15",
+      "target_index": 5353
+    },
+    {
+      "context_first_index": 5098,
+      "context_last_index": 5353,
+      "origin_date": "2026-04-15",
+      "origin_index": 5353,
+      "seed": 7380,
+      "target_date": "2026-04-16",
+      "target_index": 5354
+    },
+    {
+      "context_first_index": 5099,
+      "context_last_index": 5354,
+      "origin_date": "2026-04-16",
+      "origin_index": 5354,
+      "seed": 7381,
+      "target_date": "2026-04-17",
+      "target_index": 5355
+    },
+    {
+      "context_first_index": 5100,
+      "context_last_index": 5355,
+      "origin_date": "2026-04-17",
+      "origin_index": 5355,
+      "seed": 7382,
+      "target_date": "2026-04-20",
+      "target_index": 5356
+    },
+    {
+      "context_first_index": 5101,
+      "context_last_index": 5356,
+      "origin_date": "2026-04-20",
+      "origin_index": 5356,
+      "seed": 7383,
+      "target_date": "2026-04-21",
+      "target_index": 5357
+    },
+    {
+      "context_first_index": 5102,
+      "context_last_index": 5357,
+      "origin_date": "2026-04-21",
+      "origin_index": 5357,
+      "seed": 7384,
+      "target_date": "2026-04-22",
+      "target_index": 5358
+    },
+    {
+      "context_first_index": 5103,
+      "context_last_index": 5358,
+      "origin_date": "2026-04-22",
+      "origin_index": 5358,
+      "seed": 7385,
+      "target_date": "2026-04-23",
+      "target_index": 5359
+    },
+    {
+      "context_first_index": 5104,
+      "context_last_index": 5359,
+      "origin_date": "2026-04-23",
+      "origin_index": 5359,
+      "seed": 7386,
+      "target_date": "2026-04-24",
+      "target_index": 5360
+    },
+    {
+      "context_first_index": 5105,
+      "context_last_index": 5360,
+      "origin_date": "2026-04-24",
+      "origin_index": 5360,
+      "seed": 7387,
+      "target_date": "2026-04-27",
+      "target_index": 5361
+    },
+    {
+      "context_first_index": 5106,
+      "context_last_index": 5361,
+      "origin_date": "2026-04-27",
+      "origin_index": 5361,
+      "seed": 7388,
+      "target_date": "2026-04-28",
+      "target_index": 5362
+    },
+    {
+      "context_first_index": 5107,
+      "context_last_index": 5362,
+      "origin_date": "2026-04-28",
+      "origin_index": 5362,
+      "seed": 7389,
+      "target_date": "2026-04-29",
+      "target_index": 5363
+    },
+    {
+      "context_first_index": 5108,
+      "context_last_index": 5363,
+      "origin_date": "2026-04-29",
+      "origin_index": 5363,
+      "seed": 7390,
+      "target_date": "2026-04-30",
+      "target_index": 5364
+    },
+    {
+      "context_first_index": 5109,
+      "context_last_index": 5364,
+      "origin_date": "2026-04-30",
+      "origin_index": 5364,
+      "seed": 7391,
+      "target_date": "2026-05-01",
+      "target_index": 5365
+    },
+    {
+      "context_first_index": 5110,
+      "context_last_index": 5365,
+      "origin_date": "2026-05-01",
+      "origin_index": 5365,
+      "seed": 7392,
+      "target_date": "2026-05-04",
+      "target_index": 5366
+    },
+    {
+      "context_first_index": 5111,
+      "context_last_index": 5366,
+      "origin_date": "2026-05-04",
+      "origin_index": 5366,
+      "seed": 7393,
+      "target_date": "2026-05-05",
+      "target_index": 5367
+    },
+    {
+      "context_first_index": 5112,
+      "context_last_index": 5367,
+      "origin_date": "2026-05-05",
+      "origin_index": 5367,
+      "seed": 7394,
+      "target_date": "2026-05-06",
+      "target_index": 5368
+    },
+    {
+      "context_first_index": 5113,
+      "context_last_index": 5368,
+      "origin_date": "2026-05-06",
+      "origin_index": 5368,
+      "seed": 7395,
+      "target_date": "2026-05-07",
+      "target_index": 5369
+    },
+    {
+      "context_first_index": 5114,
+      "context_last_index": 5369,
+      "origin_date": "2026-05-07",
+      "origin_index": 5369,
+      "seed": 7396,
+      "target_date": "2026-05-08",
+      "target_index": 5370
+    },
+    {
+      "context_first_index": 5115,
+      "context_last_index": 5370,
+      "origin_date": "2026-05-08",
+      "origin_index": 5370,
+      "seed": 7397,
+      "target_date": "2026-05-11",
+      "target_index": 5371
+    },
+    {
+      "context_first_index": 5116,
+      "context_last_index": 5371,
+      "origin_date": "2026-05-11",
+      "origin_index": 5371,
+      "seed": 7398,
+      "target_date": "2026-05-12",
+      "target_index": 5372
+    },
+    {
+      "context_first_index": 5117,
+      "context_last_index": 5372,
+      "origin_date": "2026-05-12",
+      "origin_index": 5372,
+      "seed": 7399,
+      "target_date": "2026-05-13",
+      "target_index": 5373
+    },
+    {
+      "context_first_index": 5118,
+      "context_last_index": 5373,
+      "origin_date": "2026-05-13",
+      "origin_index": 5373,
+      "seed": 7400,
+      "target_date": "2026-05-14",
+      "target_index": 5374
+    },
+    {
+      "context_first_index": 5119,
+      "context_last_index": 5374,
+      "origin_date": "2026-05-14",
+      "origin_index": 5374,
+      "seed": 7401,
+      "target_date": "2026-05-15",
+      "target_index": 5375
+    },
+    {
+      "context_first_index": 5120,
+      "context_last_index": 5375,
+      "origin_date": "2026-05-15",
+      "origin_index": 5375,
+      "seed": 7402,
+      "target_date": "2026-05-18",
+      "target_index": 5376
+    },
+    {
+      "context_first_index": 5121,
+      "context_last_index": 5376,
+      "origin_date": "2026-05-18",
+      "origin_index": 5376,
+      "seed": 7403,
+      "target_date": "2026-05-19",
+      "target_index": 5377
+    },
+    {
+      "context_first_index": 5122,
+      "context_last_index": 5377,
+      "origin_date": "2026-05-19",
+      "origin_index": 5377,
+      "seed": 7404,
+      "target_date": "2026-05-20",
+      "target_index": 5378
+    },
+    {
+      "context_first_index": 5123,
+      "context_last_index": 5378,
+      "origin_date": "2026-05-20",
+      "origin_index": 5378,
+      "seed": 7405,
+      "target_date": "2026-05-21",
+      "target_index": 5379
+    },
+    {
+      "context_first_index": 5124,
+      "context_last_index": 5379,
+      "origin_date": "2026-05-21",
+      "origin_index": 5379,
+      "seed": 7406,
+      "target_date": "2026-05-22",
+      "target_index": 5380
+    },
+    {
+      "context_first_index": 5125,
+      "context_last_index": 5380,
+      "origin_date": "2026-05-22",
+      "origin_index": 5380,
+      "seed": 7407,
+      "target_date": "2026-05-26",
+      "target_index": 5381
+    },
+    {
+      "context_first_index": 5126,
+      "context_last_index": 5381,
+      "origin_date": "2026-05-26",
+      "origin_index": 5381,
+      "seed": 7408,
+      "target_date": "2026-05-27",
+      "target_index": 5382
+    },
+    {
+      "context_first_index": 5127,
+      "context_last_index": 5382,
+      "origin_date": "2026-05-27",
+      "origin_index": 5382,
+      "seed": 7409,
+      "target_date": "2026-05-28",
+      "target_index": 5383
+    },
+    {
+      "context_first_index": 5128,
+      "context_last_index": 5383,
+      "origin_date": "2026-05-28",
+      "origin_index": 5383,
+      "seed": 7410,
+      "target_date": "2026-05-29",
+      "target_index": 5384
+    },
+    {
+      "context_first_index": 5129,
+      "context_last_index": 5384,
+      "origin_date": "2026-05-29",
+      "origin_index": 5384,
+      "seed": 7411,
+      "target_date": "2026-06-01",
+      "target_index": 5385
+    },
+    {
+      "context_first_index": 5130,
+      "context_last_index": 5385,
+      "origin_date": "2026-06-01",
+      "origin_index": 5385,
+      "seed": 7412,
+      "target_date": "2026-06-02",
+      "target_index": 5386
+    },
+    {
+      "context_first_index": 5131,
+      "context_last_index": 5386,
+      "origin_date": "2026-06-02",
+      "origin_index": 5386,
+      "seed": 7413,
+      "target_date": "2026-06-03",
+      "target_index": 5387
+    },
+    {
+      "context_first_index": 5132,
+      "context_last_index": 5387,
+      "origin_date": "2026-06-03",
+      "origin_index": 5387,
+      "seed": 7414,
+      "target_date": "2026-06-04",
+      "target_index": 5388
+    },
+    {
+      "context_first_index": 5133,
+      "context_last_index": 5388,
+      "origin_date": "2026-06-04",
+      "origin_index": 5388,
+      "seed": 7415,
+      "target_date": "2026-06-05",
+      "target_index": 5389
+    },
+    {
+      "context_first_index": 5134,
+      "context_last_index": 5389,
+      "origin_date": "2026-06-05",
+      "origin_index": 5389,
+      "seed": 7416,
+      "target_date": "2026-06-08",
+      "target_index": 5390
+    },
+    {
+      "context_first_index": 5135,
+      "context_last_index": 5390,
+      "origin_date": "2026-06-08",
+      "origin_index": 5390,
+      "seed": 7417,
+      "target_date": "2026-06-09",
+      "target_index": 5391
+    },
+    {
+      "context_first_index": 5136,
+      "context_last_index": 5391,
+      "origin_date": "2026-06-09",
+      "origin_index": 5391,
+      "seed": 7418,
+      "target_date": "2026-06-10",
+      "target_index": 5392
+    },
+    {
+      "context_first_index": 5137,
+      "context_last_index": 5392,
+      "origin_date": "2026-06-10",
+      "origin_index": 5392,
+      "seed": 7419,
+      "target_date": "2026-06-11",
+      "target_index": 5393
+    },
+    {
+      "context_first_index": 5138,
+      "context_last_index": 5393,
+      "origin_date": "2026-06-11",
+      "origin_index": 5393,
+      "seed": 7420,
+      "target_date": "2026-06-12",
+      "target_index": 5394
+    },
+    {
+      "context_first_index": 5139,
+      "context_last_index": 5394,
+      "origin_date": "2026-06-12",
+      "origin_index": 5394,
+      "seed": 7421,
+      "target_date": "2026-06-15",
+      "target_index": 5395
+    },
+    {
+      "context_first_index": 5140,
+      "context_last_index": 5395,
+      "origin_date": "2026-06-15",
+      "origin_index": 5395,
+      "seed": 7422,
+      "target_date": "2026-06-16",
+      "target_index": 5396
+    },
+    {
+      "context_first_index": 5141,
+      "context_last_index": 5396,
+      "origin_date": "2026-06-16",
+      "origin_index": 5396,
+      "seed": 7423,
+      "target_date": "2026-06-17",
+      "target_index": 5397
+    },
+    {
+      "context_first_index": 5142,
+      "context_last_index": 5397,
+      "origin_date": "2026-06-17",
+      "origin_index": 5397,
+      "seed": 7424,
+      "target_date": "2026-06-18",
+      "target_index": 5398
+    },
+    {
+      "context_first_index": 5143,
+      "context_last_index": 5398,
+      "origin_date": "2026-06-18",
+      "origin_index": 5398,
+      "seed": 7425,
+      "target_date": "2026-06-22",
+      "target_index": 5399
+    },
+    {
+      "context_first_index": 5144,
+      "context_last_index": 5399,
+      "origin_date": "2026-06-22",
+      "origin_index": 5399,
+      "seed": 7426,
+      "target_date": "2026-06-23",
+      "target_index": 5400
+    },
+    {
+      "context_first_index": 5145,
+      "context_last_index": 5400,
+      "origin_date": "2026-06-23",
+      "origin_index": 5400,
+      "seed": 7427,
+      "target_date": "2026-06-24",
+      "target_index": 5401
+    },
+    {
+      "context_first_index": 5146,
+      "context_last_index": 5401,
+      "origin_date": "2026-06-24",
+      "origin_index": 5401,
+      "seed": 7428,
+      "target_date": "2026-06-25",
+      "target_index": 5402
+    },
+    {
+      "context_first_index": 5147,
+      "context_last_index": 5402,
+      "origin_date": "2026-06-25",
+      "origin_index": 5402,
+      "seed": 7429,
+      "target_date": "2026-06-26",
+      "target_index": 5403
+    },
+    {
+      "context_first_index": 5148,
+      "context_last_index": 5403,
+      "origin_date": "2026-06-26",
+      "origin_index": 5403,
+      "seed": 7430,
+      "target_date": "2026-06-29",
+      "target_index": 5404
+    },
+    {
+      "context_first_index": 5149,
+      "context_last_index": 5404,
+      "origin_date": "2026-06-29",
+      "origin_index": 5404,
+      "seed": 7431,
+      "target_date": "2026-06-30",
+      "target_index": 5405
+    },
+    {
+      "context_first_index": 5150,
+      "context_last_index": 5405,
+      "origin_date": "2026-06-30",
+      "origin_index": 5405,
+      "seed": 7432,
+      "target_date": "2026-07-01",
+      "target_index": 5406
+    },
+    {
+      "context_first_index": 5151,
+      "context_last_index": 5406,
+      "origin_date": "2026-07-01",
+      "origin_index": 5406,
+      "seed": 7433,
+      "target_date": "2026-07-02",
+      "target_index": 5407
+    },
+    {
+      "context_first_index": 5152,
+      "context_last_index": 5407,
+      "origin_date": "2026-07-02",
+      "origin_index": 5407,
+      "seed": 7434,
+      "target_date": "2026-07-06",
+      "target_index": 5408
+    },
+    {
+      "context_first_index": 5153,
+      "context_last_index": 5408,
+      "origin_date": "2026-07-06",
+      "origin_index": 5408,
+      "seed": 7435,
+      "target_date": "2026-07-07",
+      "target_index": 5409
+    },
+    {
+      "context_first_index": 5154,
+      "context_last_index": 5409,
+      "origin_date": "2026-07-07",
+      "origin_index": 5409,
+      "seed": 7436,
+      "target_date": "2026-07-08",
+      "target_index": 5410
+    },
+    {
+      "context_first_index": 5155,
+      "context_last_index": 5410,
+      "origin_date": "2026-07-08",
+      "origin_index": 5410,
+      "seed": 7437,
+      "target_date": "2026-07-09",
+      "target_index": 5411
+    },
+    {
+      "context_first_index": 5156,
+      "context_last_index": 5411,
+      "origin_date": "2026-07-09",
+      "origin_index": 5411,
+      "seed": 7438,
+      "target_date": "2026-07-10",
+      "target_index": 5412
+    },
+    {
+      "context_first_index": 5157,
+      "context_last_index": 5412,
+      "origin_date": "2026-07-10",
+      "origin_index": 5412,
+      "seed": 7439,
+      "target_date": "2026-07-13",
+      "target_index": 5413
+    },
+    {
+      "context_first_index": 5158,
+      "context_last_index": 5413,
+      "origin_date": "2026-07-13",
+      "origin_index": 5413,
+      "seed": 7440,
+      "target_date": "2026-07-14",
+      "target_index": 5414
+    },
+    {
+      "context_first_index": 5159,
+      "context_last_index": 5414,
+      "origin_date": "2026-07-14",
+      "origin_index": 5414,
+      "seed": 7441,
+      "target_date": "2026-07-15",
+      "target_index": 5415
+    },
+    {
+      "context_first_index": 5160,
+      "context_last_index": 5415,
+      "origin_date": "2026-07-15",
+      "origin_index": 5415,
+      "seed": 7442,
+      "target_date": "2026-07-16",
+      "target_index": 5416
+    },
+    {
+      "context_first_index": 5161,
+      "context_last_index": 5416,
+      "origin_date": "2026-07-16",
+      "origin_index": 5416,
+      "seed": 7443,
+      "target_date": "2026-07-17",
+      "target_index": 5417
+    },
+    {
+      "context_first_index": 5162,
+      "context_last_index": 5417,
+      "origin_date": "2026-07-17",
+      "origin_index": 5417,
+      "seed": 7444,
+      "target_date": "2026-07-20",
+      "target_index": 5418
+    },
+    {
+      "context_first_index": 5163,
+      "context_last_index": 5418,
+      "origin_date": "2026-07-20",
+      "origin_index": 5418,
+      "seed": 7445,
+      "target_date": "2026-07-21",
+      "target_index": 5419
+    },
+    {
+      "context_first_index": 5164,
+      "context_last_index": 5419,
+      "origin_date": "2026-07-21",
+      "origin_index": 5419,
+      "seed": 7446,
+      "target_date": "2026-07-22",
+      "target_index": 5420
+    },
+    {
+      "context_first_index": 5165,
+      "context_last_index": 5420,
+      "origin_date": "2026-07-22",
+      "origin_index": 5420,
+      "seed": 7447,
+      "target_date": "2026-07-23",
+      "target_index": 5421
+    },
+    {
+      "context_first_index": 5166,
+      "context_last_index": 5421,
+      "origin_date": "2026-07-23",
+      "origin_index": 5421,
+      "seed": 7448,
+      "target_date": "2026-07-24",
+      "target_index": 5422
+    },
+    {
+      "context_first_index": 5167,
+      "context_last_index": 5422,
+      "origin_date": "2026-07-24",
+      "origin_index": 5422,
+      "seed": 7449,
+      "target_date": "2026-07-27",
+      "target_index": 5423
+    },
+    {
+      "context_first_index": 5168,
+      "context_last_index": 5423,
+      "origin_date": "2026-07-27",
+      "origin_index": 5423,
+      "seed": 7450,
+      "target_date": "2026-07-28",
+      "target_index": 5424
+    },
+    {
+      "context_first_index": 5169,
+      "context_last_index": 5424,
+      "origin_date": "2026-07-28",
+      "origin_index": 5424,
+      "seed": 7451,
+      "target_date": "2026-07-29",
+      "target_index": 5425
+    },
+    {
+      "context_first_index": 5170,
+      "context_last_index": 5425,
+      "origin_date": "2026-07-29",
+      "origin_index": 5425,
+      "seed": 7452,
+      "target_date": "2026-07-30",
+      "target_index": 5426
+    },
+    {
+      "context_first_index": 5171,
+      "context_last_index": 5426,
+      "origin_date": "2026-07-30",
+      "origin_index": 5426,
+      "seed": 7453,
+      "target_date": "2026-07-31",
+      "target_index": 5427
+    },
+    {
+      "context_first_index": 5172,
+      "context_last_index": 5427,
+      "origin_date": "2026-07-31",
+      "origin_index": 5427,
+      "seed": 7454,
+      "target_date": "2026-08-03",
+      "target_index": 5428
+    },
+    {
+      "context_first_index": 5173,
+      "context_last_index": 5428,
+      "origin_date": "2026-08-03",
+      "origin_index": 5428,
+      "seed": 7455,
+      "target_date": "2026-08-04",
+      "target_index": 5429
+    },
+    {
+      "context_first_index": 5174,
+      "context_last_index": 5429,
+      "origin_date": "2026-08-04",
+      "origin_index": 5429,
+      "seed": 7456,
+      "target_date": "2026-08-05",
+      "target_index": 5430
+    },
+    {
+      "context_first_index": 5175,
+      "context_last_index": 5430,
+      "origin_date": "2026-08-05",
+      "origin_index": 5430,
+      "seed": 7457,
+      "target_date": "2026-08-06",
+      "target_index": 5431
+    },
+    {
+      "context_first_index": 5176,
+      "context_last_index": 5431,
+      "origin_date": "2026-08-06",
+      "origin_index": 5431,
+      "seed": 7458,
+      "target_date": "2026-08-07",
+      "target_index": 5432
+    },
+    {
+      "context_first_index": 5177,
+      "context_last_index": 5432,
+      "origin_date": "2026-08-07",
+      "origin_index": 5432,
+      "seed": 7459,
+      "target_date": "2026-08-10",
+      "target_index": 5433
+    },
+    {
+      "context_first_index": 5178,
+      "context_last_index": 5433,
+      "origin_date": "2026-08-10",
+      "origin_index": 5433,
+      "seed": 7460,
+      "target_date": "2026-08-11",
+      "target_index": 5434
+    },
+    {
+      "context_first_index": 5179,
+      "context_last_index": 5434,
+      "origin_date": "2026-08-11",
+      "origin_index": 5434,
+      "seed": 7461,
+      "target_date": "2026-08-12",
+      "target_index": 5435
+    },
+    {
+      "context_first_index": 5180,
+      "context_last_index": 5435,
+      "origin_date": "2026-08-12",
+      "origin_index": 5435,
+      "seed": 7462,
+      "target_date": "2026-08-13",
+      "target_index": 5436
+    },
+    {
+      "context_first_index": 5181,
+      "context_last_index": 5436,
+      "origin_date": "2026-08-13",
+      "origin_index": 5436,
+      "seed": 7463,
+      "target_date": "2026-08-14",
+      "target_index": 5437
+    },
+    {
+      "context_first_index": 5182,
+      "context_last_index": 5437,
+      "origin_date": "2026-08-14",
+      "origin_index": 5437,
+      "seed": 7464,
+      "target_date": "2026-08-17",
+      "target_index": 5438
+    },
+    {
+      "context_first_index": 5183,
+      "context_last_index": 5438,
+      "origin_date": "2026-08-17",
+      "origin_index": 5438,
+      "seed": 7465,
+      "target_date": "2026-08-18",
+      "target_index": 5439
+    },
+    {
+      "context_first_index": 5184,
+      "context_last_index": 5439,
+      "origin_date": "2026-08-18",
+      "origin_index": 5439,
+      "seed": 7466,
+      "target_date": "2026-08-19",
+      "target_index": 5440
+    },
+    {
+      "context_first_index": 5185,
+      "context_last_index": 5440,
+      "origin_date": "2026-08-19",
+      "origin_index": 5440,
+      "seed": 7467,
+      "target_date": "2026-08-20",
+      "target_index": 5441
+    },
+    {
+      "context_first_index": 5186,
+      "context_last_index": 5441,
+      "origin_date": "2026-08-20",
+      "origin_index": 5441,
+      "seed": 7468,
+      "target_date": "2026-08-21",
+      "target_index": 5442
+    },
+    {
+      "context_first_index": 5187,
+      "context_last_index": 5442,
+      "origin_date": "2026-08-21",
+      "origin_index": 5442,
+      "seed": 7469,
+      "target_date": "2026-08-24",
+      "target_index": 5443
+    },
+    {
+      "context_first_index": 5188,
+      "context_last_index": 5443,
+      "origin_date": "2026-08-24",
+      "origin_index": 5443,
+      "seed": 7470,
+      "target_date": "2026-08-25",
+      "target_index": 5444
+    },
+    {
+      "context_first_index": 5189,
+      "context_last_index": 5444,
+      "origin_date": "2026-08-25",
+      "origin_index": 5444,
+      "seed": 7471,
+      "target_date": "2026-08-26",
+      "target_index": 5445
+    },
+    {
+      "context_first_index": 5190,
+      "context_last_index": 5445,
+      "origin_date": "2026-08-26",
+      "origin_index": 5445,
+      "seed": 7472,
+      "target_date": "2026-08-27",
+      "target_index": 5446
+    },
+    {
+      "context_first_index": 5191,
+      "context_last_index": 5446,
+      "origin_date": "2026-08-27",
+      "origin_index": 5446,
+      "seed": 7473,
+      "target_date": "2026-08-28",
+      "target_index": 5447
+    },
+    {
+      "context_first_index": 5192,
+      "context_last_index": 5447,
+      "origin_date": "2026-08-28",
+      "origin_index": 5447,
+      "seed": 7474,
+      "target_date": "2026-08-31",
+      "target_index": 5448
+    },
+    {
+      "context_first_index": 5193,
+      "context_last_index": 5448,
+      "origin_date": "2026-08-31",
+      "origin_index": 5448,
+      "seed": 7475,
+      "target_date": "2026-09-01",
+      "target_index": 5449
+    },
+    {
+      "context_first_index": 5194,
+      "context_last_index": 5449,
+      "origin_date": "2026-09-01",
+      "origin_index": 5449,
+      "seed": 7476,
+      "target_date": "2026-09-02",
+      "target_index": 5450
+    },
+    {
+      "context_first_index": 5195,
+      "context_last_index": 5450,
+      "origin_date": "2026-09-02",
+      "origin_index": 5450,
+      "seed": 7477,
+      "target_date": "2026-09-03",
+      "target_index": 5451
+    },
+    {
+      "context_first_index": 5196,
+      "context_last_index": 5451,
+      "origin_date": "2026-09-03",
+      "origin_index": 5451,
+      "seed": 7478,
+      "target_date": "2026-09-04",
+      "target_index": 5452
+    },
+    {
+      "context_first_index": 5197,
+      "context_last_index": 5452,
+      "origin_date": "2026-09-04",
+      "origin_index": 5452,
+      "seed": 7479,
+      "target_date": "2026-09-08",
+      "target_index": 5453
+    },
+    {
+      "context_first_index": 5198,
+      "context_last_index": 5453,
+      "origin_date": "2026-09-08",
+      "origin_index": 5453,
+      "seed": 7480,
+      "target_date": "2026-09-09",
+      "target_index": 5454
+    },
+    {
+      "context_first_index": 5199,
+      "context_last_index": 5454,
+      "origin_date": "2026-09-09",
+      "origin_index": 5454,
+      "seed": 7481,
+      "target_date": "2026-09-10",
+      "target_index": 5455
+    },
+    {
+      "context_first_index": 5200,
+      "context_last_index": 5455,
+      "origin_date": "2026-09-10",
+      "origin_index": 5455,
+      "seed": 7482,
+      "target_date": "2026-09-11",
+      "target_index": 5456
+    },
+    {
+      "context_first_index": 5201,
+      "context_last_index": 5456,
+      "origin_date": "2026-09-11",
+      "origin_index": 5456,
+      "seed": 7483,
+      "target_date": "2026-09-14",
+      "target_index": 5457
+    },
+    {
+      "context_first_index": 5202,
+      "context_last_index": 5457,
+      "origin_date": "2026-09-14",
+      "origin_index": 5457,
+      "seed": 7484,
+      "target_date": "2026-09-15",
+      "target_index": 5458
+    },
+    {
+      "context_first_index": 5203,
+      "context_last_index": 5458,
+      "origin_date": "2026-09-15",
+      "origin_index": 5458,
+      "seed": 7485,
+      "target_date": "2026-09-16",
+      "target_index": 5459
+    },
+    {
+      "context_first_index": 5204,
+      "context_last_index": 5459,
+      "origin_date": "2026-09-16",
+      "origin_index": 5459,
+      "seed": 7486,
+      "target_date": "2026-09-17",
+      "target_index": 5460
+    },
+    {
+      "context_first_index": 5205,
+      "context_last_index": 5460,
+      "origin_date": "2026-09-17",
+      "origin_index": 5460,
+      "seed": 7487,
+      "target_date": "2026-09-18",
+      "target_index": 5461
+    },
+    {
+      "context_first_index": 5206,
+      "context_last_index": 5461,
+      "origin_date": "2026-09-18",
+      "origin_index": 5461,
+      "seed": 7488,
+      "target_date": "2026-09-21",
+      "target_index": 5462
+    },
+    {
+      "context_first_index": 5207,
+      "context_last_index": 5462,
+      "origin_date": "2026-09-21",
+      "origin_index": 5462,
+      "seed": 7489,
+      "target_date": "2026-09-22",
+      "target_index": 5463
+    },
+    {
+      "context_first_index": 5208,
+      "context_last_index": 5463,
+      "origin_date": "2026-09-22",
+      "origin_index": 5463,
+      "seed": 7490,
+      "target_date": "2026-09-23",
+      "target_index": 5464
+    },
+    {
+      "context_first_index": 5209,
+      "context_last_index": 5464,
+      "origin_date": "2026-09-23",
+      "origin_index": 5464,
+      "seed": 7491,
+      "target_date": "2026-09-24",
+      "target_index": 5465
+    },
+    {
+      "context_first_index": 5210,
+      "context_last_index": 5465,
+      "origin_date": "2026-09-24",
+      "origin_index": 5465,
+      "seed": 7492,
+      "target_date": "2026-09-25",
+      "target_index": 5466
+    },
+    {
+      "context_first_index": 5211,
+      "context_last_index": 5466,
+      "origin_date": "2026-09-25",
+      "origin_index": 5466,
+      "seed": 7493,
+      "target_date": "2026-09-28",
+      "target_index": 5467
+    },
+    {
+      "context_first_index": 5212,
+      "context_last_index": 5467,
+      "origin_date": "2026-09-28",
+      "origin_index": 5467,
+      "seed": 7494,
+      "target_date": "2026-09-29",
+      "target_index": 5468
+    },
+    {
+      "context_first_index": 5213,
+      "context_last_index": 5468,
+      "origin_date": "2026-09-29",
+      "origin_index": 5468,
+      "seed": 7495,
+      "target_date": "2026-09-30",
+      "target_index": 5469
+    },
+    {
+      "context_first_index": 5214,
+      "context_last_index": 5469,
+      "origin_date": "2026-09-30",
+      "origin_index": 5469,
+      "seed": 7496,
+      "target_date": "2026-10-01",
+      "target_index": 5470
+    },
+    {
+      "context_first_index": 5215,
+      "context_last_index": 5470,
+      "origin_date": "2026-10-01",
+      "origin_index": 5470,
+      "seed": 7497,
+      "target_date": "2026-10-02",
+      "target_index": 5471
+    },
+    {
+      "context_first_index": 5216,
+      "context_last_index": 5471,
+      "origin_date": "2026-10-02",
+      "origin_index": 5471,
+      "seed": 7498,
+      "target_date": "2026-10-05",
+      "target_index": 5472
+    },
+    {
+      "context_first_index": 5217,
+      "context_last_index": 5472,
+      "origin_date": "2026-10-05",
+      "origin_index": 5472,
+      "seed": 7499,
+      "target_date": "2026-10-06",
+      "target_index": 5473
+    },
+    {
+      "context_first_index": 5218,
+      "context_last_index": 5473,
+      "origin_date": "2026-10-06",
+      "origin_index": 5473,
+      "seed": 7500,
+      "target_date": "2026-10-07",
+      "target_index": 5474
+    },
+    {
+      "context_first_index": 5219,
+      "context_last_index": 5474,
+      "origin_date": "2026-10-07",
+      "origin_index": 5474,
+      "seed": 7501,
+      "target_date": "2026-10-08",
+      "target_index": 5475
+    },
+    {
+      "context_first_index": 5220,
+      "context_last_index": 5475,
+      "origin_date": "2026-10-08",
+      "origin_index": 5475,
+      "seed": 7502,
+      "target_date": "2026-10-09",
+      "target_index": 5476
+    },
+    {
+      "context_first_index": 5221,
+      "context_last_index": 5476,
+      "origin_date": "2026-10-09",
+      "origin_index": 5476,
+      "seed": 7503,
+      "target_date": "2026-10-12",
+      "target_index": 5477
+    },
+    {
+      "context_first_index": 5222,
+      "context_last_index": 5477,
+      "origin_date": "2026-10-12",
+      "origin_index": 5477,
+      "seed": 7504,
+      "target_date": "2026-10-13",
+      "target_index": 5478
+    },
+    {
+      "context_first_index": 5223,
+      "context_last_index": 5478,
+      "origin_date": "2026-10-13",
+      "origin_index": 5478,
+      "seed": 7505,
+      "target_date": "2026-10-14",
+      "target_index": 5479
+    },
+    {
+      "context_first_index": 5224,
+      "context_last_index": 5479,
+      "origin_date": "2026-10-14",
+      "origin_index": 5479,
+      "seed": 7506,
+      "target_date": "2026-10-15",
+      "target_index": 5480
+    },
+    {
+      "context_first_index": 5225,
+      "context_last_index": 5480,
+      "origin_date": "2026-10-15",
+      "origin_index": 5480,
+      "seed": 7507,
+      "target_date": "2026-10-16",
+      "target_index": 5481
+    },
+    {
+      "context_first_index": 5226,
+      "context_last_index": 5481,
+      "origin_date": "2026-10-16",
+      "origin_index": 5481,
+      "seed": 7508,
+      "target_date": "2026-10-19",
+      "target_index": 5482
+    },
+    {
+      "context_first_index": 5227,
+      "context_last_index": 5482,
+      "origin_date": "2026-10-19",
+      "origin_index": 5482,
+      "seed": 7509,
+      "target_date": "2026-10-20",
+      "target_index": 5483
+    },
+    {
+      "context_first_index": 5228,
+      "context_last_index": 5483,
+      "origin_date": "2026-10-20",
+      "origin_index": 5483,
+      "seed": 7510,
+      "target_date": "2026-10-21",
+      "target_index": 5484
+    },
+    {
+      "context_first_index": 5229,
+      "context_last_index": 5484,
+      "origin_date": "2026-10-21",
+      "origin_index": 5484,
+      "seed": 7511,
+      "target_date": "2026-10-22",
+      "target_index": 5485
+    },
+    {
+      "context_first_index": 5230,
+      "context_last_index": 5485,
+      "origin_date": "2026-10-22",
+      "origin_index": 5485,
+      "seed": 7512,
+      "target_date": "2026-10-23",
+      "target_index": 5486
+    },
+    {
+      "context_first_index": 5231,
+      "context_last_index": 5486,
+      "origin_date": "2026-10-23",
+      "origin_index": 5486,
+      "seed": 7513,
+      "target_date": "2026-10-26",
+      "target_index": 5487
+    },
+    {
+      "context_first_index": 5232,
+      "context_last_index": 5487,
+      "origin_date": "2026-10-26",
+      "origin_index": 5487,
+      "seed": 7514,
+      "target_date": "2026-10-27",
+      "target_index": 5488
+    },
+    {
+      "context_first_index": 5233,
+      "context_last_index": 5488,
+      "origin_date": "2026-10-27",
+      "origin_index": 5488,
+      "seed": 7515,
+      "target_date": "2026-10-28",
+      "target_index": 5489
+    },
+    {
+      "context_first_index": 5234,
+      "context_last_index": 5489,
+      "origin_date": "2026-10-28",
+      "origin_index": 5489,
+      "seed": 7516,
+      "target_date": "2026-10-29",
+      "target_index": 5490
+    },
+    {
+      "context_first_index": 5235,
+      "context_last_index": 5490,
+      "origin_date": "2026-10-29",
+      "origin_index": 5490,
+      "seed": 7517,
+      "target_date": "2026-10-30",
+      "target_index": 5491
+    }
+  ],
+  "point_in_time_adjusted_prices_verified": false,
+  "schema": "task011-final-origin-plan-v1",
+  "scientific_clearance": false,
+  "source": {
+    "calendar": "XNYS",
+    "count": 459,
+    "first_origin": "2024-12-31",
+    "first_target": "2025-01-02",
+    "last_target": "2026-10-30",
+    "metadata_path": "artifacts/manifests/SPY_20261104T095117433396Z_b41a8489.json",
+    "metadata_sha256": "b8995e5808cf7b0d5cbd40df04cca7eebb3e795c081fdd0f46f0e90413ca0d82",
+    "processed_sha256": "4375f3b90c5dbfe1cfd1a8191a36c15c2d878993ef04b130c8de8810927103ba",
+    "source_path": "artifacts/processed/SPY_20261104T095117433396Z_b41a8489.csv",
+    "source_snapshot_id": "SPY_20261104T095117433396Z_b41a8489"
+  },
+  "validation_plan_sha256": "f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54"
+}

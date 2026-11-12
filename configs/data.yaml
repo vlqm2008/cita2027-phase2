@@ -1,0 +1,15 @@
+symbol: SPY
+source: yahoo_yfinance
+start: '2005-01-01'
+end_exclusive: '2026-11-01'
+exchange_calendar: XNYS
+market_timezone: America/New_York
+price_field: adj_close
+return_unit: log_return_decimal
+split_boundaries:
+  warmup_end_exclusive: '2018-01-01'
+  development_end_exclusive: '2023-01-01'
+  validation_end_exclusive: '2025-01-01'
+  final_test_end_exclusive: '2026-11-01'
+strict_calendar: true
+max_abs_log_return_warning: 0.25

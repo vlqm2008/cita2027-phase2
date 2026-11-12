@@ -1,0 +1,9 @@
+{
+  "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "executable": "/opt/pyvenv/bin/python",
+  "nvidia_smi_available": false,
+  "torch": "2.10.0+cpu",
+  "torch_cuda_build": null,
+  "cuda_available": false
+}

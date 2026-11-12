@@ -1,0 +1,28 @@
+{
+  "bootstrap_inference": "paired_within_each_market_period_only; CIs exploratory unadjusted for multiplicity",
+  "btc_evidence_manifest_sha256": "718f0fcb8afeeff84ec00155cc621837d048dead55392264497f6c7f7ffefc96",
+  "btc_historical_point_in_time_verified": false,
+  "contamination_free_verified": false,
+  "final_test_read": false,
+  "n_table_contrasts": 40,
+  "n_table_factorial": 80,
+  "n_table_validation_regimes": 24,
+  "no_cross_market_score_comparison": true,
+  "no_cross_period_paired_test": true,
+  "point_in_time_adjusted_prices_verified": false,
+  "scientific_clearance": false,
+  "scope": "SPY_and_BTC_Development_Validation_aggregate_scientific_synthesis",
+  "source_reports_sha256": {
+    "BTC_Development": "7782834dfa3aaa0e863a82a02c1e49604a493b2be2223467320fb782e0933210",
+    "BTC_Validation": "878cdd2880134a312561e036ced07528ff17a3a428ecda8e9a365e7de1457ee2",
+    "SPY_Development": "972a196f7beae4e31a343a1163beb678f76ee29e63362bb9b10171d3ea1ff149",
+    "SPY_Validation": "311429215bd96c0dbf52fcd0f758c28b6be4d5798941c3760210a158447828ed"
+  },
+  "spy_development_gamma_paired_ci": "NOT_AVAILABLE_IN_ACCEPTED_SOURCE_REPORT; leave blank",
+  "tables_sha256": {
+    "table_full_factorial_80_rows.csv": "e0ea96e6f56468348ccd1caef2869e6ed92728b839cfc230509202a408bff8b8",
+    "table_paired_contrasts_40_rows.csv": "fdc469cc51c66b0a40e7fdad3e4df4900cb739e65f6d36a6e2f87899d5092a4d",
+    "table_validation_regimes_24_rows.csv": "dfcac827e03b9e8b526f88c206d4e641bf6c3966db92b95e7c7a3d875525a412"
+  },
+  "task": "TASK-009"
+}

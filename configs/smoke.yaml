@@ -1,0 +1,13 @@
+# Pre-Phase 3 only. Separate invocations load one backbone at a time.
+source_snapshot_id: SPY_20261104T095117433396Z_b41a8489
+context_length: 256
+horizon: 1
+count: 12
+seed: 2027
+samples: 100
+replay_origins: 2
+replay_tolerance: 1.0e-5
+quantiles: [0.1, 0.5, 0.9]
+model_ids:
+  chronos: amazon/chronos-t5-small
+  moirai: Salesforce/moirai-1.0-R-small

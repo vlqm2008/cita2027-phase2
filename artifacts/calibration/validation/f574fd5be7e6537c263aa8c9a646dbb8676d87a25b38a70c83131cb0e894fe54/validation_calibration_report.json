@@ -1,0 +1,3080 @@
+{
+  "calibration_state": "causal_continuous_replay_1258_dev_then_502_validation_no_reset",
+  "contamination_free_verified": false,
+  "development_plan_sha256": "39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f",
+  "final_test_used": false,
+  "forecast_inputs": {
+    "chronos": {
+      "manifest_sha256": "ced314719eee5ce64185b8e16b05170cadad218ca1c8a84debdcced118ffdca3",
+      "predictions_sha256": "f9ef1f691889b07d0bbf1955d9a815f81058bfc8ea3b24ba44e20cb673a0eac3"
+    },
+    "moirai": {
+      "manifest_sha256": "1fbad6312639c2b95141799bf29c4bb5a7f9c3ce2b080ff20a9c798c228b4e4b",
+      "predictions_sha256": "30df98645bf58714cc27c8bf560056927eb739d024f3403bab5396ddd66201b8"
+    }
+  },
+  "method_selection_performed": false,
+  "models": {
+    "chronos": {
+      "none__fixed_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8047808764940239,
+          "lower_miss_rate": 0.0796812749003984,
+          "lower_penalty_mean": 0.004541841529368832,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.94,
+          "rolling_empirical_coverage_min": 0.64,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.11553784860557768,
+          "upper_penalty_mean": 0.003750037208053351,
+          "width_component_mean": 0.02170849590333197,
+          "width_mean": 0.02170849590333197,
+          "winkler_mean": 0.03000037464075415
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.001245970525002464,
+                0.00013116241935825647
+              ],
+              "exploratory": true,
+              "mean": -0.0005295378520225616,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0013467785312525084,
+                0.0002746115664604176
+              ],
+              "exploratory": true,
+              "mean": -0.0005295378520225616,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.001459007269257787,
+                0.000354652904204917
+              ],
+              "exploratory": true,
+              "mean": -0.0005295378520225616,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.5475649350649351,
+                0.8382471537001898
+              ],
+              "lower_miss": [
+                0.03636363636363636,
+                0.18422064777327934
+              ],
+              "lower_penalty": [
+                0.0020488241862772374,
+                0.016459296899314524
+              ],
+              "upper_miss": [
+                0.08333333333333333,
+                0.31175324675324667
+              ],
+              "upper_penalty": [
+                0.001475599777985543,
+                0.011304038631275973
+              ],
+              "width": [
+                0.018858801565863753,
+                0.02084333674497528
+              ],
+              "winkler": [
+                0.02477247557235458,
+                0.046836018749809014
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.704225352112676,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.11267605633802817,
+            "lower_penalty": 0.009209099124233884,
+            "n": 71,
+            "upper_miss": 0.18309859154929578,
+            "upper_penalty": 0.0058617497382969985,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.020059907432167852,
+            "winkler": 0.035130756294698744
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7706163778076598,
+                0.8665159595403022
+              ],
+              "lower_miss": [
+                0.04510855791163301,
+                0.105386722978197
+              ],
+              "lower_penalty": [
+                0.0020830796989860087,
+                0.0058207686024488925
+              ],
+              "upper_miss": [
+                0.07760140714888202,
+                0.13395097735768197
+              ],
+              "upper_penalty": [
+                0.001966401618532913,
+                0.005268217210508677
+              ],
+              "width": [
+                0.019142603113276827,
+                0.025124675647197177
+              ],
+              "winkler": [
+                0.026176902644399952,
+                0.032267003621640235
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8213457076566125,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.07424593967517401,
+            "lower_penalty": 0.0037729893501683245,
+            "n": 431,
+            "upper_miss": 0.10440835266821345,
+            "upper_penalty": 0.003402168090542216,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.021980073122479654,
+            "winkler": 0.029155230563190193
+          }
+        }
+      },
+      "none__rolling_cqr": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8565737051792829,
+          "lower_miss_rate": 0.061752988047808766,
+          "lower_penalty_mean": 0.0033574899280940243,
+          "n": 502,
+          "rolling_empirical_coverage_max": 1.0,
+          "rolling_empirical_coverage_min": 0.66,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.08167330677290836,
+          "upper_penalty_mean": 0.002438775777776925,
+          "width_component_mean": 0.024733646786905764,
+          "width_mean": 0.024733646786905764,
+          "winkler_mean": 0.03052991249277671
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                -0.00013116241935825655,
+                0.001245970525002464
+              ],
+              "exploratory": true,
+              "mean": 0.0005295378520225616,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.00027461156646041765,
+                0.0013467785312525082
+              ],
+              "exploratory": true,
+              "mean": 0.0005295378520225616,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.00035465290420491716,
+                0.001459007269257787
+              ],
+              "exploratory": true,
+              "mean": 0.0005295378520225616,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.5475649350649351,
+                0.8382471537001898
+              ],
+              "lower_miss": [
+                0.03636363636363636,
+                0.18422064777327934
+              ],
+              "lower_penalty": [
+                0.0021118558500798014,
+                0.0164407612704803
+              ],
+              "upper_miss": [
+                0.08333333333333333,
+                0.31175324675324667
+              ],
+              "upper_penalty": [
+                0.0013815812795892701,
+                0.011485541502052348
+              ],
+              "width": [
+                0.019025347530604995,
+                0.019758359859801317
+              ],
+              "winkler": [
+                0.02415709523771597,
+                0.04656910420628724
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.704225352112676,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.11267605633802817,
+            "lower_penalty": 0.009321864245575406,
+            "n": 71,
+            "upper_miss": 0.18309859154929578,
+            "upper_penalty": 0.0059920789248907235,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.019480869359679534,
+            "winkler": 0.03479481253014565
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.8415811398212992,
+                0.9157712770909361
+              ],
+              "lower_miss": [
+                0.03069891640866873,
+                0.08010622998926283
+              ],
+              "lower_penalty": [
+                0.0010203446072513352,
+                0.0041107520872377575
+              ],
+              "upper_miss": [
+                0.04137889084654753,
+                0.09153015284503631
+              ],
+              "upper_penalty": [
+                0.000817864799871154,
+                0.003228262750171016
+              ],
+              "width": [
+                0.02280244827514889,
+                0.028317662296496574
+              ],
+              "winkler": [
+                0.027123625865237356,
+                0.03249176996835183
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8816705336426914,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.05336426914153132,
+            "lower_penalty": 0.0023749595880912908,
+            "n": 431,
+            "upper_miss": 0.06496519721577726,
+            "upper_penalty": 0.0018534288556305682,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.025598953509256252,
+            "winkler": 0.029827341952978117
+          }
+        }
+      },
+      "none__variable_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.798804780876494,
+          "lower_miss_rate": 0.08167330677290836,
+          "lower_penalty_mean": 0.004704182298312424,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.9,
+          "rolling_empirical_coverage_min": 0.64,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.11952191235059761,
+          "upper_penalty_mean": 0.003998752748916867,
+          "width_component_mean": 0.021076252459938813,
+          "width_mean": 0.021076252459938813,
+          "winkler_mean": 0.029779187507168098
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                -0.0005455397994370742,
+                0.00010482313144814036
+              ],
+              "exploratory": true,
+              "mean": -0.00022118713358604906,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0005793111674192442,
+                0.00010986539053514554
+              ],
+              "exploratory": true,
+              "mean": -0.00022118713358604906,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0005396774241727383,
+                8.463197545141975e-05
+              ],
+              "exploratory": true,
+              "mean": -0.00022118713358604906,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0015749229442329356,
+                8.27229953257321e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0007507249856086106,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0016870938645857417,
+                0.00016325776873787678
+              ],
+              "exploratory": true,
+              "mean": -0.0007507249856086106,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0018561181210417224,
+                0.00026657398674702576
+              ],
+              "exploratory": true,
+              "mean": -0.0007507249856086106,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.5769230769230769,
+                0.8648724567263893
+              ],
+              "lower_miss": [
+                0.03636363636363636,
+                0.18422064777327934
+              ],
+              "lower_penalty": [
+                0.0021287461343346037,
+                0.015657115464024478
+              ],
+              "upper_miss": [
+                0.05553030303030303,
+                0.2857632093933463
+              ],
+              "upper_penalty": [
+                0.001300372823838726,
+                0.009801849994714937
+              ],
+              "width": [
+                0.01904790510105515,
+                0.02239934248284351
+              ],
+              "winkler": [
+                0.02468667770853624,
+                0.04556138069795924
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.7323943661971831,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.11267605633802817,
+            "lower_penalty": 0.008809836237802453,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.004953724760164871,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02113889724456387,
+            "winkler": 0.03490245824253119
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7613319207514576,
+                0.8541200589575237
+              ],
+              "lower_miss": [
+                0.04819208024759589,
+                0.1073065337445313
+              ],
+              "lower_penalty": [
+                0.002335552637467634,
+                0.006036643979185489
+              ],
+              "upper_miss": [
+                0.0857124865059374,
+                0.1403989756822269
+              ],
+              "upper_penalty": [
+                0.002447685908651925,
+                0.0055918577681182855
+              ],
+              "width": [
+                0.018639663505701225,
+                0.023787999939020716
+              ],
+              "winkler": [
+                0.02608627637368359,
+                0.03186585277753406
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8097447795823666,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.0765661252900232,
+            "lower_penalty": 0.004027844874405713,
+            "n": 431,
+            "upper_miss": 0.1136890951276102,
+            "upper_penalty": 0.0038414371739781015,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02106593278544141,
+            "winkler": 0.028935214833825225
+          }
+        }
+      },
+      "raw_q10_q90": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.199203187250996,
+          "lower_miss_rate": 0.3665338645418327,
+          "lower_penalty_mean": 0.021417441637705877,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.34,
+          "rolling_empirical_coverage_min": 0.08,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.4342629482071713,
+          "upper_penalty_mean": 0.027408880471144922,
+          "width_component_mean": 0.002945027997386742,
+          "width_mean": 0.002945027997386742,
+          "winkler_mean": 0.05177135010623755
+        }
+      },
+      "residual_ewma__fixed_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.798804780876494,
+          "lower_miss_rate": 0.08764940239043825,
+          "lower_penalty_mean": 0.004600674404853823,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.7,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.11354581673306773,
+          "upper_penalty_mean": 0.004053327441576755,
+          "width_component_mean": 0.020752374931602105,
+          "width_mean": 0.020752374931602105,
+          "winkler_mean": 0.02940637677803268
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.002171255304652951,
+                4.8964958282635326e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0011235357147440284,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0022967319816880093,
+                2.8958446010643433e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0011235357147440284,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0024410618936914793,
+                4.831429183658364e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0011235357147440284,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.7192982456140351,
+                0.9318560606060605
+              ],
+              "lower_miss": [
+                0.03636363636363636,
+                0.18422064777327934
+              ],
+              "lower_penalty": [
+                0.0015835585998301494,
+                0.011307514016813248
+              ],
+              "upper_miss": [
+                0.0,
+                0.10449725058915944
+              ],
+              "upper_penalty": [
+                0.0,
+                0.0040791784052736915
+              ],
+              "width": [
+                0.021887086810874246,
+                0.02866309926664867
+              ],
+              "winkler": [
+                0.02513795962322847,
+                0.042465499220074886
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8309859154929577,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.11267605633802817,
+            "lower_penalty": 0.006464432385989816,
+            "n": 71,
+            "upper_miss": 0.056338028169014086,
+            "upper_penalty": 0.0019123727460765212,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02592719913150034,
+            "winkler": 0.034304004263566674
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7592152956514897,
+                0.8301986681465039
+              ],
+              "lower_miss": [
+                0.056463975754236125,
+                0.11358164983164984
+              ],
+              "lower_penalty": [
+                0.002580113585108728,
+                0.006338085182347556
+              ],
+              "upper_miss": [
+                0.09848443405609707,
+                0.14583918539325844
+              ],
+              "upper_penalty": [
+                0.0031227745038341446,
+                0.005868759934306669
+              ],
+              "width": [
+                0.018173250930104703,
+                0.02174026403473877
+              ],
+              "winkler": [
+                0.02564856895686162,
+                0.03167982901249646
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.7935034802784223,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.08352668213457076,
+            "lower_penalty": 0.004293651628378984,
+            "n": 431,
+            "upper_miss": 0.12296983758700696,
+            "upper_penalty": 0.0044060137139213425,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.01989990969217571,
+            "winkler": 0.028599575034476035
+          }
+        }
+      },
+      "residual_ewma__rolling_cqr": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8167330677290837,
+          "lower_miss_rate": 0.0796812749003984,
+          "lower_penalty_mean": 0.004400347137375918,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.72,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.10358565737051793,
+          "upper_penalty_mean": 0.003736804917414884,
+          "width_component_mean": 0.021150982684331406,
+          "width_mean": 0.021150982684331406,
+          "winkler_mean": 0.029288134739122215
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                -0.0003715226849648648,
+                0.00011189224071647139
+              ],
+              "exploratory": true,
+              "mean": -0.00011824203891047223,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0003425802121932515,
+                0.00010417965654161728
+              ],
+              "exploratory": true,
+              "mean": -0.00011824203891047223,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0003106659721764587,
+                6.747921233597065e-05
+              ],
+              "exploratory": true,
+              "mean": -0.00011824203891047223,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0022051540452943047,
+                -0.00022841987377679446
+              ],
+              "exploratory": true,
+              "mean": -0.0012417777536545007,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0022714358808454426,
+                -0.00022559524357664606
+              ],
+              "exploratory": true,
+              "mean": -0.0012417777536545007,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0024959561099163335,
+                -0.00012129179634555385
+              ],
+              "exploratory": true,
+              "mean": -0.0012417777536545007,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.7391137123745819,
+                0.9062604166666667
+              ],
+              "lower_miss": [
+                0.03636363636363636,
+                0.18422064777327934
+              ],
+              "lower_penalty": [
+                0.0012770467932654815,
+                0.011838365057350142
+              ],
+              "upper_miss": [
+                0.0,
+                0.10591386554621846
+              ],
+              "upper_penalty": [
+                0.0,
+                0.00459393658176009
+              ],
+              "width": [
+                0.022110565071851294,
+                0.02732576857115252
+              ],
+              "winkler": [
+                0.024497080582349267,
+                0.0424769490783445
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8309859154929577,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.11267605633802817,
+            "lower_penalty": 0.0065545415484128166,
+            "n": 71,
+            "upper_miss": 0.056338028169014086,
+            "upper_penalty": 0.002089271275310104,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.025216031325734415,
+            "winkler": 0.03385984414945734
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7768566211800884,
+                0.8519536984754376
+              ],
+              "lower_miss": [
+                0.04952771810199888,
+                0.1
+              ],
+              "lower_penalty": [
+                0.002398922693821861,
+                0.006051169934978305
+              ],
+              "upper_miss": [
+                0.08759124087591241,
+                0.13446123130103105
+              ],
+              "upper_penalty": [
+                0.00274304198859831,
+                0.0055488867341433835
+              ],
+              "width": [
+                0.018545706533012008,
+                0.022598368647570262
+              ],
+              "winkler": [
+                0.025649564665605026,
+                0.03146729002866814
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.814385150812065,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.07424593967517401,
+            "lower_penalty": 0.004045479844606498,
+            "n": 431,
+            "upper_miss": 0.11136890951276102,
+            "upper_penalty": 0.004008208371218688,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.020481334300248778,
+            "winkler": 0.02853502251607396
+          }
+        }
+      },
+      "residual_ewma__variable_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.7928286852589641,
+          "lower_miss_rate": 0.09163346613545817,
+          "lower_penalty_mean": 0.0046339650817533865,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.9,
+          "rolling_empirical_coverage_min": 0.68,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.11553784860557768,
+          "upper_penalty_mean": 0.004002752664804413,
+          "width_component_mean": 0.020872191548430365,
+          "width_mean": 0.020872191548430365,
+          "winkler_mean": 0.029508909294988166
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                -4.240871520117522e-05,
+                0.00026254052284485787
+              ],
+              "exploratory": true,
+              "mean": 0.00010253251695548299,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -2.413400950956607e-05,
+                0.00024424854585656765
+              ],
+              "exploratory": true,
+              "mean": 0.00010253251695548299,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -1.245165810069368e-05,
+                0.0002279427935081539
+              ],
+              "exploratory": true,
+              "mean": 0.00010253251695548299,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.002099383111607445,
+                0.00018667102079510955
+              ],
+              "exploratory": true,
+              "mean": -0.0010210031977885457,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0022007329948651464,
+                9.59419862701555e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0010210031977885457,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.002367815446788662,
+                0.00017922403721067328
+              ],
+              "exploratory": true,
+              "mean": -0.0010210031977885457,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.7192982456140351,
+                0.9318560606060605
+              ],
+              "lower_miss": [
+                0.03636363636363636,
+                0.18422064777327934
+              ],
+              "lower_penalty": [
+                0.0016593980042119722,
+                0.010786616893642449
+              ],
+              "upper_miss": [
+                0.0,
+                0.10449725058915944
+              ],
+              "upper_penalty": [
+                0.0,
+                0.0034168988234705576
+              ],
+              "width": [
+                0.021711197099118253,
+                0.03044865619204305
+              ],
+              "winkler": [
+                0.025320539270023975,
+                0.042530730260525326
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8309859154929577,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.11267605633802817,
+            "lower_penalty": 0.006269576528231027,
+            "n": 71,
+            "upper_miss": 0.056338028169014086,
+            "upper_penalty": 0.0017046341405991996,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.026742803984154583,
+            "winkler": 0.03471701465298481
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7542548877499956,
+                0.8194222707315258
+              ],
+              "lower_miss": [
+                0.061072140720695056,
+                0.11818235546958951
+              ],
+              "lower_penalty": [
+                0.002659986392018795,
+                0.006405365077459328
+              ],
+              "upper_miss": [
+                0.10102978518104717,
+                0.14798410574379195
+              ],
+              "upper_penalty": [
+                0.003126991578807184,
+                0.005774160541103165
+              ],
+              "width": [
+                0.018150970914414893,
+                0.021776470206454502
+              ],
+              "winkler": [
+                0.025715020943976576,
+                0.031660052877377436
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.7865429234338747,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.08816705336426914,
+            "lower_penalty": 0.00436452560913178,
+            "n": 431,
+            "upper_miss": 0.12529002320185614,
+            "upper_penalty": 0.004381329034221049,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.019905106901246097,
+            "winkler": 0.028650961544598928
+          }
+        }
+      },
+      "return_ewma__fixed_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.798804780876494,
+          "lower_miss_rate": 0.08964143426294821,
+          "lower_penalty_mean": 0.004539638229183348,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.7,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.11155378486055777,
+          "upper_penalty_mean": 0.0038878211113738113,
+          "width_component_mean": 0.021044108577210927,
+          "width_mean": 0.021044108577210927,
+          "winkler_mean": 0.029471567917768088
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0020927437911291815,
+                9.227375827748781e-05
+              ],
+              "exploratory": true,
+              "mean": -0.001058344575008623,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0021860627150317707,
+                6.909225971015827e-05
+              ],
+              "exploratory": true,
+              "mean": -0.001058344575008623,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0023790323548161904,
+                0.00011275611670820227
+              ],
+              "exploratory": true,
+              "mean": -0.001058344575008623,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.7192982456140351,
+                0.9318560606060605
+              ],
+              "lower_miss": [
+                0.03636363636363636,
+                0.18422064777327934
+              ],
+              "lower_penalty": [
+                0.0015105341966379286,
+                0.011445832000806259
+              ],
+              "upper_miss": [
+                0.0,
+                0.10449725058915944
+              ],
+              "upper_penalty": [
+                0.0,
+                0.004329360889373456
+              ],
+              "width": [
+                0.02196186282734389,
+                0.028857380784661348
+              ],
+              "winkler": [
+                0.025127115891014417,
+                0.04275894366944254
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8309859154929577,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.11267605633802817,
+            "lower_penalty": 0.0064375210729583745,
+            "n": 71,
+            "upper_miss": 0.056338028169014086,
+            "upper_penalty": 0.0019915795123252268,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.026073134234212487,
+            "winkler": 0.03450223481949608
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7573484774704583,
+                0.8325493901476276
+              ],
+              "lower_miss": [
+                0.05792738778086201,
+                0.11655011655011654
+              ],
+              "lower_penalty": [
+                0.002537396581493942,
+                0.006279614807579096
+              ],
+              "upper_miss": [
+                0.09571187170107465,
+                0.1447118826594151
+              ],
+              "upper_penalty": [
+                0.0029811644195826235,
+                0.005583275312954357
+              ],
+              "width": [
+                0.018502644767163366,
+                0.022018268300525425
+              ],
+              "winkler": [
+                0.025741486175350752,
+                0.03168799082599694
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.7935034802784223,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.08584686774941995,
+            "lower_penalty": 0.004226993955614839,
+            "n": 431,
+            "upper_miss": 0.12064965197215777,
+            "upper_penalty": 0.004200195017481583,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02021566119519907,
+            "winkler": 0.028642850168295493
+          }
+        }
+      },
+      "return_ewma__rolling_cqr": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8107569721115537,
+          "lower_miss_rate": 0.08366533864541832,
+          "lower_penalty_mean": 0.004394510031905092,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.7,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.10557768924302789,
+          "upper_penalty_mean": 0.0036795792998931117,
+          "width_component_mean": 0.021262099687915755,
+          "width_mean": 0.021262099687915755,
+          "winkler_mean": 0.029336189019713958
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                -0.00039585309386598545,
+                0.00010731850751935309
+              ],
+              "exploratory": true,
+              "mean": -0.00013537889805412736,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0003763334409942325,
+                8.99651004785254e-05
+              ],
+              "exploratory": true,
+              "mean": -0.00013537889805412736,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.000340497450276634,
+                5.393218878933937e-05
+              ],
+              "exploratory": true,
+              "mean": -0.00013537889805412736,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0021690093580528295,
+                -0.0001744703728077881
+              ],
+              "exploratory": true,
+              "mean": -0.0011937234730627505,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.002245427649823348,
+                -0.00017222574188933788
+              ],
+              "exploratory": true,
+              "mean": -0.0011937234730627505,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0024766213665998018,
+                -6.26921315466314e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0011937234730627505,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.7391137123745819,
+                0.9062604166666667
+              ],
+              "lower_miss": [
+                0.03636363636363636,
+                0.18422064777327934
+              ],
+              "lower_penalty": [
+                0.001247439929708376,
+                0.012176045804830258
+              ],
+              "upper_miss": [
+                0.0,
+                0.10591386554621846
+              ],
+              "upper_penalty": [
+                0.0,
+                0.004739088411919224
+              ],
+              "width": [
+                0.022169085676976306,
+                0.027445173861135163
+              ],
+              "winkler": [
+                0.02451457336313541,
+                0.04291417313860897
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8309859154929577,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.11267605633802817,
+            "lower_penalty": 0.0066230074576649044,
+            "n": 71,
+            "upper_miss": 0.056338028169014086,
+            "upper_penalty": 0.0021267709830562844,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02531991655577869,
+            "winkler": 0.03406969499649987
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7668393782383419,
+                0.8470728291316526
+              ],
+              "lower_miss": [
+                0.05144438097958018,
+                0.10828260801355465
+              ],
+              "lower_penalty": [
+                0.002394873057688622,
+                0.006039399131618553
+              ],
+              "upper_miss": [
+                0.08879234775434436,
+                0.13921318695100596
+              ],
+              "upper_penalty": [
+                0.002721533397764608,
+                0.005379972087183788
+              ],
+              "width": [
+                0.018712657512739973,
+                0.022658912834703886
+              ],
+              "winkler": [
+                0.02571221148475401,
+                0.031464685128460956
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8074245939675174,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.07888631090487239,
+            "lower_penalty": 0.0040274025673367716,
+            "n": 431,
+            "upper_miss": 0.1136890951276102,
+            "upper_penalty": 0.003935378349766464,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.020593642616875685,
+            "winkler": 0.02855642353397892
+          }
+        }
+      },
+      "return_ewma__variable_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.7928286852589641,
+          "lower_miss_rate": 0.09163346613545817,
+          "lower_penalty_mean": 0.004551285289542619,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.68,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.11553784860557768,
+          "upper_penalty_mean": 0.003906081444133494,
+          "width_component_mean": 0.021072584788555063,
+          "width_mean": 0.021072584788555063,
+          "winkler_mean": 0.029529951522231174
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                -9.823068915622848e-05,
+                0.00024389649328399136
+              ],
+              "exploratory": true,
+              "mean": 5.8383604463088896e-05,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -8.002857338349977e-05,
+                0.00021144154507729616
+              ],
+              "exploratory": true,
+              "mean": 5.8383604463088896e-05,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -5.885736368767971e-05,
+                0.00019038817173518428
+              ],
+              "exploratory": true,
+              "mean": 5.8383604463088896e-05,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0020715882165085854,
+                0.00023242996405984786
+              ],
+              "exploratory": true,
+              "mean": -0.0009999609705455342,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.00217111901988181,
+                0.00012231207589122106
+              ],
+              "exploratory": true,
+              "mean": -0.0009999609705455342,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0023311508789964747,
+                0.0001805542875840214
+              ],
+              "exploratory": true,
+              "mean": -0.0009999609705455342,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.7192982456140351,
+                0.9318560606060605
+              ],
+              "lower_miss": [
+                0.03636363636363636,
+                0.18422064777327934
+              ],
+              "lower_penalty": [
+                0.0016644361219313726,
+                0.010979627371046087
+              ],
+              "upper_miss": [
+                0.0,
+                0.10449725058915944
+              ],
+              "upper_penalty": [
+                0.0,
+                0.003361157266487409
+              ],
+              "width": [
+                0.02140608893047262,
+                0.031051780979645064
+              ],
+              "winkler": [
+                0.025493250511417816,
+                0.04283353593521888
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8309859154929577,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.11267605633802817,
+            "lower_penalty": 0.006321151710746508,
+            "n": 71,
+            "upper_miss": 0.056338028169014086,
+            "upper_penalty": 0.001699247493796559,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02704451792950378,
+            "winkler": 0.03506491713404686
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7521482855846513,
+                0.8242047897083828
+              ],
+              "lower_miss": [
+                0.06032340176499834,
+                0.11848428997718097
+              ],
+              "lower_penalty": [
+                0.0025893136931401726,
+                0.006303508450196569
+              ],
+              "upper_miss": [
+                0.10227272727272728,
+                0.14588697951090548
+              ],
+              "upper_penalty": [
+                0.003065992497938349,
+                0.005590247324707485
+              ],
+              "width": [
+                0.01842271961403592,
+                0.0218716693632741
+              ],
+              "winkler": [
+                0.025774707659876953,
+                0.03160886558600785
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.7865429234338747,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.08816705336426914,
+            "lower_penalty": 0.004259729568184204,
+            "n": 431,
+            "upper_miss": 0.12529002320185614,
+            "upper_penalty": 0.0042696202155347055,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02008880925953567,
+            "winkler": 0.02861815904325458
+          }
+        }
+      },
+      "signed_rolling_none": {
+        "coverage_with_empty_as_miss": null,
+        "empty_origins_in_validation": [],
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8565737051792829,
+          "lower_miss_rate": 0.061752988047808766,
+          "lower_penalty_mean": 0.0033574899280940243,
+          "n": 502,
+          "rolling_empirical_coverage_max": 1.0,
+          "rolling_empirical_coverage_min": 0.66,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.08167330677290836,
+          "upper_penalty_mean": 0.002438775777776925,
+          "width_component_mean": 0.024733646786905764,
+          "width_mean": 0.024733646786905764,
+          "winkler_mean": 0.03052991249277671
+        },
+        "signed_winkler_undefined_if_empty": false,
+        "status": "FINITE_SIGNED_INTERVALS"
+      }
+    },
+    "moirai": {
+      "none__fixed_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8107569721115537,
+          "lower_miss_rate": 0.09760956175298804,
+          "lower_penalty_mean": 0.005270831042666791,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.09163346613545817,
+          "upper_penalty_mean": 0.00398006416703881,
+          "width_component_mean": 0.023000388577423352,
+          "width_mean": 0.023000388577423352,
+          "winkler_mean": 0.03225128378712896
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0012145564010368265,
+                -0.0002722755928084185
+              ],
+              "exploratory": true,
+              "mean": -0.0007135968186466646,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0013545686227430876,
+                -0.00018735920069915392
+              ],
+              "exploratory": true,
+              "mean": -0.0007135968186466646,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0014630074853633562,
+                -8.315497371367352e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0007135968186466646,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.531234056122449,
+                0.846195652173913
+              ],
+              "lower_miss": [
+                0.0491703318672531,
+                0.2452912942734194
+              ],
+              "lower_penalty": [
+                0.0019843018264762468,
+                0.013249427580147742
+              ],
+              "upper_miss": [
+                0.05258697591436218,
+                0.2641877948113207
+              ],
+              "upper_penalty": [
+                0.0020101964586484405,
+                0.014714360286526068
+              ],
+              "width": [
+                0.018117763925211604,
+                0.0219392416790721
+              ],
+              "winkler": [
+                0.02648990091505002,
+                0.0471238877174966
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.6901408450704225,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.15492957746478872,
+            "lower_penalty": 0.008963547022160751,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.00804050100729715,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.020154035173382774,
+            "winkler": 0.03715808320284067
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7953474692202462,
+                0.8626159247482776
+              ],
+              "lower_miss": [
+                0.06234922927041556,
+                0.1152193094629156
+              ],
+              "lower_penalty": [
+                0.0030701935942785926,
+                0.0066525655453691344
+              ],
+              "upper_miss": [
+                0.06080569205569206,
+                0.10386686854078159
+              ],
+              "upper_penalty": [
+                0.002012895039623073,
+                0.004882625635495368
+              ],
+              "width": [
+                0.02053904586509645,
+                0.026516690071684185
+              ],
+              "winkler": [
+                0.027954920830438133,
+                0.03489302908464595
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8306264501160093,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.08816705336426914,
+            "lower_penalty": 0.004662518201497253,
+            "n": 431,
+            "upper_miss": 0.08120649651972157,
+            "upper_penalty": 0.0033111754996180626,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02346927742124442,
+            "winkler": 0.031442971122359734
+          }
+        }
+      },
+      "none__rolling_cqr": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8286852589641435,
+          "lower_miss_rate": 0.08964143426294821,
+          "lower_penalty_mean": 0.004925238246597253,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.96,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.08167330677290836,
+          "upper_penalty_mean": 0.0036008143461307685,
+          "width_component_mean": 0.024438828013047597,
+          "width_mean": 0.024438828013047597,
+          "winkler_mean": 0.03296488060577561
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                0.00027227559280841845,
+                0.0012145564010368265
+              ],
+              "exploratory": true,
+              "mean": 0.0007135968186466646,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                0.00018735920069915392,
+                0.0013545686227430876
+              ],
+              "exploratory": true,
+              "mean": 0.0007135968186466646,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                8.315497371367352e-05,
+                0.0014630074853633562
+              ],
+              "exploratory": true,
+              "mean": 0.0007135968186466646,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.531234056122449,
+                0.846195652173913
+              ],
+              "lower_miss": [
+                0.0491703318672531,
+                0.2452912942734194
+              ],
+              "lower_penalty": [
+                0.0014462749877520145,
+                0.012802206018079323
+              ],
+              "upper_miss": [
+                0.05258697591436218,
+                0.2641877948113207
+              ],
+              "upper_penalty": [
+                0.0016835237696958415,
+                0.014206803756283451
+              ],
+              "width": [
+                0.01881392159124111,
+                0.022651770961036634
+              ],
+              "winkler": [
+                0.026473296878291773,
+                0.046763109616031515
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.6901408450704225,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.15492957746478872,
+            "lower_penalty": 0.008488097629918683,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.0076038547190274116,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.0209425428645872,
+            "winkler": 0.037034495213533296
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.8094090287277702,
+                0.8872279609574394
+              ],
+              "lower_miss": [
+                0.05167961189452781,
+                0.10748030258580947
+              ],
+              "lower_penalty": [
+                0.0027222094691377323,
+                0.006396735916607608
+              ],
+              "upper_miss": [
+                0.04940799768183135,
+                0.09302451424544447
+              ],
+              "upper_penalty": [
+                0.001756671589117714,
+                0.0044555414308533195
+              ],
+              "width": [
+                0.021234205293518438,
+                0.029036183572982606
+              ],
+              "winkler": [
+                0.028385236909592767,
+                0.036150517319946306
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.851508120649652,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.07888631090487239,
+            "lower_penalty": 0.004338317095284442,
+            "n": 431,
+            "upper_miss": 0.06960556844547564,
+            "upper_penalty": 0.0029413807812220406,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.025014782179035275,
+            "winkler": 0.03229448005554175
+          }
+        }
+      },
+      "none__variable_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8047808764940239,
+          "lower_miss_rate": 0.099601593625498,
+          "lower_penalty_mean": 0.00549976028209364,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.09561752988047809,
+          "upper_penalty_mean": 0.004109777309242073,
+          "width_component_mean": 0.02260319758134191,
+          "width_mean": 0.02260319758134191,
+          "winkler_mean": 0.03221273517267763
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                -0.00018606970497640174,
+                0.00011454427224312334
+              ],
+              "exploratory": true,
+              "mean": -3.854861445132821e-05,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.00020710158807453198,
+                0.00010630533233755486
+              ],
+              "exploratory": true,
+              "mean": -3.854861445132821e-05,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.00015193246960502907,
+                6.37425684052624e-05
+              ],
+              "exploratory": true,
+              "mean": -3.854861445132821e-05,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0013194434674803283,
+                -0.0002480197787361323
+              ],
+              "exploratory": true,
+              "mean": -0.0007521454330979928,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0014811586352824267,
+                -0.00015164848402134077
+              ],
+              "exploratory": true,
+              "mean": -0.0007521454330979928,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.001584284980744737,
+                -5.2546442682516005e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0007521454330979928,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.531234056122449,
+                0.846195652173913
+              ],
+              "lower_miss": [
+                0.0491703318672531,
+                0.2452912942734194
+              ],
+              "lower_penalty": [
+                0.0019843018264762468,
+                0.013249427580147742
+              ],
+              "upper_miss": [
+                0.05258697591436218,
+                0.2641877948113207
+              ],
+              "upper_penalty": [
+                0.0020101964586484405,
+                0.014714360286526068
+              ],
+              "width": [
+                0.018117763925211604,
+                0.0219392416790721
+              ],
+              "winkler": [
+                0.02648990091505002,
+                0.0471238877174966
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.6901408450704225,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.15492957746478872,
+            "lower_penalty": 0.008963547022160751,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.00804050100729715,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.020154035173382774,
+            "winkler": 0.03715808320284067
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7878028507267171,
+                0.8558394289461736
+              ],
+              "lower_miss": [
+                0.06400957523094444,
+                0.11802736860267
+              ],
+              "lower_penalty": [
+                0.003311121965337739,
+                0.006909000391273854
+              ],
+              "upper_miss": [
+                0.06565350102971462,
+                0.10698089700996677
+              ],
+              "upper_penalty": [
+                0.0021709906733054767,
+                0.005040502009839405
+              ],
+              "width": [
+                0.020425867609112008,
+                0.025742590438250546
+              ],
+              "winkler": [
+                0.027924599190681434,
+                0.03491426659807891
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8236658932714617,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.09048723897911833,
+            "lower_penalty": 0.004929159682221795,
+            "n": 431,
+            "upper_miss": 0.08584686774941995,
+            "upper_penalty": 0.0034622567000497048,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.023006655889845625,
+            "winkler": 0.03139807227211713
+          }
+        }
+      },
+      "raw_q10_q90": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8047808764940239,
+          "lower_miss_rate": 0.099601593625498,
+          "lower_penalty_mean": 0.005656500000962855,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.09561752988047809,
+          "upper_penalty_mean": 0.0042295821922172195,
+          "width_component_mean": 0.02222347102091793,
+          "width_mean": 0.02222347102091793,
+          "winkler_mean": 0.032109553214098
+        }
+      },
+      "residual_ewma__fixed_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8067729083665338,
+          "lower_miss_rate": 0.099601593625498,
+          "lower_penalty_mean": 0.005353941217695368,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.09362549800796813,
+          "upper_penalty_mean": 0.004000564916523901,
+          "width_component_mean": 0.02287816731112342,
+          "width_mean": 0.02287816731112342,
+          "winkler_mean": 0.03223267344534269
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.00124071761640777,
+                -0.0002657345569328212
+              ],
+              "exploratory": true,
+              "mean": -0.0007322071604329272,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.001405262658911039,
+                -0.0001775298765041904
+              ],
+              "exploratory": true,
+              "mean": -0.0007322071604329272,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0015188463456849812,
+                -7.120877444938978e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0007322071604329272,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.531234056122449,
+                0.846195652173913
+              ],
+              "lower_miss": [
+                0.0491703318672531,
+                0.2452912942734194
+              ],
+              "lower_penalty": [
+                0.0019843018264762468,
+                0.013249427580147742
+              ],
+              "upper_miss": [
+                0.05258697591436218,
+                0.2641877948113207
+              ],
+              "upper_penalty": [
+                0.0020101964586484405,
+                0.014714360286526068
+              ],
+              "width": [
+                0.018117763925211604,
+                0.0219392416790721
+              ],
+              "winkler": [
+                0.02648990091505002,
+                0.0471238877174966
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.6901408450704225,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.15492957746478872,
+            "lower_penalty": 0.008963547022160751,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.00804050100729715,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.020154035173382774,
+            "winkler": 0.03715808320284067
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7897167345239197,
+                0.8584988901220866
+              ],
+              "lower_miss": [
+                0.06400957523094444,
+                0.11802736860267
+              ],
+              "lower_penalty": [
+                0.003179138849301247,
+                0.00675056094264341
+              ],
+              "upper_miss": [
+                0.06401539205902809,
+                0.10462357833984043
+              ],
+              "upper_penalty": [
+                0.0020642390512367725,
+                0.0048965420492196364
+              ],
+              "width": [
+                0.020529842319363657,
+                0.02628391039210566
+              ],
+              "winkler": [
+                0.0279477896522098,
+                0.03491912138845767
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8259860788863109,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.09048723897911833,
+            "lower_penalty": 0.0047593193798368015,
+            "n": 431,
+            "upper_miss": 0.08352668213457076,
+            "upper_penalty": 0.003335053402730628,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02332692225724775,
+            "winkler": 0.03142129503981518
+          }
+        }
+      },
+      "residual_ewma__rolling_cqr": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8266932270916335,
+          "lower_miss_rate": 0.08964143426294821,
+          "lower_penalty_mean": 0.004984903391174085,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.96,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.08366533864541832,
+          "upper_penalty_mean": 0.003674036610340558,
+          "width_component_mean": 0.024008500667542305,
+          "width_mean": 0.024008500667542305,
+          "winkler_mean": 0.03266744066905694
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                0.00012724020841660988,
+                0.0007685680049077368
+              ],
+              "exploratory": true,
+              "mean": 0.0004347672237142538,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                8.32102417529864e-05,
+                0.0008604230338908531
+              ],
+              "exploratory": true,
+              "mean": 0.0004347672237142538,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                3.1230258258246146e-05,
+                0.0009190558549193685
+              ],
+              "exploratory": true,
+              "mean": 0.0004347672237142538,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0004976949697927032,
+                -0.0001176012998763509
+              ],
+              "exploratory": true,
+              "mean": -0.0002974399367186733,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0005451583612660287,
+                -8.656798735956027e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0002974399367186733,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0006072963575168587,
+                -3.158658293919016e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0002974399367186733,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.5404198841698842,
+                0.8571428571428571
+              ],
+              "lower_miss": [
+                0.0491703318672531,
+                0.21668478260869564
+              ],
+              "lower_penalty": [
+                0.0014444242187319786,
+                0.012610907756113348
+              ],
+              "upper_miss": [
+                0.05258697591436218,
+                0.2641877948113207
+              ],
+              "upper_penalty": [
+                0.0016366577329000257,
+                0.013928276003088996
+              ],
+              "width": [
+                0.018958452667405302,
+                0.022832947401061423
+              ],
+              "winkler": [
+                0.026512994348304335,
+                0.046536416803893574
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.704225352112676,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.14084507042253522,
+            "lower_penalty": 0.008367906635711294,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.0074296485254671295,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02115535681969232,
+            "winkler": 0.036952911980870744
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.8051628214764223,
+                0.8808097181580162
+              ],
+              "lower_miss": [
+                0.05353116370902744,
+                0.10922876994874785
+              ],
+              "lower_penalty": [
+                0.0028438218532789,
+                0.006459926993182979
+              ],
+              "upper_miss": [
+                0.052151858574232296,
+                0.09396581071880167
+              ],
+              "upper_penalty": [
+                0.0018367362642729011,
+                0.004578639925537213
+              ],
+              "width": [
+                0.021032262462010683,
+                0.028112033668873326
+              ],
+              "winkler": [
+                0.028212200927429373,
+                0.03564135002270979
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8468677494199536,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.08120649651972157,
+            "lower_penalty": 0.004427610513303685,
+            "n": 431,
+            "upper_miss": 0.07192575406032482,
+            "upper_penalty": 0.0030553627217698234,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.024478508122756572,
+            "winkler": 0.03196148135783008
+          }
+        }
+      },
+      "residual_ewma__variable_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8047808764940239,
+          "lower_miss_rate": 0.099601593625498,
+          "lower_penalty_mean": 0.005542456078678166,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.09561752988047809,
+          "upper_penalty_mean": 0.004141830668387469,
+          "width_component_mean": 0.0225057113215707,
+          "width_mean": 0.0225057113215707,
+          "winkler_mean": 0.03218999806863634
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                -0.00018243031657583247,
+                0.00010299774649641273
+              ],
+              "exploratory": true,
+              "mean": -4.267537670635697e-05,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0002077751985420482,
+                9.015243922808866e-05
+              ],
+              "exploratory": true,
+              "mean": -4.267537670635697e-05,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.00014755581544897644,
+                5.406125319744116e-05
+              ],
+              "exploratory": true,
+              "mean": -4.267537670635697e-05,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0013561962539997195,
+                -0.0002466601986108125
+              ],
+              "exploratory": true,
+              "mean": -0.000774882537139284,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0015400108526328537,
+                -0.00014537558264593125
+              ],
+              "exploratory": true,
+              "mean": -0.000774882537139284,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0016248946679763294,
+                -5.1189359065710366e-05
+              ],
+              "exploratory": true,
+              "mean": -0.000774882537139284,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.531234056122449,
+                0.846195652173913
+              ],
+              "lower_miss": [
+                0.0491703318672531,
+                0.2452912942734194
+              ],
+              "lower_penalty": [
+                0.0019843018264762468,
+                0.013249427580147742
+              ],
+              "upper_miss": [
+                0.05258697591436218,
+                0.2641877948113207
+              ],
+              "upper_penalty": [
+                0.0020101964586484405,
+                0.014714360286526068
+              ],
+              "width": [
+                0.018117763925211604,
+                0.0219392416790721
+              ],
+              "winkler": [
+                0.02648990091505002,
+                0.0471238877174966
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.6901408450704225,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.15492957746478872,
+            "lower_penalty": 0.008963547022160751,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.00804050100729715,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.020154035173382774,
+            "winkler": 0.03715808320284067
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7878028507267171,
+                0.8558394289461736
+              ],
+              "lower_miss": [
+                0.06400957523094444,
+                0.11802736860267
+              ],
+              "lower_penalty": [
+                0.003357531689331234,
+                0.006955561117807112
+              ],
+              "upper_miss": [
+                0.06565350102971462,
+                0.10698089700996677
+              ],
+              "upper_penalty": [
+                0.0021986583059774496,
+                0.005063695018609418
+              ],
+              "width": [
+                0.020390202108337075,
+                0.025548222369207337
+              ],
+              "winkler": [
+                0.027897717775065334,
+                0.03488540746226964
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8236658932714617,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.09048723897911833,
+            "lower_penalty": 0.004978888893092868,
+            "n": 431,
+            "upper_miss": 0.08584686774941995,
+            "upper_penalty": 0.0034995903109336698,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.022893110408627182,
+            "winkler": 0.03137158961265371
+          }
+        }
+      },
+      "return_ewma__fixed_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8067729083665338,
+          "lower_miss_rate": 0.099601593625498,
+          "lower_penalty_mean": 0.005362241715328354,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.09362549800796813,
+          "upper_penalty_mean": 0.004011839621204759,
+          "width_component_mean": 0.022848739907130704,
+          "width_mean": 0.022848739907130704,
+          "winkler_mean": 0.03222282124366382
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "exploratory": true,
+              "mean": 0.0,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0012578267395390085,
+                -0.0002723798640121537
+              ],
+              "exploratory": true,
+              "mean": -0.0007420593621118022,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0014214048870383807,
+                -0.00018129038955338146
+              ],
+              "exploratory": true,
+              "mean": -0.0007420593621118022,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0015398294437969854,
+                -6.920144650929215e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0007420593621118022,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.531234056122449,
+                0.846195652173913
+              ],
+              "lower_miss": [
+                0.0491703318672531,
+                0.2452912942734194
+              ],
+              "lower_penalty": [
+                0.0019843018264762468,
+                0.013249427580147742
+              ],
+              "upper_miss": [
+                0.05258697591436218,
+                0.2641877948113207
+              ],
+              "upper_penalty": [
+                0.0020101964586484405,
+                0.014714360286526068
+              ],
+              "width": [
+                0.018117763925211604,
+                0.0219392416790721
+              ],
+              "winkler": [
+                0.02648990091505002,
+                0.0471238877174966
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.6901408450704225,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.15492957746478872,
+            "lower_penalty": 0.008963547022160751,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.00804050100729715,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.020154035173382774,
+            "winkler": 0.03715808320284067
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7897167345239197,
+                0.8584988901220866
+              ],
+              "lower_miss": [
+                0.06400957523094444,
+                0.11802736860267
+              ],
+              "lower_penalty": [
+                0.003187160309826903,
+                0.006754102972792395
+              ],
+              "upper_miss": [
+                0.06401539205902809,
+                0.10462357833984043
+              ],
+              "upper_penalty": [
+                0.0020735108340321404,
+                0.004912833268256763
+              ],
+              "width": [
+                0.020529761798025122,
+                0.026232759142554445
+              ],
+              "winkler": [
+                0.027945048685923287,
+                0.0348951746704572
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8259860788863109,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.09048723897911833,
+            "lower_penalty": 0.004768987244829281,
+            "n": 431,
+            "upper_miss": 0.08352668213457076,
+            "upper_penalty": 0.003348185425351953,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.023292647183455768,
+            "winkler": 0.031409819853637
+          }
+        }
+      },
+      "return_ewma__rolling_cqr": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8266932270916335,
+          "lower_miss_rate": 0.08964143426294821,
+          "lower_penalty_mean": 0.0050152352610644815,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.96,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.08366533864541832,
+          "upper_penalty_mean": 0.003684756884895931,
+          "width_component_mean": 0.02394571263017155,
+          "width_mean": 0.02394571263017155,
+          "winkler_mean": 0.03264570477613196
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                0.00013214425309437085,
+                0.0007432543717913846
+              ],
+              "exploratory": true,
+              "mean": 0.00042288353246814746,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                7.281147235562744e-05,
+                0.0008364225907925896
+              ],
+              "exploratory": true,
+              "mean": 0.00042288353246814746,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                2.2683924405748095e-05,
+                0.0008988030637269231
+              ],
+              "exploratory": true,
+              "mean": 0.00042288353246814746,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0005342293361308108,
+                -0.00012861734672796877
+              ],
+              "exploratory": true,
+              "mean": -0.0003191758296436547,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.0005821025952454919,
+                -8.937148057932197e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0003191758296436547,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0006458389975544253,
+                -3.569061474198086e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0003191758296436547,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.5404198841698842,
+                0.8571428571428571
+              ],
+              "lower_miss": [
+                0.0491703318672531,
+                0.21668478260869564
+              ],
+              "lower_penalty": [
+                0.001443208861392499,
+                0.012662070573811057
+              ],
+              "upper_miss": [
+                0.05258697591436218,
+                0.2641877948113207
+              ],
+              "upper_penalty": [
+                0.001636791032730431,
+                0.013943678244243089
+              ],
+              "width": [
+                0.018926337527966217,
+                0.022830981043444942
+              ],
+              "winkler": [
+                0.026507976981319285,
+                0.046569264500998506
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.704225352112676,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.14084507042253522,
+            "lower_penalty": 0.008395441875457687,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.0074451108600483845,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.021131643639035597,
+            "winkler": 0.03697219637454167
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.8051628214764223,
+                0.8808097181580162
+              ],
+              "lower_miss": [
+                0.05353116370902744,
+                0.10922876994874785
+              ],
+              "lower_penalty": [
+                0.0028645751303656786,
+                0.006481886488296058
+              ],
+              "upper_miss": [
+                0.052151858574232296,
+                0.09396581071880167
+              ],
+              "upper_penalty": [
+                0.0018488079654801546,
+                0.004577976876454261
+              ],
+              "width": [
+                0.021005177005942333,
+                0.027990618963741096
+              ],
+              "winkler": [
+                0.028202421615239344,
+                0.035607525661193136
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8468677494199536,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.08120649651972157,
+            "lower_penalty": 0.004458403080967225,
+            "n": 431,
+            "upper_miss": 0.07192575406032482,
+            "upper_penalty": 0.003065301821703763,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.024409283160033855,
+            "winkler": 0.031932988062704844
+          }
+        }
+      },
+      "return_ewma__variable_gamma_aci": {
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8047808764940239,
+          "lower_miss_rate": 0.099601593625498,
+          "lower_penalty_mean": 0.005549432706703018,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.92,
+          "rolling_empirical_coverage_min": 0.6,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.09561752988047809,
+          "upper_penalty_mean": 0.004144208776218511,
+          "width_component_mean": 0.02249024635312212,
+          "width_mean": 0.02249024635312212,
+          "winkler_mean": 0.03218388783604365
+        },
+        "paired_contrasts": {
+          "same_scale_fixed": {
+            "10": {
+              "ci95": [
+                -0.00016914388975995518,
+                9.49620303433236e-05
+              ],
+              "exploratory": true,
+              "mean": -3.893340762016527e-05,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.00019470904206952397,
+                8.424532965947043e-05
+              ],
+              "exploratory": true,
+              "mean": -3.893340762016527e-05,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.00013466938133686459,
+                4.721255527115164e-05
+              ],
+              "exploratory": true,
+              "mean": -3.893340762016527e-05,
+              "multiplicity_adjusted": false
+            }
+          },
+          "unscaled_rolling": {
+            "10": {
+              "ci95": [
+                -0.0013614363160047206,
+                -0.0002519151377107983
+              ],
+              "exploratory": true,
+              "mean": -0.0007809927697319673,
+              "multiplicity_adjusted": false
+            },
+            "20": {
+              "ci95": [
+                -0.001549818502835162,
+                -0.00014548434336260525
+              ],
+              "exploratory": true,
+              "mean": -0.0007809927697319673,
+              "multiplicity_adjusted": false
+            },
+            "40": {
+              "ci95": [
+                -0.0016345514957692312,
+                -5.119357657570444e-05
+              ],
+              "exploratory": true,
+              "mean": -0.0007809927697319673,
+              "multiplicity_adjusted": false
+            }
+          }
+        },
+        "regimes": {
+          "high": {
+            "ci95": {
+              "covered": [
+                0.531234056122449,
+                0.846195652173913
+              ],
+              "lower_miss": [
+                0.0491703318672531,
+                0.2452912942734194
+              ],
+              "lower_penalty": [
+                0.0019843018264762468,
+                0.013249427580147742
+              ],
+              "upper_miss": [
+                0.05258697591436218,
+                0.2641877948113207
+              ],
+              "upper_penalty": [
+                0.0020101964586484405,
+                0.014714360286526068
+              ],
+              "width": [
+                0.018117763925211604,
+                0.0219392416790721
+              ],
+              "winkler": [
+                0.02648990091505002,
+                0.0471238877174966
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.6901408450704225,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.15492957746478872,
+            "lower_penalty": 0.008963547022160751,
+            "n": 71,
+            "upper_miss": 0.15492957746478872,
+            "upper_penalty": 0.00804050100729715,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.020154035173382774,
+            "winkler": 0.03715808320284067
+          },
+          "other": {
+            "ci95": {
+              "covered": [
+                0.7878028507267171,
+                0.8558394289461736
+              ],
+              "lower_miss": [
+                0.06400957523094444,
+                0.11802736860267
+              ],
+              "lower_penalty": [
+                0.0033609249530116457,
+                0.006955722731997677
+              ],
+              "upper_miss": [
+                0.06565350102971462,
+                0.10698089700996677
+              ],
+              "upper_penalty": [
+                0.0022012662160526804,
+                0.005065899668124204
+              ],
+              "width": [
+                0.020390125964570738,
+                0.025535050376590946
+              ],
+              "winkler": [
+                0.0278978074913707,
+                0.03487467831247669
+              ]
+            },
+            "ci_method": "paired_circular_blocks_20_unadjusted_exploratory",
+            "covered": 0.8236658932714617,
+            "empty_bootstrap_replicates": 0,
+            "lower_miss": 0.09048723897911833,
+            "lower_penalty": 0.0049870148032285415,
+            "n": 431,
+            "upper_miss": 0.08584686774941995,
+            "upper_penalty": 0.003502360172026903,
+            "valid_bootstrap_replicates": 1000,
+            "width": 0.02287509784676828,
+            "winkler": 0.031364472822023724
+          }
+        }
+      },
+      "signed_rolling_none": {
+        "coverage_with_empty_as_miss": null,
+        "empty_origins_in_validation": [],
+        "metrics": {
+          "conditional_coverage": null,
+          "coverage": 0.8067729083665338,
+          "lower_miss_rate": 0.10159362549800798,
+          "lower_penalty_mean": 0.005189211038547553,
+          "n": 502,
+          "rolling_empirical_coverage_max": 0.96,
+          "rolling_empirical_coverage_min": 0.58,
+          "rolling_window": 50,
+          "upper_miss_rate": 0.09163346613545817,
+          "upper_penalty_mean": 0.0038588234673183905,
+          "width_component_mean": 0.02396635762127016,
+          "width_mean": 0.02396635762127016,
+          "winkler_mean": 0.033014392127136104
+        },
+        "signed_winkler_undefined_if_empty": false,
+        "status": "FINITE_SIGNED_INTERVALS"
+      }
+    }
+  },
+  "point_in_time_adjusted_prices_verified": false,
+  "records_per_model": 502,
+  "regime_counts": {
+    "high": 71,
+    "other": 431
+  },
+  "scientific_clearance": false,
+  "status": "VALIDATION_CALIBRATION_AUDIT_PASS_NOT_SCIENTIFIC_CLEARANCE",
+  "trace_sha256": "56c0763faf4cf9e8b54c50b5488079ba12f4940ef2640e36963aa701a3f1d950",
+  "validation_hyperparameter_tuning": false,
+  "validation_plan_sha256": "f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54"
+}

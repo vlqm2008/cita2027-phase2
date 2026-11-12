@@ -1,0 +1,44 @@
+# Virtual Environments (causes 6GB+ bloat, never commit to git)
+.venv/
+.venv-moirai/
+env/
+venv/
+ENV/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Large local forecast record dumps (15,000+ individual origin files)
+artifacts/forecast_cache/
+artifacts/**/forecast_cache/
+artifacts/**/records/
+artifacts/raw/
+artifacts/processed/
+
+# Keep reports, manifests, evidence, paper tables, and adaptation benchmarks
+!artifacts/reports/
+!artifacts/manifests/
+!artifacts/evidence/
+!artifacts/adaptation/
+!artifacts/checkpoints/
+
+# Editor & OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VS Code config
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Local env
+.env.local

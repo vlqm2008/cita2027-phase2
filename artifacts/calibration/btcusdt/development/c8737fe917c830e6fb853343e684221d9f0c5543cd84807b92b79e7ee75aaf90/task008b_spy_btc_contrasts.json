@@ -1,0 +1,194 @@
+{
+  "btc_development_report_sha256": "7782834dfa3aaa0e863a82a02c1e49604a493b2be2223467320fb782e0933210",
+  "btc_historical_point_in_time_verified": false,
+  "contamination_free_verified": false,
+  "contrasts": {
+    "chronos": {
+      "none__variable_gamma_aci": {
+        "btc_development_delta_vs_same_scale_fixed": {
+          "ci_95_percentile": [
+            -0.0014223048097471705,
+            0.0007292073590813321
+          ],
+          "ci_excludes_zero": false,
+          "lower_is_better": true,
+          "mean_difference": -0.0003046638384831082,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_same_scale_fixed_descriptive": -0.001457189682559465
+      },
+      "residual_ewma__rolling_cqr": {
+        "btc_development_delta_vs_unscaled_rolling": {
+          "ci_95_percentile": [
+            -0.006802774739859047,
+            -0.0007404923797269311
+          ],
+          "ci_excludes_zero": true,
+          "lower_is_better": true,
+          "mean_difference": -0.003530267271810258,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_unscaled_rolling": {
+          "ci_95_percentile": [
+            -0.011984940404237317,
+            -0.0005929300940726135
+          ],
+          "ci_excludes_zero": true,
+          "lower_is_better": true,
+          "mean_difference": -0.0049733894643348795,
+          "n": 1006
+        }
+      },
+      "residual_ewma__variable_gamma_aci": {
+        "btc_development_delta_vs_same_scale_fixed": {
+          "ci_95_percentile": [
+            -0.0006264173847964215,
+            0.00043223362830290256
+          ],
+          "ci_excludes_zero": false,
+          "lower_is_better": true,
+          "mean_difference": -0.00010556158069361243,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_same_scale_fixed_descriptive": -0.00015975188410374125
+      },
+      "return_ewma__rolling_cqr": {
+        "btc_development_delta_vs_unscaled_rolling": {
+          "ci_95_percentile": [
+            -0.006931591716122704,
+            -0.0009341454319949328
+          ],
+          "ci_excludes_zero": true,
+          "lower_is_better": true,
+          "mean_difference": -0.003664178302260924,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_unscaled_rolling": {
+          "ci_95_percentile": [
+            -0.011817209034882818,
+            -0.0005225651337278425
+          ],
+          "ci_excludes_zero": true,
+          "lower_is_better": true,
+          "mean_difference": -0.004870343616942027,
+          "n": 1006
+        }
+      },
+      "return_ewma__variable_gamma_aci": {
+        "btc_development_delta_vs_same_scale_fixed": {
+          "ci_95_percentile": [
+            -0.0008765904340378714,
+            0.0005120329191763092
+          ],
+          "ci_excludes_zero": false,
+          "lower_is_better": true,
+          "mean_difference": -0.0001684336504822993,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_same_scale_fixed_descriptive": 0.00018132745189632787
+      }
+    },
+    "moirai": {
+      "none__variable_gamma_aci": {
+        "btc_development_delta_vs_same_scale_fixed": {
+          "ci_95_percentile": [
+            -0.0002668228025240889,
+            0.0003512487393217651
+          ],
+          "ci_excludes_zero": false,
+          "lower_is_better": true,
+          "mean_difference": 3.644747183536854e-05,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_same_scale_fixed_descriptive": -0.0004368029048973654
+      },
+      "residual_ewma__rolling_cqr": {
+        "btc_development_delta_vs_unscaled_rolling": {
+          "ci_95_percentile": [
+            -0.0016400522044501555,
+            -0.00020708945600605007
+          ],
+          "ci_excludes_zero": true,
+          "lower_is_better": true,
+          "mean_difference": -0.0008860268045192387,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_unscaled_rolling": {
+          "ci_95_percentile": [
+            -0.0019121517774896427,
+            -0.0002373582152035265
+          ],
+          "ci_excludes_zero": true,
+          "lower_is_better": true,
+          "mean_difference": -0.0009401414917374786,
+          "n": 1006
+        }
+      },
+      "residual_ewma__variable_gamma_aci": {
+        "btc_development_delta_vs_same_scale_fixed": {
+          "ci_95_percentile": [
+            -0.0003770088869461795,
+            0.0005631326608583513
+          ],
+          "ci_excludes_zero": false,
+          "lower_is_better": true,
+          "mean_difference": 4.2983220031688506e-05,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_same_scale_fixed_descriptive": -0.000561706127011119
+      },
+      "return_ewma__rolling_cqr": {
+        "btc_development_delta_vs_unscaled_rolling": {
+          "ci_95_percentile": [
+            -0.001813641352314105,
+            -0.0003823322118970631
+          ],
+          "ci_excludes_zero": true,
+          "lower_is_better": true,
+          "mean_difference": -0.0010372575441639775,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_unscaled_rolling": {
+          "ci_95_percentile": [
+            -0.0019714467884851114,
+            -0.0002782017104511605
+          ],
+          "ci_excludes_zero": true,
+          "lower_is_better": true,
+          "mean_difference": -0.0010009051770661908,
+          "n": 1006
+        }
+      },
+      "return_ewma__variable_gamma_aci": {
+        "btc_development_delta_vs_same_scale_fixed": {
+          "ci_95_percentile": [
+            -0.0002724263997131884,
+            0.0003898639141824182
+          ],
+          "ci_excludes_zero": false,
+          "lower_is_better": true,
+          "mean_difference": 5.6644896835397214e-05,
+          "n": 1209
+        },
+        "periods_not_paired": true,
+        "spy_development_delta_vs_same_scale_fixed_descriptive": -0.000541413477258508
+      }
+    }
+  },
+  "exploratory_no_multiplicity_adjustment": true,
+  "final_test_used": false,
+  "scientific_clearance": false,
+  "scope": "within_dataset_paired_contrasts_not_cross_market_absolute_scores",
+  "spy_development_report_sha256": "972a196f7beae4e31a343a1163beb678f76ee29e63362bb9b10171d3ea1ff149",
+  "task": "TASK-008B",
+  "validation_used": false
+}

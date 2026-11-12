@@ -1,0 +1,60 @@
+{
+  "checkpoint_audit_sha256": "e426149cff7b3164793631276416ec10eb50b23b29048fb4b32e24ca35cbc974",
+  "contamination_free_verified": false,
+  "context_length": 256,
+  "count": 12,
+  "cuda_compiled": "12.8",
+  "device": "cuda",
+  "gpu_capability": [
+    12,
+    0
+  ],
+  "gpu_name": "NVIDIA GeForce RTX 5060 Ti",
+  "horizon": 1,
+  "local_weight_file_hashes": {
+    "model.safetensors": {
+      "sha256": "eaafeb166a3dfcf5728ab52a9ccc5392a23333b42a41a14e5528089ece3ef377",
+      "verified_against_hub_lfs": true
+    }
+  },
+  "max_peak_allocated_mib_excluding_model_loading": 75.251953125,
+  "model_files": {
+    "config.json": {
+      "lfs_sha256": null,
+      "size_bytes": 682
+    },
+    "model.safetensors": {
+      "lfs_sha256": "eaafeb166a3dfcf5728ab52a9ccc5392a23333b42a41a14e5528089ece3ef377",
+      "size_bytes": 55320200
+    }
+  },
+  "model_id": "Salesforce/moirai-1.0-R-small",
+  "model_revision": "f5bd5d01f0d67de856107d43abdd637380aae0a3",
+  "packages": {
+    "chronos-forecasting": null,
+    "gluonts": "0.14.4",
+    "huggingface-hub": "0.25.2",
+    "numpy": "1.26.4",
+    "pandas": "2.1.4",
+    "torch": "2.9.1+cu128",
+    "transformers": null,
+    "uni2ts": "1.2.0"
+  },
+  "predictions_sha256": "cdef1e54ab4edbb11994a5fb3882a6476b4beaa78fb404771648de819d5bbf3d",
+  "processed_sha256": "4375f3b90c5dbfe1cfd1a8191a36c15c2d878993ef04b130c8de8810927103ba",
+  "processed_snapshot_id": "SPY_20261104T095117433396Z_b41a8489",
+  "python": "3.11.1",
+  "quantile_levels": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "replay_max_abs_diff": 0.0,
+  "run_id": "SPY_20261104T095117433396Z_b41a8489_moirai_20261104T180706502856Z",
+  "samples": 100,
+  "seed": 2027,
+  "smoke_config_sha256": "a2047e99ee7447b8a7194064f7d4ba627288b23527255d5b770a9bb217aad0cf",
+  "status": "SMOKE_PASS_NOT_FINAL_FORECAST_CACHE",
+  "sum_inference_seconds_excluding_replay_and_loading": 3.5726117002777755,
+  "target": "daily_log_return_decimal"
+}

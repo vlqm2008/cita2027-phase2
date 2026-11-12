@@ -1,0 +1,182 @@
+{
+  "btc_downloaded": false,
+  "contamination_free_verified": false,
+  "development_plan_sha256": "39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f",
+  "evidence": [
+    {
+      "path": "artifacts/calibration/task005b/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/full_development_1006_per_cell.csv",
+      "sha256": "2f6f88345e5808404ddd609b535f64e3c6a64d0ab11c213305e0f9c73cf39e45",
+      "size_bytes": 4438237
+    },
+    {
+      "path": "artifacts/calibration/task005b/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/full_development_W252_expansion_only.json",
+      "sha256": "972a196f7beae4e31a343a1163beb678f76ee29e63362bb9b10171d3ea1ff149",
+      "size_bytes": 73991
+    },
+    {
+      "path": "artifacts/calibration/task005b1/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/diagnostic_correction_v1.json",
+      "sha256": "f461f1706a357726d1e3f5718697bca1e8770b4b868437604e12c20c330b1174",
+      "size_bytes": 156573
+    },
+    {
+      "path": "artifacts/calibration/validation/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54/task006b_scientific_comparison.json",
+      "sha256": "4deb6522ca69cbc6e4abc3f4e0fef9c1887d2d27b112712672be27081f868e31",
+      "size_bytes": 13036
+    },
+    {
+      "path": "artifacts/calibration/validation/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54/validation_calibration_report.json",
+      "sha256": "311429215bd96c0dbf52fcd0f758c28b6be4d5798941c3760210a158447828ed",
+      "size_bytes": 99141
+    },
+    {
+      "path": "artifacts/checkpoints/hf_audit.json",
+      "sha256": "e426149cff7b3164793631276416ec10eb50b23b29048fb4b32e24ca35cbc974",
+      "size_bytes": 1371
+    },
+    {
+      "path": "artifacts/forecast_cache/full_development/plans/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f.json",
+      "sha256": "39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f",
+      "size_bytes": 402843
+    },
+    {
+      "path": "artifacts/forecast_cache/full_development/runs/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/chronos/manifest.json",
+      "sha256": "c34ad91e66b4c9b0bc99500097baf6a61ea52d50bc12015ac6ca66e2239b07df",
+      "size_bytes": 111315
+    },
+    {
+      "path": "artifacts/forecast_cache/full_development/runs/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/chronos/predictions.csv",
+      "sha256": "671c1151895c1ce4718ab365a16b4abcc9b1c58b347ec05f6b607c9828a528f1",
+      "size_bytes": 801314
+    },
+    {
+      "count": 1258,
+      "integrity": "each_record_hash_matched_accepted_manifest",
+      "path": "artifacts/forecast_cache/full_development/runs/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/chronos/records/",
+      "record_map_sha256": "3687110ee56bd81f0814ea63671e66c3a7721bd2559e09c326bbdb61cac2e7a5"
+    },
+    {
+      "path": "artifacts/forecast_cache/full_development/runs/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/moirai/manifest.json",
+      "sha256": "f6dcfea50973f6f3e568ecb8320e313f5232f83806c8671818da390b40f41a27",
+      "size_bytes": 111330
+    },
+    {
+      "path": "artifacts/forecast_cache/full_development/runs/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/moirai/predictions.csv",
+      "sha256": "bdd0271729fd6fb47902193836d84d3745da3e128556c15a0aef4b476943f568",
+      "size_bytes": 805225
+    },
+    {
+      "count": 1258,
+      "integrity": "each_record_hash_matched_accepted_manifest",
+      "path": "artifacts/forecast_cache/full_development/runs/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/moirai/records/",
+      "record_map_sha256": "45500fda6a62bbbdc32d57bfc3f17fa734c848934dd7a6b3fd58af376f380616"
+    },
+    {
+      "path": "artifacts/forecast_cache/validation/plans/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54.json",
+      "sha256": "f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54",
+      "size_bytes": 185212
+    },
+    {
+      "path": "artifacts/forecast_cache/validation/runs/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54/chronos/manifest.json",
+      "sha256": "ced314719eee5ce64185b8e16b05170cadad218ca1c8a84debdcced118ffdca3",
+      "size_bytes": 44327
+    },
+    {
+      "path": "artifacts/forecast_cache/validation/runs/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54/chronos/predictions.csv",
+      "sha256": "f9ef1f691889b07d0bbf1955d9a815f81058bfc8ea3b24ba44e20cb673a0eac3",
+      "size_bytes": 319783
+    },
+    {
+      "count": 502,
+      "integrity": "each_record_hash_matched_accepted_manifest",
+      "path": "artifacts/forecast_cache/validation/runs/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54/chronos/records/",
+      "record_map_sha256": "807ae703bc0e93507a1468a458c58ec61cb8bc0d7d794218f081e2431366db81"
+    },
+    {
+      "path": "artifacts/forecast_cache/validation/runs/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54/moirai/manifest.json",
+      "sha256": "1fbad6312639c2b95141799bf29c4bb5a7f9c3ce2b080ff20a9c798c228b4e4b",
+      "size_bytes": 44332
+    },
+    {
+      "path": "artifacts/forecast_cache/validation/runs/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54/moirai/predictions.csv",
+      "sha256": "30df98645bf58714cc27c8bf560056927eb739d024f3403bab5396ddd66201b8",
+      "size_bytes": 321086
+    },
+    {
+      "count": 502,
+      "integrity": "each_record_hash_matched_accepted_manifest",
+      "path": "artifacts/forecast_cache/validation/runs/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54/moirai/records/",
+      "record_map_sha256": "e43efd575f9716c1a56f97cc5183fe0b2f6f28755c5f633ad8cffe1f49d6bd77"
+    },
+    {
+      "path": "configs/data.yaml",
+      "sha256": "b936ed5db3461f1c8a73e88f82dc328c968ea6fea4a0b395feffb3c456f15361",
+      "size_bytes": 430
+    },
+    {
+      "path": "configs/smoke.yaml",
+      "sha256": "a2047e99ee7447b8a7194064f7d4ba627288b23527255d5b770a9bb217aad0cf",
+      "size_bytes": 347
+    },
+    {
+      "path": "docs/task005a_math_protocol.md",
+      "sha256": "d6bbe2b350977d78d160bd934f952a3a057b25d34c0ee443ff04c79bad6e2abd",
+      "size_bytes": 7074
+    },
+    {
+      "path": "docs/task005b1_diagnostic_protocol.md",
+      "sha256": "0ee2221af25b28f737356216c054fbb9f6565a30c015872e67cb4707ecb521ea",
+      "size_bytes": 3228
+    },
+    {
+      "path": "docs/task006a_validation_boundary_lock.md",
+      "sha256": "f4eae540d0ae36286051d5c17e74ffa3e4cca802c2a1713ad079f195e99c9ba5",
+      "size_bytes": 7699
+    },
+    {
+      "path": "docs/task006b_frozen_validation_execution.md",
+      "sha256": "2a101d5ef08e2de3429182d9112956ba1c99c9d0ecb24e75d96286987aa14a9d",
+      "size_bytes": 4227
+    },
+    {
+      "path": "scripts/task006a_validation.py",
+      "sha256": "be251a18aad498091eca177d9b1b91a2334f70bbddc483dd538522f48c05701d",
+      "size_bytes": 27945
+    },
+    {
+      "path": "scripts/task006b_validation.py",
+      "sha256": "b1aad8cc849777bd590ebd7e4a961203950c2af05bc892a3b16c7e43b38050a8",
+      "size_bytes": 15484
+    },
+    {
+      "path": "src/cita2027/calibration/online.py",
+      "sha256": "80622e3492f0a812115a8cf9f8b491eaa0d60b4971168acaaf23dcf924d91bc3",
+      "size_bytes": 8943
+    },
+    {
+      "path": "src/cita2027/validation/boundary.py",
+      "sha256": "b0c9d194f1c6cd823834e8f724e0a20de02427c2e011ff1f4f89c97dfe2ed616",
+      "size_bytes": 8508
+    }
+  ],
+  "final_test_read": false,
+  "model_checkpoints": {
+    "chronos": {
+      "id": "amazon/chronos-t5-small",
+      "revision": "a971ba21945c4f1796b17a91fe69214b5f4ad472",
+      "weight_sha256": "9c8b6fde5300f72b01c173153bf9288fa0a200614275bf0585071ad71a6a3d43"
+    },
+    "moirai": {
+      "id": "Salesforce/moirai-1.0-R-small",
+      "revision": "f5bd5d01f0d67de856107d43abdd637380aae0a3",
+      "weight_sha256": "eaafeb166a3dfcf5728ab52a9ccc5392a23333b42a41a14e5528089ece3ef377"
+    }
+  },
+  "point_in_time_adjusted_prices_verified": false,
+  "schema_version": "task007-evidence-v1",
+  "scientific_clearance": false,
+  "scope": "SPY_warmup_development_validation_only",
+  "status": "EVIDENCE_INDEX_VERIFIED_NOT_SCIENTIFIC_CLEARANCE",
+  "task": "TASK-007",
+  "validation_plan_sha256": "f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54",
+  "verification": "deep_sha256_inventory_of_all_3520_forecast_records_and_reports"
+}

@@ -1,0 +1,342 @@
+{
+  "accepted_anchors": [
+    {
+      "bytes": 194257,
+      "path": "artifacts/btcusdt_boundary/task008d/48b9b79ff328441312330fb0b907582d3f2635d7d21e739390a3d41c55f10bb1.json",
+      "sha256": "48b9b79ff328441312330fb0b907582d3f2635d7d21e739390a3d41c55f10bb1"
+    },
+    {
+      "bytes": 260764,
+      "path": "artifacts/btcusdt_data/plans/2a023e69a46aa952ca0015c2d8a87574616366a016c5cad333204418bda12e84.json",
+      "sha256": "2a023e69a46aa952ca0015c2d8a87574616366a016c5cad333204418bda12e84"
+    },
+    {
+      "bytes": 518394,
+      "path": "artifacts/btcusdt_data/plans/c8737fe917c830e6fb853343e684221d9f0c5543cd84807b92b79e7ee75aaf90.json",
+      "sha256": "c8737fe917c830e6fb853343e684221d9f0c5543cd84807b92b79e7ee75aaf90"
+    },
+    {
+      "bytes": 465758,
+      "path": "artifacts/btcusdt_data/snapshots/05088f11c7929995ef6dd28e5135669ebaf37465928c62c826a15f245520299a.csv",
+      "sha256": "05088f11c7929995ef6dd28e5135669ebaf37465928c62c826a15f245520299a"
+    },
+    {
+      "bytes": 204586,
+      "path": "artifacts/calibration/btcusdt/development/c8737fe917c830e6fb853343e684221d9f0c5543cd84807b92b79e7ee75aaf90/btc_development_calibration_report.json",
+      "sha256": "7782834dfa3aaa0e863a82a02c1e49604a493b2be2223467320fb782e0933210"
+    },
+    {
+      "bytes": 203136,
+      "path": "artifacts/calibration/btcusdt/validation/2a023e69a46aa952ca0015c2d8a87574616366a016c5cad333204418bda12e84/btc_validation_calibration_report.json",
+      "sha256": "878cdd2880134a312561e036ced07528ff17a3a428ecda8e9a365e7de1457ee2"
+    },
+    {
+      "bytes": 73991,
+      "path": "artifacts/calibration/task005b/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f/full_development_W252_expansion_only.json",
+      "sha256": "972a196f7beae4e31a343a1163beb678f76ee29e63362bb9b10171d3ea1ff149"
+    },
+    {
+      "bytes": 99141,
+      "path": "artifacts/calibration/validation/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54/validation_calibration_report.json",
+      "sha256": "311429215bd96c0dbf52fcd0f758c28b6be4d5798941c3760210a158447828ed"
+    },
+    {
+      "bytes": 1371,
+      "path": "artifacts/checkpoints/hf_audit.json",
+      "sha256": "e426149cff7b3164793631276416ec10eb50b23b29048fb4b32e24ca35cbc974"
+    },
+    {
+      "bytes": 8412,
+      "path": "artifacts/evidence/task007/23aac3bec7bafb6983f8f6678b8117f8175183d2f7596a67098e53bc070f6492.json",
+      "sha256": "23aac3bec7bafb6983f8f6678b8117f8175183d2f7596a67098e53bc070f6492"
+    },
+    {
+      "bytes": 1220137,
+      "path": "artifacts/evidence/task009/btc/718f0fcb8afeeff84ec00155cc621837d048dead55392264497f6c7f7ffefc96.json",
+      "sha256": "718f0fcb8afeeff84ec00155cc621837d048dead55392264497f6c7f7ffefc96"
+    },
+    {
+      "bytes": 402843,
+      "path": "artifacts/forecast_cache/full_development/plans/39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f.json",
+      "sha256": "39c14b72d7bd82b815757147838e45fe3df56bddf4616367139cfd5661bd089f"
+    },
+    {
+      "bytes": 185212,
+      "path": "artifacts/forecast_cache/validation/plans/f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54.json",
+      "sha256": "f574fd5be7e6537c263aa8c9a646dbb8676d87a25b38a70c83131cb0e894fe54"
+    },
+    {
+      "bytes": 347,
+      "path": "configs/smoke.yaml",
+      "sha256": "a2047e99ee7447b8a7194064f7d4ba627288b23527255d5b770a9bb217aad0cf"
+    },
+    {
+      "bytes": 4862,
+      "path": "src/cita2027/forecasting/adapters.py",
+      "sha256": "a546cc74dba1bb21c3807b594205c5c4c3fd0612c765e05873d210deee854435"
+    },
+    {
+      "bytes": 8943,
+      "path": "src/cita2027/calibration/online.py",
+      "sha256": "80622e3492f0a812115a8cf9f8b491eaa0d60b4971168acaaf23dcf924d91bc3"
+    },
+    {
+      "bytes": 30368,
+      "path": "src/cita2027/btc/development.py",
+      "sha256": "cf096c4d1055441108089ea66b64cb0abebe2a632ce26dce9358096f6e63ae11"
+    },
+    {
+      "bytes": 29774,
+      "path": "src/cita2027/btc/validation.py",
+      "sha256": "32da1e38de1229ecc091004d26e4280d59a7524b82695d154628cc50d6dc3052"
+    },
+    {
+      "bytes": 18870,
+      "path": "scripts/task008d_btc_boundary.py",
+      "sha256": "337008e0064036ba0ae0281b81f0d23057f72e4adbf6072c4cd69e49e79dc08a"
+    },
+    {
+      "bytes": 2333,
+      "path": "scripts/task008e_btc_validation.py",
+      "sha256": "8aa00f3cf11ce977132f188f2ec80480af5af12942b870987623ba295f649324"
+    },
+    {
+      "bytes": 13071,
+      "path": "src/cita2027/calibration/development_analysis.py",
+      "sha256": "4e847711132e8640cf0fc0997b78837c918ee68770db54343d582f0094780620"
+    },
+    {
+      "bytes": 17134,
+      "path": "src/cita2027/calibration/diagnostic_correction.py",
+      "sha256": "068c7a96e367968d538983c2c91f92f3658077bbfd17198c696d2098a730ad9d"
+    },
+    {
+      "bytes": 6349,
+      "path": "src/cita2027/forecasting/protocol.py",
+      "sha256": "d05ce37c225ac300466d06de73349d58e3978085fc7fed98e050e44e5788bbeb"
+    },
+    {
+      "bytes": 20068,
+      "path": "src/cita2027/btc/ingest.py",
+      "sha256": "3e5e854848c0e39226e808d96cdc47705f96298e88163b83c053f11783de0a3a"
+    },
+    {
+      "bytes": 8508,
+      "path": "src/cita2027/validation/boundary.py",
+      "sha256": "b0c9d194f1c6cd823834e8f724e0a20de02427c2e011ff1f4f89c97dfe2ed616"
+    },
+    {
+      "bytes": 9963,
+      "path": "src/cita2027/forecasting/cache.py",
+      "sha256": "508911e9100f1de1e3c808063064d397267e4c470e949f9a635fa9ae6edcd468"
+    }
+  ],
+  "btc_historical_point_in_time_verified": false,
+  "checkpoint_local_weight_verified_in_separate_envs": {
+    "chronos": {
+      "id": "amazon/chronos-t5-small",
+      "revision": "a971ba21945c4f1796b17a91fe69214b5f4ad472",
+      "weight_sha256": "9c8b6fde5300f72b01c173153bf9288fa0a200614275bf0585071ad71a6a3d43"
+    },
+    "moirai": {
+      "id": "Salesforce/moirai-1.0-R-small",
+      "revision": "f5bd5d01f0d67de856107d43abdd637380aae0a3",
+      "weight_sha256": "eaafeb166a3dfcf5728ab52a9ccc5392a23333b42a41a14e5528089ece3ef377"
+    }
+  },
+  "checkpoints": {
+    "chronos": {
+      "id": "amazon/chronos-t5-small",
+      "revision": "a971ba21945c4f1796b17a91fe69214b5f4ad472",
+      "weight_sha256": "9c8b6fde5300f72b01c173153bf9288fa0a200614275bf0585071ad71a6a3d43"
+    },
+    "moirai": {
+      "id": "Salesforce/moirai-1.0-R-small",
+      "revision": "f5bd5d01f0d67de856107d43abdd637380aae0a3",
+      "weight_sha256": "eaafeb166a3dfcf5728ab52a9ccc5392a23333b42a41a14e5528089ece3ef377"
+    }
+  },
+  "contamination_free_verified": false,
+  "final_test_target_values_decoded_before_lock": false,
+  "model_or_calibration_run_before_lock": false,
+  "plans": {
+    "btcusdt": {
+      "count": 668,
+      "path": "artifacts/final_test/task011/locked/plans/btcusdt_4e0c71d88fe9ffc5518419889d96d6745e053c991e7a147fe96561a823231580.json",
+      "sha256": "4e0c71d88fe9ffc5518419889d96d6745e053c991e7a147fe96561a823231580"
+    },
+    "spy": {
+      "count": 459,
+      "path": "artifacts/final_test/task011/locked/plans/spy_24be9b36aea5e95e83af0f838e393620c11b243cf364104c35bc68f16717cf06.json",
+      "sha256": "24be9b36aea5e95e83af0f838e393620c11b243cf364104c35bc68f16717cf06"
+    }
+  },
+  "point_in_time_adjusted_prices_verified": false,
+  "reporting_rules": {
+    "ACI_alpha_clip": "[1/(W+1),1-1/(W+1)]",
+    "BTC_archives_contemporaneously_available_proven": false,
+    "Moirai_synthetic_BDay_7day_equivalent_proven": false,
+    "SPY_adj_close_point_in_time_proven": false,
+    "backbones": [
+      "chronos",
+      "moirai"
+    ],
+    "bootstrap_replicates": 1000,
+    "bootstrap_seed": 2027,
+    "bootstrap_sensitivity": [
+      10,
+      40
+    ],
+    "btc_historical_point_in_time_verified": false,
+    "ci": "unadjusted_two_sided_percentile_95_B10_B20_B40",
+    "comparison_policy": "no_validation_or_test_based_model_selection",
+    "contamination_free_verified": false,
+    "context": 256,
+    "controllers": [
+      "rolling_cqr",
+      "fixed_gamma_aci",
+      "variable_gamma_aci"
+    ],
+    "correction": "expansion_only",
+    "ewma_decay": 0.94,
+    "forecast_failure": "HALT_resume_same_origin_no_skip",
+    "gamma0": 0.01,
+    "gamma_driver": "return_ewma",
+    "gamma_driver_bounds": [
+      0.5,
+      2.0
+    ],
+    "horizon": 1,
+    "incomplete_report": "NO_METRICS_UNTIL_ALL_FORECASTS_COMPLETE",
+    "markets": [
+      "spy",
+      "btcusdt"
+    ],
+    "min_scale": 1e-06,
+    "missing_data": "FAIL_CLOSED_no_drop_no_impute_no_substitution",
+    "nominal_alpha": 0.2,
+    "normalization": [
+      "none",
+      "residual_ewma",
+      "return_ewma"
+    ],
+    "point_in_time_adjusted_prices_verified": false,
+    "pretrained_model_overlap_proven_absent": false,
+    "primary_block_length": 20,
+    "primary_family": "8_comparisons_Holm_Bonferroni_alpha_0.05_for_B20",
+    "primary_hypotheses": [
+      {
+        "A": "residual_ewma__rolling_cqr",
+        "B": "none__rolling_cqr",
+        "H1": "mean_Winkler(A)-mean_Winkler(B)<0",
+        "market": "spy",
+        "model": "chronos",
+        "scale": "residual_ewma"
+      },
+      {
+        "A": "return_ewma__rolling_cqr",
+        "B": "none__rolling_cqr",
+        "H1": "mean_Winkler(A)-mean_Winkler(B)<0",
+        "market": "spy",
+        "model": "chronos",
+        "scale": "return_ewma"
+      },
+      {
+        "A": "residual_ewma__rolling_cqr",
+        "B": "none__rolling_cqr",
+        "H1": "mean_Winkler(A)-mean_Winkler(B)<0",
+        "market": "spy",
+        "model": "moirai",
+        "scale": "residual_ewma"
+      },
+      {
+        "A": "return_ewma__rolling_cqr",
+        "B": "none__rolling_cqr",
+        "H1": "mean_Winkler(A)-mean_Winkler(B)<0",
+        "market": "spy",
+        "model": "moirai",
+        "scale": "return_ewma"
+      },
+      {
+        "A": "residual_ewma__rolling_cqr",
+        "B": "none__rolling_cqr",
+        "H1": "mean_Winkler(A)-mean_Winkler(B)<0",
+        "market": "btcusdt",
+        "model": "chronos",
+        "scale": "residual_ewma"
+      },
+      {
+        "A": "return_ewma__rolling_cqr",
+        "B": "none__rolling_cqr",
+        "H1": "mean_Winkler(A)-mean_Winkler(B)<0",
+        "market": "btcusdt",
+        "model": "chronos",
+        "scale": "return_ewma"
+      },
+      {
+        "A": "residual_ewma__rolling_cqr",
+        "B": "none__rolling_cqr",
+        "H1": "mean_Winkler(A)-mean_Winkler(B)<0",
+        "market": "btcusdt",
+        "model": "moirai",
+        "scale": "residual_ewma"
+      },
+      {
+        "A": "return_ewma__rolling_cqr",
+        "B": "none__rolling_cqr",
+        "H1": "mean_Winkler(A)-mean_Winkler(B)<0",
+        "market": "btcusdt",
+        "model": "moirai",
+        "scale": "return_ewma"
+      }
+    ],
+    "primary_metric": "paired_mean_Winkler_difference_decimal_log_return",
+    "primary_test": "one_sided_centered_paired_circular_moving_block_bootstrap",
+    "quantiles": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "regimes": "causal_return_EWMA_sigma_gt_prior_252_sigma_q75",
+    "reported": "all_9_cells_per_model_market_plus_native_q10_q90_and_signed_CQR_diagnostic",
+    "rolling_coverage_window": 50,
+    "samples": 100,
+    "scientific_clearance": false,
+    "secondary": "variable_gamma_vs_fixed_gamma_and_regime_effects_exploratory_unadjusted",
+    "seed": "2027_plus_absolute_origin_index",
+    "statistical_scope": "within_market_model_origin_paired_no_cross_market_paired_test",
+    "target_end_inclusive": "2026-10-30",
+    "target_start": "2025-01-01",
+    "window": 252
+  },
+  "schema": "task011-pretest-manifest-v1",
+  "scientific_clearance": false,
+  "source_coverage": "SPY_XNYS_and_BTC_UTC_exact_date_lists_verified",
+  "source_prelock_access": "opaque_SHA256_and_date_timestamp_fields_only_no_prices_no_returns",
+  "status": "PRETEST_PROTOCOL_FROZEN_NO_TEST_TARGET_PARSED",
+  "task": "TASK-011",
+  "task011_code_sha256": [
+    {
+      "path": "src/cita2027/finaltest/lock.py",
+      "sha256": "b3271354fa853e372b04c205ffa097bbc54e284997147c48cd5bb8f6b37ce00b"
+    },
+    {
+      "path": "src/cita2027/finaltest/execute.py",
+      "sha256": "64268d1bb3dbe8f46fbb770c7b16ee90769292a2190493f7ae4aa2315f3266e7"
+    },
+    {
+      "path": "src/cita2027/finaltest/__init__.py",
+      "sha256": "9052e7dabd0dca55694d5ee56b945c74d0f3dbe48f07f6c80f406eb510afc91d"
+    },
+    {
+      "path": "scripts/task011_final_test.py",
+      "sha256": "34593327cf758ed1e0b186e43f921f05741b037ddb1f08d89f19f1042c53a7b5"
+    }
+  ],
+  "unresolved_provenance": [
+    "contamination_free_verified",
+    "point_in_time_adjusted_prices_verified",
+    "btc_historical_point_in_time_verified",
+    "scientific_clearance"
+  ]
+}

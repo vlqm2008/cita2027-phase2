@@ -1,0 +1,26 @@
+{
+  "hypothesis": "H1_Cross_Horizon_Transferability",
+  "seed": 2027,
+  "overall_mean_crps": {
+    "B1_IndepEWMA": 0.8892881464306692,
+    "B2_IndepLocScale": 0.9800244068773833,
+    "H1_SharedState": 1.0301153986453289,
+    "B3_FullyPooled": 1.077515636367356,
+    "B0_Frozen": 1.509932776636263
+  },
+  "shared_drift_regime_crps": {
+    "B0_Frozen": 2.1709938397067408,
+    "B1_IndepEWMA": 0.7083188374687739,
+    "B2_IndepLocScale": 1.0104667224118666,
+    "B3_FullyPooled": 1.0946221285543563,
+    "H1_SharedState": 1.0099528721776565
+  },
+  "horizon_specific_regime_crps": {
+    "B0_Frozen": 0.8498273039642629,
+    "B1_IndepEWMA": 0.6511949482443998,
+    "B2_IndepLocScale": 0.6835138377098099,
+    "B3_FullyPooled": 0.881694346131675,
+    "H1_SharedState": 0.7208274780134508
+  },
+  "status": "PASS_EMPIRICAL_BENCHMARK_EVALUATION"
+}

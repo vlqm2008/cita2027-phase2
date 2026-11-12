@@ -1,0 +1,29 @@
+{
+  "quality": {
+    "all_archives_complete": true,
+    "btc_historical_point_in_time_verified": false,
+    "contamination_free_verified": false,
+    "context_days": 256,
+    "daily_utc_days": 2694,
+    "development_burnin_origins": 252,
+    "duplicate_days": 0,
+    "final_test_read": false,
+    "first_day": "2017-08-17",
+    "first_development_origin": "2018-12-31",
+    "first_development_target": "2019-01-01",
+    "first_validation_origin": "2022-12-31",
+    "first_validation_target": "2023-01-01",
+    "last_day": "2024-12-31",
+    "missing_days": 0,
+    "num_source_archives": 89,
+    "ohlc_inconsistencies": 0,
+    "raw_checksum_verified": true,
+    "scientific_clearance": false,
+    "source": "Binance Spot monthly 1d official archives",
+    "timestamps_unit": "milliseconds",
+    "utc_close_time_rule": "next_midnight_minus_1ms",
+    "zero_or_negative_prices": 0
+  },
+  "schema_version": "btc-quality-v1",
+  "snapshot_sha256": "05088f11c7929995ef6dd28e5135669ebaf37465928c62c826a15f245520299a"
+}

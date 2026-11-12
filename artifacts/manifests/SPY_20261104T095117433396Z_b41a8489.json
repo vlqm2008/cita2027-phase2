@@ -1,0 +1,12 @@
+{
+  "checkpoint_provenance_verified": false,
+  "config_sha256": "b936ed5db3461f1c8a73e88f82dc328c968ea6fea4a0b395feffb3c456f15361",
+  "pandas": "2.3.3",
+  "pipeline": "cita2027.data.cli.process",
+  "point_in_time_adjusted_prices_verified": false,
+  "processed_sha256": "4375f3b90c5dbfe1cfd1a8191a36c15c2d878993ef04b130c8de8810927103ba",
+  "python": "3.11.1",
+  "schema_version": 1,
+  "source_id": "SPY_20261104T095117433396Z_b41a8489",
+  "source_sha256": "ae185487b5441fe9528e001be8901aa45f52e2fd027d513c1e7a1d11da210c9d"
+}

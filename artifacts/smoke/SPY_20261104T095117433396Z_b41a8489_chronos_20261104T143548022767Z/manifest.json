@@ -1,0 +1,64 @@
+{
+  "checkpoint_audit_sha256": "e426149cff7b3164793631276416ec10eb50b23b29048fb4b32e24ca35cbc974",
+  "contamination_free_verified": false,
+  "context_length": 256,
+  "count": 12,
+  "cuda_compiled": "12.8",
+  "device": "cuda",
+  "gpu_capability": [
+    12,
+    0
+  ],
+  "gpu_name": "NVIDIA GeForce RTX 5060 Ti",
+  "horizon": 1,
+  "local_weight_file_hashes": {
+    "model.safetensors": {
+      "sha256": "9c8b6fde5300f72b01c173153bf9288fa0a200614275bf0585071ad71a6a3d43",
+      "verified_against_hub_lfs": true
+    }
+  },
+  "max_peak_allocated_mib_excluding_model_loading": 940.48046875,
+  "model_files": {
+    "config.json": {
+      "lfs_sha256": null,
+      "size_bytes": 1113
+    },
+    "generation_config.json": {
+      "lfs_sha256": null,
+      "size_bytes": 142
+    },
+    "model.safetensors": {
+      "lfs_sha256": "9c8b6fde5300f72b01c173153bf9288fa0a200614275bf0585071ad71a6a3d43",
+      "size_bytes": 184632480
+    }
+  },
+  "model_id": "amazon/chronos-t5-small",
+  "model_revision": "a971ba21945c4f1796b17a91fe69214b5f4ad472",
+  "packages": {
+    "chronos-forecasting": "2.3.2",
+    "gluonts": null,
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "torch": "2.9.1+cu128",
+    "transformers": "5.22.1",
+    "uni2ts": null
+  },
+  "predictions_sha256": "1e5adc782d5630d2126a081da04d67663a03a62985949b70e9bd62fecbe6bf35",
+  "processed_sha256": "4375f3b90c5dbfe1cfd1a8191a36c15c2d878993ef04b130c8de8810927103ba",
+  "processed_snapshot_id": "SPY_20261104T095117433396Z_b41a8489",
+  "python": "3.11.1",
+  "quantile_levels": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "replay_max_abs_diff": 0.0,
+  "run_id": "SPY_20261104T095117433396Z_b41a8489_chronos_20261104T143548022767Z",
+  "samples": 100,
+  "seed": 2027,
+  "smoke_config_sha256": "a2047e99ee7447b8a7194064f7d4ba627288b23527255d5b770a9bb217aad0cf",
+  "status": "SMOKE_PASS_NOT_FINAL_FORECAST_CACHE",
+  "sum_inference_seconds_excluding_replay_and_loading": 0.8780881003476679,
+  "target": "daily_log_return_decimal"
+}
