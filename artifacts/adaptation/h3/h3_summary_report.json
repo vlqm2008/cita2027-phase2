@@ -1,0 +1,49 @@
+{
+  "hypothesis": "H3_Overlap_Aware_Update_Stability_and_Unified_Adapter",
+  "seed": 2027,
+  "overall_mean_crps": {
+    "B1_IndepEWMA": 0.9031541155944823,
+    "H3_Unified": 0.9810841800365644,
+    "H2_AgeDecay": 1.0027420238347566,
+    "H1_Uniform": 1.051374794287826,
+    "B0_Frozen": 1.563640541053214
+  },
+  "stability_metrics": {
+    "abrupt_reversal": {
+      "mean_step_norm": 0.07882847036552558,
+      "max_step_norm": 0.5867467259387897,
+      "std_step_norm": 0.07406827385330245
+    },
+    "joint_shift": {
+      "mean_step_norm": 0.09466782565632804,
+      "max_step_norm": 0.4651097648407159,
+      "std_step_norm": 0.07998950956143211
+    },
+    "mean_shift": {
+      "mean_step_norm": 0.06427392848244011,
+      "max_step_norm": 0.3772085390965112,
+      "std_step_norm": 0.04799375986153233
+    },
+    "shared_cross_horizon_drift": {
+      "mean_step_norm": 0.06301464552444554,
+      "max_step_norm": 0.38327061034644344,
+      "std_step_norm": 0.04699079460303912
+    },
+    "variance_shift": {
+      "mean_step_norm": 0.09834618888839888,
+      "max_step_norm": 0.5045473442311874,
+      "std_step_norm": 0.09104962032585429
+    },
+    "stationary": {
+      "mean_step_norm": 0.05918884829045533,
+      "max_step_norm": 0.23718589168494753,
+      "std_step_norm": 0.04040747969389631
+    },
+    "transient_outliers": {
+      "mean_step_norm": 0.06602652266594881,
+      "max_step_norm": 0.5440729749750619,
+      "std_step_norm": 0.061452626917564666
+    }
+  },
+  "status": "PASS_EMPIRICAL_BENCHMARK_EVALUATION"
+}
