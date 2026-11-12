@@ -92,15 +92,22 @@ def main():
         env,
     )
 
-    # Phase 6: Publication Figures
-    timings["Phase 6 (Publication Figures)"] = run_command(
-        [python_exe, str(root / "scripts" / "plot_paper_figures.py"), "--root", str(root)],
-        "Phase 6: Publication-Quality Figures Generation (300 DPI)",
+    # Phase 6: Systematic Ablation Studies
+    timings["Phase 6 (Ablation Studies)"] = run_command(
+        [python_exe, str(root / "scripts" / "run_ablation_study.py"), "--root", str(root)],
+        "Phase 6: Systematic Ablation Studies (Components, Capacity, Sensitivity)",
         env,
     )
 
-    # Phase 7: Pytest Unit Tests
-    timings["Phase 7 (Unit Tests)"] = run_command(
+    # Phase 7: Publication Figures
+    timings["Phase 7 (Publication Figures)"] = run_command(
+        [python_exe, str(root / "scripts" / "plot_paper_figures.py"), "--root", str(root)],
+        "Phase 7: Publication-Quality Figures Generation (300 DPI)",
+        env,
+    )
+
+    # Phase 8: Pytest Unit Tests
+    timings["Phase 8 (Unit Tests)"] = run_command(
         [
             python_exe,
             "-m",
@@ -112,7 +119,7 @@ def main():
             str(root / "tests" / "test_significance.py"),
             "-v",
         ],
-        "Phase 7: Full Pytest Unit Test Suite Verification (15 Tests)",
+        "Phase 8: Full Pytest Unit Test Suite Verification (15 Tests)",
         env,
     )
 

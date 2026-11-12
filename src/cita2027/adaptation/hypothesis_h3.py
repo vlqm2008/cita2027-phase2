@@ -35,9 +35,7 @@ class HypothesisH3_OverlapAwareCorrector(BaseCorrector):
 
         self.w: dict[int, np.ndarray] = {}
         for h in self.horizons:
-            v = np.array([1.0, np.log2(max(1, h)) / 4.0], dtype=np.float64)
-            if latent_dim == 1:
-                v = v[:1]
+            v = np.array([(np.log2(max(1, h)) / 4.0) ** k for k in range(latent_dim)], dtype=np.float64)
             self.w[h] = v / np.linalg.norm(v)
 
         self.shared_state = np.zeros(latent_dim, dtype=np.float64)

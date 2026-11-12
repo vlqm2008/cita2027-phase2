@@ -36,6 +36,7 @@ The figures are rendered in 300 DPI publication resolution in `paper_figures/`:
 - **Figure 1 (`paper_figures/fig1_joint_shift_crps_by_horizon.png`):** CRPS across horizons $h \in \{1, 4, 8, 16\}$ under severe Joint Shift, demonstrating $H_3$'s growing advantage over frozen ($B_0$) and independent EWMA ($B_1$) as horizon increases.
 - **Figure 2 (`paper_figures/fig2_abrupt_reversal_adaptation.png`):** Prequential CRPS trajectory under Abrupt Reversal, showing how $H_2$ and $H_3$ dampen stale-feedback shocks compared to naive uniform updates.
 - **Figure 3 (`paper_figures/fig3_cross_regime_benchmark_summary.png`):** Comprehensive radar and bar benchmark across all 8 distribution shift regimes.
+- **Figure 4 (`paper_figures/fig4_ablation_sensitivity_curves.png`):** 4-panel sensitivity analysis across components, latent dimension $d$, decay rate $\gamma$, and overlap discount $\beta$.
 
 ---
 
@@ -72,6 +73,15 @@ python scripts/run_hypothesis_h3.py
 
 # 4. Run Real-World Market Benchmark (SPY & BTCUSDT, CPU-light)
 python scripts/run_real_data_adaptation.py
+
+# 5. Run Comprehensive Ablation Study & Sensitivity Analysis
+python scripts/run_ablation_study.py
+
+# 6. Run Paired Statistical Tests (Circular Block Bootstrap & Holm correction)
+python scripts/run_statistical_tests.py
+
+# 7. Generate 300 DPI Publication Figures
+python scripts/plot_paper_figures.py
 
 # 5. Run Paired Statistical Tests (Circular Block Bootstrap & Holm correction)
 python scripts/run_statistical_tests.py
