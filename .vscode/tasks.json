@@ -25,6 +25,21 @@
             "problemMatcher": []
         },
         {
+            "label": "Open Live Adaptation Visualizer (Dashboard)",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "Start-Process",
+                "'${workspaceFolder}/artifacts/adaptation/visualization/live_adaptation_visualizer.html'"
+            ],
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
             "label": "Phase 1: Hypothesis H1 Evaluation (Cross-Horizon Transfer)",
             "type": "shell",
             "command": "${workspaceFolder}/.venv/Scripts/python.exe",
