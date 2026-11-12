@@ -1,0 +1,16 @@
+rank,method,mean_crps,relative_crps_gain_pct
+1,Frozen Baseline,1.425,0.0
+2,Pointwise CP (CITA-1),1.38,3.157894736842116
+3,Adaptive CP (CITA-2),1.365,4.210526315789477
+4,Horizon-Wise EWMA,1.29,9.473684210526317
+5,Fully Pooled EWMA,1.26,11.578947368421055
+6,H1 (Linear Cross-Horizon),1.14,20.00000000000001
+7,H2 (Age-Decayed State),1.085,23.85964912280702
+8,H3 (Overlap-Aware),0.985,30.87719298245614
+9,WDRO (Wasserstein Robust),0.945,33.684210526315795
+10,Copula (Joint Rank-Tied),0.96,32.631578947368425
+11,Kernel-H3 (RFF Manifold),0.915,35.78947368421053
+12,AT-CRC (Trajectory Conformal),0.93,34.73684210526316
+13,Fed-ACHA (Multi-Agent),0.905,36.49122807017544
+14,JumpDiff-H3 (Poisson Shield),0.895,37.19298245614035
+15,Bayes-H3 (Epistemic Kalman),0.88,38.24561403508772

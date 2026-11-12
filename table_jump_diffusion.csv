@@ -1,0 +1,3 @@
+regime,standard_h3_crps,jumpdiff_h3_crps,relative_improvement
+Normal Continuous Diffusion,0.29016581263100355,0.30295769233950726,-4.40847238084895
+Poisson Jump Discontinuity,3.586269915442278,3.6532070854098206,-1.866484440541265

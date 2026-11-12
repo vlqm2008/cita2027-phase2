@@ -49,28 +49,10 @@ def main():
 
     timings = {}
 
-    # 1. Full Pytest Suite (70 tests across 15 test suites)
-    timings["Pytest Unit Tests (70 tests)"] = run(
-        [
-            py, "-m", "pytest",
-            "tests/test_adaptation_h1.py",
-            "tests/test_adaptation_h2.py",
-            "tests/test_adaptation_h3.py",
-            "tests/test_real_data_benchmark.py",
-            "tests/test_significance.py",
-            "tests/test_advanced_adaptation.py",
-            "tests/test_handoff_architecture.py",
-            "tests/test_deep_research.py",
-            "tests/test_pac_bayes_bounds.py",
-            "tests/test_ultralong_horizons.py",
-            "tests/test_dynamic_conformal.py",
-            "tests/test_dashboard.py",
-            "tests/test_meta_tuning.py",
-            "tests/test_spatiotemporal.py",
-            "tests/test_distributionally_robust.py",
-            "-v",
-        ],
-        "Pytest Unit Tests (70 tests across 15 test suites)",
+    # 1. Full Pytest Suite (300+ tests across 30 test suites)
+    timings["Pytest Unit Tests (301 tests)"] = run(
+        [py, "-m", "pytest", "-v"],
+        "Pytest Unit Tests (301 tests across 30 test suites)",
     )
 
     # 2. Multi-Domain Physical Benchmarks
@@ -169,22 +151,52 @@ def main():
         "Master 6D Radar & Waterfall Synthesis (fig25)",
     )
 
-    # 18. Scientific Integrity & Causal Provenance Audit
+    # 18. Multi-Agent Federated Asynchronous Consensus (Fed-ACHA)
+    timings["Federated Asynchronous Adaptation (Fed-ACHA)"] = run(
+        [py, "scripts/run_federated_benchmarks.py"],
+        "Multi-Agent Federated Consensus (Fed-ACHA - fig26)",
+    )
+
+    # 19. Jump-Diffusion Bipower Variation Decomposition (JumpDiff-H3)
+    timings["Jump-Diffusion Adaptation (JumpDiff-H3)"] = run(
+        [py, "scripts/run_jump_diffusion_benchmarks.py"],
+        "Jump-Diffusion Bipower Variation (JumpDiff-H3 - fig27)",
+    )
+
+    # 20. Online Granger-Causal Directed Graph Discovery (CausalGraph-H3)
+    timings["Causal DAG Discovery (CausalGraph-H3)"] = run(
+        [py, "scripts/run_causal_discovery_benchmarks.py"],
+        "Granger-Causal Cross-Horizon Discovery (CausalGraph-H3 - fig28)",
+    )
+
+    # 21. Sequential Bayesian Online Posterior Adaptation (Bayes-H3)
+    timings["Bayesian Online Posterior Adaptation (Bayes-H3)"] = run(
+        [py, "scripts/run_bayesian_posterior_benchmarks.py"],
+        "Sequential Bayesian Posterior Filter (Bayes-H3 - fig29)",
+    )
+
+    # 22. Definitive Grand Benchmark Atlas (Figure 30)
+    timings["Definitive Grand Benchmark Atlas"] = run(
+        [py, "scripts/run_atlas_benchmark.py"],
+        "Grand Benchmark Atlas & 8D Radar (Figure 30 Milestone)",
+    )
+
+    # 23. Scientific Integrity & Causal Provenance Audit
     timings["Scientific Integrity & Compliance Audit"] = run(
         [py, "scripts/verify_scientific_integrity.py"],
         "Comprehensive Scientific Integrity & Provenance Compliance Audit",
     )
 
-    # 19. Master 10-Phase Pipeline
+    # 24. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 20. Camera-Ready PDF Compilation
+    # 25. Camera-Ready PDF Compilation
     timings["Camera-Ready PDF Compilation"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (25 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (30 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start
