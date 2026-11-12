@@ -139,22 +139,52 @@ def main():
         "Active Feedback Selection Pareto Benchmark (Active-ACHA - fig20)",
     )
 
-    # 13. Scientific Integrity & Causal Provenance Audit
+    # 13. Cross-Horizon Self-Attention Benchmark (Attn-H3)
+    timings["Cross-Horizon Attention (Attn-H3)"] = run(
+        [py, "scripts/run_attention_cross_horizon_benchmarks.py"],
+        "Cross-Horizon Self-Attention Heatmaps (Attn-H3 - fig21)",
+    )
+
+    # 14. Direct Multivariate Energy Score Optimization (ES-H3)
+    timings["Direct Energy Score (ES-H3)"] = run(
+        [py, "scripts/run_energy_score_optimization_benchmarks.py"],
+        "Direct Energy Score Online Optimization (ES-H3 - fig22)",
+    )
+
+    # 15. Online Quantile Crossing Rectification (Quantile-H3)
+    timings["Quantile Crossing Rectification (Quantile-H3)"] = run(
+        [py, "scripts/run_quantile_crossing_benchmarks.py"],
+        "Quantile Crossing Rectification PAVA (Quantile-H3 - fig23)",
+    )
+
+    # 16. Expanded Multi-Domain Physical & Economic Evaluation
+    timings["Expanded Multi-Domain (Solar, FX, Load)"] = run(
+        [py, "scripts/run_multidomain_expanded_benchmarks.py"],
+        "Expanded Multi-Domain Physical Benchmarks (fig24)",
+    )
+
+    # 17. Master Full-System Radar Synthesis
+    timings["Master Full-System Radar Synthesis"] = run(
+        [py, "scripts/run_full_system_synthesis.py"],
+        "Master 6D Radar & Waterfall Synthesis (fig25)",
+    )
+
+    # 18. Scientific Integrity & Causal Provenance Audit
     timings["Scientific Integrity & Compliance Audit"] = run(
         [py, "scripts/verify_scientific_integrity.py"],
         "Comprehensive Scientific Integrity & Provenance Compliance Audit",
     )
 
-    # 14. Master 10-Phase Pipeline
+    # 19. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 15. Camera-Ready PDF Compilation
+    # 20. Camera-Ready PDF Compilation
     timings["Camera-Ready PDF Compilation"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (20 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (25 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start

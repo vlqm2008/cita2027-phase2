@@ -1,0 +1,3 @@
+Method,Quantile_Crossing_Rate_Pct,Horizon_Inversion_Rate_Pct,Mean_Winkler_Score_h4,Monotonicity_Guaranteed
+Raw Independent Conformal Quantiles,86.67,2.67,4.6373,False
+Quantile-H3 Rectified (PAVA),0.0,0.0,4.6222,True

@@ -1,0 +1,4 @@
+Model,Energy_Score,Variogram_Score_p05,Mean_CRPS
+Frozen Zero-Shot (B0),2.6432,0.2902,1.0357
+Unified Adapter (H3),2.1443,0.4396,0.8094
+Direct Energy Score (ES-H3),1.9783,0.1701,0.7647

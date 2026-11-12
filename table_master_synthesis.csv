@@ -1,0 +1,9 @@
+Algorithmic_Stage,Realized_CRPS,Cumulative_Improvement_Pct
+Frozen Baseline,1.624,0.0
++ Linear Manifold (H1),1.485,8.56
++ Age-Decay Gating (H2),1.392,14.29
++ Overlap Scaling (H3),1.27,21.8
++ Meta-Tuning (Simplex),1.215,25.18
++ Robust Quantile (W-DRO),1.162,28.45
++ Trajectory CRC,1.135,30.11
++ Cross-Attention (Attn),1.11,31.65

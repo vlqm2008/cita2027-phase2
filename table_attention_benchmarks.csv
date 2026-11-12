@@ -1,0 +1,6 @@
+Target_Horizon,Mean_CRPS,Stationary_Self_Attention,Shock_Cross_Horizon_Attention
+h=1,0.8083,0.3129,0.3129
+h=2,0.8465,0.2689,0.3161
+h=4,0.951,0.2086,0.3187
+h=8,1.0877,0.1364,0.3206
+h=16,1.3928,0.0649,0.3218
