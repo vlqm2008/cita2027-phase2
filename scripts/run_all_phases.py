@@ -132,9 +132,10 @@ def main():
             str(root / "tests" / "test_real_data_benchmark.py"),
             str(root / "tests" / "test_significance.py"),
             str(root / "tests" / "test_advanced_adaptation.py"),
+            str(root / "tests" / "test_handoff_architecture.py"),
             "-v",
         ],
-        "Phase 10: Full Pytest Unit Test Suite Verification (33 Tests)",
+        "Phase 10: Full Pytest Unit Test Suite Verification (40 Tests)",
         env,
     )
 

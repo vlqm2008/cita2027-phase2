@@ -20,6 +20,7 @@ test = ["pytest>=8,<10"]
 
 [project.scripts]
 cita-data = "cita2027.data.cli:main"
+cita-adaptation = "cita2027.adaptation.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

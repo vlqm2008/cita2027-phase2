@@ -35,6 +35,8 @@ def generate_paper_html(root_dir: Path) -> str:
     fig5_b64 = image_to_base64(fig_dir / "fig5_cross_architecture_generalization.png")
     fig6_b64 = image_to_base64(fig_dir / "fig6_extended_competitor_comparison.png")
     fig7_b64 = image_to_base64(fig_dir / "fig7_dynamic_regret_bounds.png")
+    fig8_b64 = image_to_base64(fig_dir / "fig8_pareto_frontier_tradeoff.png")
+    fig9_b64 = image_to_base64(fig_dir / "fig9_multidomain_physical_benchmarks.png")
 
     template = """<!DOCTYPE html>
 <html>
@@ -246,7 +248,22 @@ def generate_paper_html(root_dir: Path) -> str:
     <div class="caption">Figure 5: Cross-architecture performance on SPY and BTCUSDT. Scale adaptation consistently stabilizes predictive intervals across foundation backbones.</div>
   </div>
 
-  <h2>7. Summary &amp; Scientific Conclusions</h2>
+  <h2>7. Multi-Domain Physical Benchmarks: Energy, Weather, and Traffic</h2>
+  <p>
+    Following the Research Handoff validation protocol, we evaluate all 10 adapters across canonical non-financial physical domains: ETT Transformer Oil Temperature, Jena Atmospheric Surface Temperature, and PeMS Highway Flow.
+  </p>
+  <div class="fig-container">
+    <img src="FIG9_B64_PLACEHOLDER" alt="Multi-Domain Physical Benchmarks">
+    <div class="caption">Figure 9: Cross-domain physical time-series evaluation. H3 consistently maintains superior interval coverage and lower CRPS than independent EWMA baselines.</div>
+  </div>
+
+  <h2>8. Pareto Efficiency: Computational Latency vs. Probabilistic Quality</h2>
+  <div class="fig-container">
+    <img src="FIG8_B64_PLACEHOLDER" alt="Pareto Frontier Analysis">
+    <div class="caption">Figure 8: Pareto optimal frontier mapping computational latency per prequential step (&mu;s) vs Mean CRPS across hyperparameter configurations. Dimension d=2 forms the optimal sweet spot.</div>
+  </div>
+
+  <h2>9. Summary &amp; Scientific Conclusions</h2>
   <p>
     This addendum provides definitive mathematical and empirical proof of asynchronous cross-horizon adaptation. By pairing low-rank latent manifold projection with exponential age decay and Kish effective sample size normalization, frozen time-series foundation models achieve robust online adaptation without modifying backbone weights.
   </p>
@@ -262,6 +279,8 @@ def generate_paper_html(root_dir: Path) -> str:
     html = html.replace("FIG5_B64_PLACEHOLDER", fig5_b64)
     html = html.replace("FIG6_B64_PLACEHOLDER", fig6_b64)
     html = html.replace("FIG7_B64_PLACEHOLDER", fig7_b64)
+    html = html.replace("FIG8_B64_PLACEHOLDER", fig8_b64)
+    html = html.replace("FIG9_B64_PLACEHOLDER", fig9_b64)
     return html
 
 
