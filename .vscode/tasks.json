@@ -2,11 +2,11 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Run Unified Benchmark (Phase 1 + 2 + 3)",
+            "label": "Run All Research Benchmarks & Tests (End-to-End)",
             "type": "shell",
             "command": "${workspaceFolder}/.venv/Scripts/python.exe",
             "args": [
-                "${workspaceFolder}/scripts/run_hypothesis_h3.py"
+                "${workspaceFolder}/scripts/run_all_phases.py"
             ],
             "options": {
                 "env": {
@@ -25,25 +25,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Run Hypothesis H2 Evaluation (Phase 2)",
-            "type": "shell",
-            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
-            "args": [
-                "${workspaceFolder}/scripts/run_hypothesis_h2.py"
-            ],
-            "options": {
-                "env": {
-                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
-                }
-            },
-            "presentation": {
-                "reveal": "always",
-                "panel": "dedicated"
-            },
-            "problemMatcher": []
-        },
-        {
-            "label": "Run Hypothesis H1 Evaluation (Phase 1)",
+            "label": "Phase 1: Hypothesis H1 Evaluation (Cross-Horizon Transfer)",
             "type": "shell",
             "command": "${workspaceFolder}/.venv/Scripts/python.exe",
             "args": [
@@ -61,12 +43,107 @@
             "problemMatcher": []
         },
         {
-            "label": "Run Full Pytest Suite",
+            "label": "Phase 2: Hypothesis H2 Evaluation (Stale Feedback & Age Decay)",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "${workspaceFolder}/scripts/run_hypothesis_h2.py"
+            ],
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Phase 3: Hypothesis H3 Evaluation (Unified Cross-Horizon Benchmark)",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "${workspaceFolder}/scripts/run_hypothesis_h3.py"
+            ],
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Phase 4: Real-World Time Series Benchmark (SPY & BTCUSDT)",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "${workspaceFolder}/scripts/run_real_data_adaptation.py"
+            ],
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Phase 5: Paired Statistical Significance Tests",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "${workspaceFolder}/scripts/run_statistical_tests.py"
+            ],
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Phase 6: Generate Publication Figures (300 DPI)",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "${workspaceFolder}/scripts/plot_paper_figures.py"
+            ],
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}/src;${workspaceFolder}/scripts"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Phase 7: Run Pytest Unit Test Suite",
             "type": "shell",
             "command": "${workspaceFolder}/.venv/Scripts/python.exe",
             "args": [
                 "-m",
                 "pytest",
+                "tests/test_adaptation_h1.py",
+                "tests/test_adaptation_h2.py",
+                "tests/test_adaptation_h3.py",
+                "tests/test_real_data_benchmark.py",
+                "tests/test_significance.py",
                 "-v"
             ],
             "options": {
@@ -77,7 +154,7 @@
             "group": "test",
             "presentation": {
                 "reveal": "always",
-                "panel": "shared"
+                "panel": "dedicated"
             },
             "problemMatcher": []
         }
