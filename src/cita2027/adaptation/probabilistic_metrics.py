@@ -35,3 +35,9 @@ def compute_univariate_crps(y_true: float, samples: Sequence[float]) -> float:
     term1 = float(np.mean(np.abs(s - y_true)))
     term2 = 0.5 * float(np.mean(np.abs(s[:, None] - s[None, :])))
     return term1 - term2
+
+
+def compute_crps_empirical(samples: Sequence[float], y_true: float) -> float:
+    """Alias for empirical CRPS accepting (samples, y_true)."""
+    return compute_univariate_crps(y_true=y_true, samples=samples)
+

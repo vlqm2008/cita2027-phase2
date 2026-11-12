@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cita2027"
-version = "0.1.0"
-description = "Auditable financial return data pipeline for frozen TSFM calibration research"
+version = "0.2.0"
+description = "Asynchronous Cross-Horizon Probabilistic Adaptation & Conformal Calibration for Frozen TSFMs"
 requires-python = ">=3.11,<3.14"
 dependencies = [
   "numpy>=1.26,<3",
@@ -21,6 +21,7 @@ test = ["pytest>=8,<10"]
 [project.scripts]
 cita-data = "cita2027.data.cli:main"
 cita-adaptation = "cita2027.adaptation.cli:main"
+cita-ui = "cita2027.ui.dashboard:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

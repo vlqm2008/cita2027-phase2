@@ -40,6 +40,8 @@ def generate_paper_html(root_dir: Path) -> str:
     fig10_b64 = image_to_base64(fig_dir / "fig10_deep_research_multivariate_scores.png")
     fig11_b64 = image_to_base64(fig_dir / "fig11_conformal_martingale_trajectories.png")
     fig12_b64 = image_to_base64(fig_dir / "fig12_natural_gradient_vs_euclidean_convergence.png")
+    fig13_b64 = image_to_base64(fig_dir / "fig13_ultralong_horizon_scaling_h64.png")
+    fig14_b64 = image_to_base64(fig_dir / "fig14_dynamic_conformal_coverage_bands.png")
 
     template = """<!DOCTYPE html>
 <html>
@@ -285,7 +287,26 @@ def generate_paper_html(root_dir: Path) -> str:
     <div class="caption">Figure 12: Convergence speed on statistical manifold: Riemannian Natural Gradient achieves O(1/t) convergence vs Euclidean O(1/sqrt(t)).</div>
   </div>
 
-  <h2>10. Summary &amp; Scientific Conclusions</h2>
+  <h2>10. Ultra-Long Horizon Stress Scaling (H in {1, 2, 4, 8, 16, 32, 64})</h2>
+  <p>
+    When feedback delays span up to 64 time steps into the future, naive delay-agnostic pooling undergoes catastrophic breakdown. In contrast, multi-scale dyadic positional embeddings combined with exponential age decay (H2) and overlap normalization (H3) maintain monotonic stability across all 6 octaves.
+  </p>
+  <div class="fig-container">
+    <img src="FIG13_B64_PLACEHOLDER" alt="Ultra-Long Horizon Scaling H=64">
+    <div class="caption">Figure 13: Ultra-long horizon stress scaling benchmark for H in {1, 2, 4, 8, 16, 32, 64}. H3 and Dyadic embedding prevent variance explosion at ultra-long delays.</div>
+  </div>
+
+  <h2>11. Distribution-Free Conformal Martingale Calibration (ACH-DCC) &amp; PAC-Bayes Bounds</h2>
+  <p>
+    <b>Theorem 2 (PAC-Bayes Generalization Bound):</b> With probability &ge; 1 - &delta;, the empirical CRPS is bounded by O(sqrt((KL(rho_T || pi_0) + log(sqrt(T)/delta))/T) + tau_h * V_T / T).<br>
+    <b>Theorem 3 (Dynamic Conformal Coverage):</b> The Asynchronous Cross-Horizon Dynamic Conformal Calibrator (ACH-DCC) achieves asymptotic exact coverage 1 - &alpha; under non-stationary drift without requiring exchangeability assumptions.
+  </p>
+  <div class="fig-container">
+    <img src="FIG14_B64_PLACEHOLDER" alt="Dynamic Conformal Coverage Bands">
+    <div class="caption">Figure 14: Dynamic conformal coverage tracking and prediction interval widths under abrupt shift and reversal. Empirical coverage strictly tracks 90% nominal target.</div>
+  </div>
+
+  <h2>12. Summary &amp; Scientific Conclusions</h2>
   <p>
     This addendum provides definitive mathematical and empirical proof of asynchronous cross-horizon adaptation. By pairing low-rank latent manifold projection with exponential age decay, Kish effective sample size normalization, and Riemannian Fisher metric conditioning, frozen time-series foundation models achieve robust online adaptation without modifying backbone weights.
   </p>
@@ -306,6 +327,8 @@ def generate_paper_html(root_dir: Path) -> str:
     html = html.replace("FIG10_B64_PLACEHOLDER", fig10_b64)
     html = html.replace("FIG11_B64_PLACEHOLDER", fig11_b64)
     html = html.replace("FIG12_B64_PLACEHOLDER", fig12_b64)
+    html = html.replace("FIG13_B64_PLACEHOLDER", fig13_b64)
+    html = html.replace("FIG14_B64_PLACEHOLDER", fig14_b64)
     return html
 
 

@@ -49,8 +49,8 @@ def main():
 
     timings = {}
 
-    # 1. Full Pytest Suite (47 tests)
-    timings["Pytest Unit Tests (47 tests)"] = run(
+    # 1. Full Pytest Suite (61 tests across 12 test suites)
+    timings["Pytest Unit Tests (61 tests)"] = run(
         [
             py, "-m", "pytest",
             "tests/test_adaptation_h1.py",
@@ -61,9 +61,13 @@ def main():
             "tests/test_advanced_adaptation.py",
             "tests/test_handoff_architecture.py",
             "tests/test_deep_research.py",
+            "tests/test_pac_bayes_bounds.py",
+            "tests/test_ultralong_horizons.py",
+            "tests/test_dynamic_conformal.py",
+            "tests/test_dashboard.py",
             "-v",
         ],
-        "Pytest Unit Tests (47 tests across 8 test suites)",
+        "Pytest Unit Tests (61 tests across 12 test suites)",
     )
 
     # 2. Multi-Domain Physical Benchmarks
@@ -84,16 +88,28 @@ def main():
         "Deep Research Frontiers Campaign (fig10, fig11, fig12)",
     )
 
-    # 5. Master 10-Phase Pipeline
+    # 5. Ultra-Long Horizon Scaling Stress Benchmark (H in {1, 2, 4, 8, 16, 32, 64})
+    timings["Ultra-Long Horizon Scaling (H up to 64)"] = run(
+        [py, "scripts/run_ultralong_benchmarks.py"],
+        "Ultra-Long Horizon Stress Benchmark (H in {1, 2, 4, 8, 16, 32, 64} - fig13)",
+    )
+
+    # 6. Dynamic Conformal Martingale Calibration (ACH-DCC)
+    timings["Dynamic Conformal Martingale Calibration"] = run(
+        [py, "scripts/run_dynamic_conformal_benchmarks.py"],
+        "Asynchronous Dynamic Conformal Calibration (ACH-DCC - fig14)",
+    )
+
+    # 7. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 6. Camera-Ready PDF Compilation
+    # 8. Camera-Ready PDF Compilation
     timings["Camera-Ready PDF Compilation"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (12 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (14 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start

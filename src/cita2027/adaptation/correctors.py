@@ -144,13 +144,12 @@ class HypothesisH1_SharedStateCorrector(BaseCorrector):
         self.lr_shared = lr_shared
         self.lr_local = lr_local
 
-        # Low-dimensional horizon basis w_h: [1.0, log2(h)/4.0]
+        # Low-dimensional horizon basis w_h of dimension latent_dim
         self.w: dict[int, np.ndarray] = {}
         for h in self.horizons:
-            v = np.array([1.0, np.log2(max(1, h)) / 4.0], dtype=np.float64)
-            if latent_dim == 1:
-                v = v[:1]
-            self.w[h] = v / np.linalg.norm(v)
+            v = np.array([(np.log2(max(1, h)) / 4.0) ** k for k in range(latent_dim)], dtype=np.float64)
+            norm = np.linalg.norm(v)
+            self.w[h] = v / norm if norm > 1e-8 else v
 
         # Shared state vector s_t
         self.shared_state = np.zeros(latent_dim, dtype=np.float64)
