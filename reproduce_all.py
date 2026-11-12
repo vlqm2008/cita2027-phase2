@@ -49,16 +49,27 @@ def main():
 
     timings = {}
 
-    # 1. Full Pytest Suite (40 tests)
-    timings["Pytest Unit Tests (40 tests)"] = run(
-        [py, "-m", "pytest", "tests/", "-v"],
-        "Pytest Unit Tests (40 tests across 7 test suites)",
+    # 1. Full Pytest Suite (47 tests)
+    timings["Pytest Unit Tests (47 tests)"] = run(
+        [
+            py, "-m", "pytest",
+            "tests/test_adaptation_h1.py",
+            "tests/test_adaptation_h2.py",
+            "tests/test_adaptation_h3.py",
+            "tests/test_real_data_benchmark.py",
+            "tests/test_significance.py",
+            "tests/test_advanced_adaptation.py",
+            "tests/test_handoff_architecture.py",
+            "tests/test_deep_research.py",
+            "-v",
+        ],
+        "Pytest Unit Tests (47 tests across 8 test suites)",
     )
 
     # 2. Multi-Domain Physical Benchmarks
     timings["Multi-Domain Physical Benchmarks"] = run(
         [py, "scripts/run_multidomain_benchmarks.py"],
-        "Multi-Domain Physical Benchmarks (Energy, Weather, Traffic)",
+        "Multi-Domain Physical Benchmarks (Energy, Weather, Traffic - fig9)",
     )
 
     # 3. Pareto Frontier Grid Search
@@ -67,16 +78,22 @@ def main():
         "Pareto Frontier & Latency Analysis (fig8)",
     )
 
-    # 4. Master 10-Phase Pipeline
+    # 4. Deep Research Frontiers Campaign
+    timings["Deep Research Frontiers (Copula, Martingale, NaturalGrad)"] = run(
+        [py, "scripts/run_deep_research_campaign.py"],
+        "Deep Research Frontiers Campaign (fig10, fig11, fig12)",
+    )
+
+    # 5. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 5. Camera-Ready PDF Compilation
+    # 6. Camera-Ready PDF Compilation
     timings["Camera-Ready PDF Compilation"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (9 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (12 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start

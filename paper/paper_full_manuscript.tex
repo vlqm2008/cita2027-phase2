@@ -407,6 +407,43 @@ To assess practical feasibility for edge deployment, we evaluate the computation
 \label{fig:pareto_frontier}
 \end{figure}
 
+\subsection{Frontier Breakthroughs: Riemannian Natural Gradients, Adaptive Copulas, and Betting Martingales}
+To extend beyond Euclidean parameter updates and marginal-only transformations, we evaluate four advanced methodological frontiers:
+\begin{enumerate}
+    \item \textbf{Riemannian Natural Gradient Descent ($H_{3, \text{Natural}}$):} Replaces Euclidean steps with Fisher Information Matrix conditioning $\tilde{\mathbf{g}}_t = (\mathcal{I}_t + \lambda \mathbf{I})^{-1} \mathbf{g}_t$, achieving steepest descent in distribution space (KL-divergence).
+    \item \textbf{Online Empirical Copula Warping ($H_{3, \text{Copula}}$):} Couples marginal sample draws into joint trajectory realizations via online Ledoit-Wolf covariance shrinkage, minimizing Multivariate Energy and Variogram scores.
+    \item \textbf{Sequential Betting Martingales ($H_{3, \text{Martingale}}$):} Implements Ville's inequality test $\mathbb{P}(\exists t: M_t \ge 1/\delta) \le \delta$ to dynamically boost conformal margins upon detecting empirical miscoverage.
+    \item \textbf{Full Frontier Synthesis ($H_{3, \text{Full}}$):} Unifies Riemannian natural gradients, empirical copula trajectory warping, and martingale conformal calibration.
+\end{enumerate}
+
+Table~\ref{tab:deep_research_frontier} summarizes empirical results across synthetic and real-world physical benchmarks. The Full Frontier synthesis ($H_{3, \text{Full}}$) achieves substantial incremental improvements over the Euclidean $H_3$ adapter, reducing Multivariate Energy Scores by 10.9\% on Energy (ETT) and 13.2\% on Weather (Jena).
+
+\begin{table}[h!]
+\centering
+\caption{Empirical Comparison across Frontier Methodologies (Energy Score and CRPS).}
+\label{tab:deep_research_frontier}
+\begin{tabular}{lcccc}
+\toprule
+Method Variant & Synthetic Energy & ETT Energy & Weather Energy & ETT CRPS \\
+\midrule
+$H_3$ (Euclidean Unified) & 2.662 & 15.479 & 13.254 & 6.660 \\
+$H_3$ (Natural Gradient) & 2.555 & 13.865 & 11.557 & 5.915 \\
+$H_3$ (Adaptive Copula) & 2.656 & 15.377 & 13.195 & 6.665 \\
+$H_3$ (Conformal Martingale) & 2.644 & 15.453 & 13.210 & 6.628 \\
+\textbf{$H_3$ (Full Frontier)} & \textbf{2.529} & \textbf{13.794} & \textbf{11.506} & \textbf{5.897} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Figure~\ref{fig:deep_research_scores} visualizes the reduction in Multivariate Energy Scores, Figure~\ref{fig:martingale_wealth} depicts the sequential wealth trajectory of the betting martingale under concept drift, and Figure~\ref{fig:natural_gradient_conv} illustrates the accelerated $\mathcal{O}(1/t)$ convergence rate of the Riemannian Natural Gradient compared to standard Euclidean gradient descent.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.48\textwidth]{../paper_figures/fig10_deep_research_multivariate_scores.png}
+\caption{Multivariate Energy Score reduction across frontier adapters on Synthetic Joint Shift and Industrial Energy (ETT).}
+\label{fig:deep_research_scores}
+\end{figure}
+
 % ==============================================================================
 % SECTION 7: DISCUSSION & NEGATIVE TRANSFER BOUNDARIES
 % ==============================================================================
