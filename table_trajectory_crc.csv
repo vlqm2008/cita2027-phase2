@@ -1,0 +1,3 @@
+Method,Joint_Trajectory_Coverage,Mean_Band_Width_h1,Mean_Band_Width_h16,Target_Joint_Coverage,Target_Met
+Independent Pointwise 90%,0.5988,5.1965,11.7095,0.9,False
+Asynchronous Trajectory CRC (AT-CRC),0.8563,8.466,19.0769,0.9,False

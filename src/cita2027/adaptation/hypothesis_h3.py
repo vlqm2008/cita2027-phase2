@@ -65,15 +65,21 @@ class HypothesisH3_OverlapAwareCorrector(BaseCorrector):
         k_eff = float(k + total_overlap)
         return max(1.0, k_eff)
 
+    def get_corrections(self, horizon: int) -> tuple[float, float]:
+        bias = float(np.dot(self.w[horizon], self.shared_state) + self.local_bias[horizon])
+        log_scale = float(np.dot(self.w[horizon], self.shared_scale_state) + self.local_log_scale[horizon])
+        scale_mult = float(np.exp(np.clip(log_scale, -1.6, 1.6)))
+        return bias, scale_mult
+
     def adapt(self, origin_t: int, horizon: int, base_samples: np.ndarray) -> np.ndarray:
         s = np.asarray(base_samples, dtype=np.float64)
         loc = float(np.median(s))
 
-        bias = float(np.dot(self.w[horizon], self.shared_state) + self.local_bias[horizon])
-        log_scale = float(np.dot(self.w[horizon], self.shared_scale_state) + self.local_log_scale[horizon])
-        scale_mult = float(np.exp(np.clip(log_scale, -1.6, 1.6)))
-
+        bias, scale_mult = self.get_corrections(horizon)
         return loc + bias + scale_mult * (s - loc)
+
+    def update_with_feedback(self, feedback_items: list[ForecastFeedbackItem], current_t: int | None = None) -> None:
+        self.update(feedback_items)
 
     def update(self, feedback_items: list[ForecastFeedbackItem]) -> None:
         if not feedback_items:

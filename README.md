@@ -3,8 +3,8 @@
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3119/)
 [![PyTorch 2.6](https://img.shields.io/badge/pytorch-2.6-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Unit Tests: 270 Passed](https://img.shields.io/badge/unit%20tests-270%20passed-success.svg)](tests/)
-[![Paper Figures: 17 Generated](https://img.shields.io/badge/figures-17%20camera--ready-brightgreen.svg)](paper_figures/)
+[![Unit Tests: 281 Passed](https://img.shields.io/badge/unit%20tests-281%20passed-success.svg)](tests/)
+[![Paper Figures: 20 Generated](https://img.shields.io/badge/figures-20%20camera--ready-brightgreen.svg)](paper_figures/)
 [![GitHub sync](https://img.shields.io/badge/github-vlqm2008%2Fcita2027--phase2-brightgreen)](https://github.com/vlqm2008/cita2027-phase2)
 
 > **CITA 2027 Collaborator Project C+ Master Research Suite**  
@@ -79,9 +79,9 @@ Conventional online learning paradigms treat multi-horizon forecasting as decoup
 
 ---
 
-## 3. Comprehensive Publication Figures (17 Figures at 300 DPI)
+## 3. Comprehensive Publication Figures (20 Figures at 300 DPI)
 
-All 17 publication-grade figures are generated in `paper_figures/` and embedded in the camera-ready manuscript:
+All 20 publication-grade figures are generated in `paper_figures/` and embedded in the camera-ready manuscript:
 
 | Figure | Filename | Description |
 |---|---|---|
@@ -102,6 +102,9 @@ All 17 publication-grade figures are generated in `paper_figures/` and embedded 
 | **Fig 15** | `fig15_online_meta_tuning_dynamics.png` | Online Meta-Tuning (Meta-H3) simplex weight evolution across transitioning non-stationary regimes. |
 | **Fig 16** | `fig16_spatiotemporal_cross_horizon_transfer.png` | Spatio-temporal Graph Laplacian regularized adaptation across interconnected multi-node sensor networks. |
 | **Fig 17** | `fig17_wasserstein_dro_outlier_robustness.png` | Wasserstein DRO minimax adaptation with Huberized quantile clipping under sensor contamination rates up to 20%. |
+| **Fig 18** | `fig18_rff_kernel_vs_linear_manifold.png` | Random Fourier Features (RFF) nonlinear kernel adaptation (Kernel-H3) under cross-horizon curvature twisting. |
+| **Fig 19** | `fig19_trajectory_conformal_risk_control.png` | Asynchronous Trajectory Conformal Risk Control (AT-CRC) joint multi-horizon coverage tracking under structural breaks. |
+| **Fig 20** | `fig20_active_feedback_budget_pareto.png` | Information-theoretic active feedback selection Pareto frontier across verification budget constraints (Active-ACHA). |
 
 ---
 

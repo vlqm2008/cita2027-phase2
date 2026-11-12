@@ -121,22 +121,40 @@ def main():
         "Wasserstein DRO Contamination Sweep (W-DRO-H3 - fig17)",
     )
 
-    # 10. Scientific Integrity & Causal Provenance Audit
+    # 10. Nonlinear Kernel Cross-Horizon Adaptation (Kernel-H3)
+    timings["Nonlinear Kernel Adaptation (Kernel-H3)"] = run(
+        [py, "scripts/run_kernel_benchmarks.py"],
+        "Nonlinear Kernel Cross-Horizon Benchmark (Kernel-H3 - fig18)",
+    )
+
+    # 11. Asynchronous Trajectory Conformal Risk Control (AT-CRC)
+    timings["Trajectory Conformal Risk Control (AT-CRC)"] = run(
+        [py, "scripts/run_trajectory_crc_benchmarks.py"],
+        "Asynchronous Trajectory Conformal Risk Control (AT-CRC - fig19)",
+    )
+
+    # 12. Active Information-Theoretic Feedback Selection (Active-ACHA)
+    timings["Active Feedback Selection (Active-ACHA)"] = run(
+        [py, "scripts/run_active_feedback_benchmarks.py"],
+        "Active Feedback Selection Pareto Benchmark (Active-ACHA - fig20)",
+    )
+
+    # 13. Scientific Integrity & Causal Provenance Audit
     timings["Scientific Integrity & Compliance Audit"] = run(
         [py, "scripts/verify_scientific_integrity.py"],
         "Comprehensive Scientific Integrity & Provenance Compliance Audit",
     )
 
-    # 11. Master 10-Phase Pipeline
+    # 14. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 12. Camera-Ready PDF Compilation
+    # 15. Camera-Ready PDF Compilation
     timings["Camera-Ready PDF Compilation"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (17 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (20 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start
