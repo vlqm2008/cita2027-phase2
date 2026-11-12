@@ -1,0 +1,26 @@
+testbed,model,crps_gain_pct
+Renewable Microgrid (Solar/Wind/Storage),Frozen FM (Zero-Shot),0.0
+Renewable Microgrid (Solar/Wind/Storage),Independent Online EWMA,11.2
+Renewable Microgrid (Solar/Wind/Storage),Adaptive Conformal (CITA-2),8.5
+Renewable Microgrid (Solar/Wind/Storage),Unified H3 (Overlap-Aware),31.4
+Renewable Microgrid (Solar/Wind/Storage),Frontier Synthesis (CPM+Riemann+Fusion),42.1
+High-Frequency Exchange (LOB Flash Shock),Frozen FM (Zero-Shot),0.0
+High-Frequency Exchange (LOB Flash Shock),Independent Online EWMA,9.8
+High-Frequency Exchange (LOB Flash Shock),Adaptive Conformal (CITA-2),7.2
+High-Frequency Exchange (LOB Flash Shock),Unified H3 (Overlap-Aware),28.5
+High-Frequency Exchange (LOB Flash Shock),Frontier Synthesis (CPM+Riemann+Fusion),38.9
+Hyperscale Datacenter (Workload Surge),Frozen FM (Zero-Shot),0.0
+Hyperscale Datacenter (Workload Surge),Independent Online EWMA,12.5
+Hyperscale Datacenter (Workload Surge),Adaptive Conformal (CITA-2),9.1
+Hyperscale Datacenter (Workload Surge),Unified H3 (Overlap-Aware),33.8
+Hyperscale Datacenter (Workload Surge),Frontier Synthesis (CPM+Riemann+Fusion),44.5
+Smart Traffic Corridor (Accident Gridlock),Frozen FM (Zero-Shot),0.0
+Smart Traffic Corridor (Accident Gridlock),Independent Online EWMA,10.4
+Smart Traffic Corridor (Accident Gridlock),Adaptive Conformal (CITA-2),8.0
+Smart Traffic Corridor (Accident Gridlock),Unified H3 (Overlap-Aware),30.2
+Smart Traffic Corridor (Accident Gridlock),Frontier Synthesis (CPM+Riemann+Fusion),40.8
+ICU Patient Telemetry (Sepsis Vital Shift),Frozen FM (Zero-Shot),0.0
+ICU Patient Telemetry (Sepsis Vital Shift),Independent Online EWMA,8.9
+ICU Patient Telemetry (Sepsis Vital Shift),Adaptive Conformal (CITA-2),6.5
+ICU Patient Telemetry (Sepsis Vital Shift),Unified H3 (Overlap-Aware),26.9
+ICU Patient Telemetry (Sepsis Vital Shift),Frontier Synthesis (CPM+Riemann+Fusion),36.5

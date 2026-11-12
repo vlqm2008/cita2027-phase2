@@ -181,22 +181,52 @@ def main():
         "Grand Benchmark Atlas & 8D Radar (Figure 30 Milestone)",
     )
 
-    # 23. Scientific Integrity & Causal Provenance Audit
+    # 23. Streaming Change-Point Martingale (CPM-H3)
+    timings["Change-Point Martingale (CPM-H3)"] = run(
+        [py, "scripts/run_cpm_benchmarks.py"],
+        "Streaming Change-Point Martingale (CPM-H3 - fig31)",
+    )
+
+    # 24. Information-Geometric Riemannian Natural Gradient (Riemann-H3)
+    timings["Riemannian Natural Gradient (Riemann-H3)"] = run(
+        [py, "scripts/run_riemannian_benchmarks.py"],
+        "Riemannian Natural Gradient Fisher Manifold (Riemann-H3 - fig32)",
+    )
+
+    # 25. Asynchronous Multi-Fidelity Cross-Horizon Adaptation (MultiFidelity-H3)
+    timings["Multi-Fidelity Fusion (MultiFidelity-H3)"] = run(
+        [py, "scripts/run_multifidelity_benchmarks.py"],
+        "Multi-Fidelity Cross-Horizon Fusion (MultiFidelity-H3 - fig33)",
+    )
+
+    # 26. Extreme-Value Tail Conformal Predictive Sets (Extreme-CPS)
+    timings["Extreme Conformal Tail Sets (Extreme-CPS)"] = run(
+        [py, "scripts/run_extreme_cps_benchmarks.py"],
+        "Extreme-Value Tail Conformal Predictive Sets (Extreme-CPS - fig34)",
+    )
+
+    # 27. Industrial Cyber-Physical Digital Twin Benchmark Atlas (Figure 35)
+    timings["Digital Twin Benchmark Atlas (Figure 35)"] = run(
+        [py, "scripts/run_digital_twin_benchmarks.py"],
+        "Industrial Digital Twin Atlas & 9D Radar (Figure 35 Milestone)",
+    )
+
+    # 28. Scientific Integrity & Causal Provenance Audit
     timings["Scientific Integrity & Compliance Audit"] = run(
         [py, "scripts/verify_scientific_integrity.py"],
         "Comprehensive Scientific Integrity & Provenance Compliance Audit",
     )
 
-    # 24. Master 10-Phase Pipeline
+    # 29. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 25. Camera-Ready PDF Compilation
+    # 30. Camera-Ready PDF Compilation
     timings["Camera-Ready PDF Compilation"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (30 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (35 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start

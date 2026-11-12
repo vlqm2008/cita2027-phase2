@@ -7,27 +7,42 @@ from cita2027.adaptation.causal_cross_horizon_discovery import (
     CausalCrossHorizonAdapter,
     OnlineCausalHorizonGraph,
 )
+from cita2027.adaptation.changepoint_martingale import (
+    ChangePointMartingaleAdapter,
+    StreamingChangePointMartingale,
+)
+from cita2027.adaptation.correctors import HypothesisH1_SharedStateCorrector
+from cita2027.adaptation.extreme_conformal_tails import (
+    ExtremeValueConformalAdapter,
+    OnlineExtremeConformalCalibrator,
+)
 from cita2027.adaptation.federated_adaptation import (
     FederatedAgentNode,
     FederatedCrossHorizonCoordinator,
 )
 from cita2027.adaptation.feedback_queue import (
-    AsynchronousFeedbackQueue,
+    CausalFeedbackQueue,
     ForecastFeedbackItem,
 )
-from cita2027.adaptation.hypothesis_h1 import HypothesisH1_SharedCorrector
-from cita2027.adaptation.hypothesis_h2 import HypothesisH2_AgeDecayedCorrector
+from cita2027.adaptation.hypothesis_h2 import HypothesisH2_AgeWeightedCorrector
 from cita2027.adaptation.hypothesis_h3 import HypothesisH3_OverlapAwareCorrector
 from cita2027.adaptation.jump_diffusion_adaptation import (
     JumpDiffusionCrossHorizonAdapter,
     JumpDiffusionOnlineFilter,
 )
+from cita2027.adaptation.multifidelity_adaptation import (
+    MultiFidelityCrossHorizonAdapter,
+    MultiFidelityFeedbackItem,
+)
+from cita2027.adaptation.riemannian_natural_gradient import (
+    RiemannianNaturalGradientAdapter,
+)
 
 __all__ = [
-    "AsynchronousFeedbackQueue",
+    "CausalFeedbackQueue",
     "ForecastFeedbackItem",
-    "HypothesisH1_SharedCorrector",
-    "HypothesisH2_AgeDecayedCorrector",
+    "HypothesisH1_SharedStateCorrector",
+    "HypothesisH2_AgeWeightedCorrector",
     "HypothesisH3_OverlapAwareCorrector",
     "FederatedAgentNode",
     "FederatedCrossHorizonCoordinator",
@@ -36,4 +51,11 @@ __all__ = [
     "OnlineCausalHorizonGraph",
     "CausalCrossHorizonAdapter",
     "BayesianCrossHorizonPosteriorTracker",
+    "StreamingChangePointMartingale",
+    "ChangePointMartingaleAdapter",
+    "RiemannianNaturalGradientAdapter",
+    "MultiFidelityFeedbackItem",
+    "MultiFidelityCrossHorizonAdapter",
+    "OnlineExtremeConformalCalibrator",
+    "ExtremeValueConformalAdapter",
 ]
