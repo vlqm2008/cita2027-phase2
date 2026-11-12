@@ -49,8 +49,8 @@ def main():
 
     timings = {}
 
-    # 1. Full Pytest Suite (61 tests across 12 test suites)
-    timings["Pytest Unit Tests (61 tests)"] = run(
+    # 1. Full Pytest Suite (70 tests across 15 test suites)
+    timings["Pytest Unit Tests (70 tests)"] = run(
         [
             py, "-m", "pytest",
             "tests/test_adaptation_h1.py",
@@ -65,9 +65,12 @@ def main():
             "tests/test_ultralong_horizons.py",
             "tests/test_dynamic_conformal.py",
             "tests/test_dashboard.py",
+            "tests/test_meta_tuning.py",
+            "tests/test_spatiotemporal.py",
+            "tests/test_distributionally_robust.py",
             "-v",
         ],
-        "Pytest Unit Tests (61 tests across 12 test suites)",
+        "Pytest Unit Tests (70 tests across 15 test suites)",
     )
 
     # 2. Multi-Domain Physical Benchmarks
@@ -100,16 +103,40 @@ def main():
         "Asynchronous Dynamic Conformal Calibration (ACH-DCC - fig14)",
     )
 
-    # 7. Master 10-Phase Pipeline
+    # 7. Online Meta-Tuning (Meta-H3)
+    timings["Online Meta-Tuning (Meta-H3)"] = run(
+        [py, "scripts/run_meta_tuning_benchmarks.py"],
+        "Self-Tuning Online Meta-Controller (Meta-H3 - fig15)",
+    )
+
+    # 8. Spatio-Temporal Cross-Horizon Benchmark (ST-H3)
+    timings["Spatio-Temporal Adaptation (ST-H3)"] = run(
+        [py, "scripts/run_spatiotemporal_benchmarks.py"],
+        "Spatio-Temporal Graph Coupling Benchmark (ST-H3 - fig16)",
+    )
+
+    # 9. Wasserstein Distributionally Robust Adaptation (W-DRO-H3)
+    timings["Wasserstein DRO Robustness (W-DRO-H3)"] = run(
+        [py, "scripts/run_wdro_benchmarks.py"],
+        "Wasserstein DRO Contamination Sweep (W-DRO-H3 - fig17)",
+    )
+
+    # 10. Scientific Integrity & Causal Provenance Audit
+    timings["Scientific Integrity & Compliance Audit"] = run(
+        [py, "scripts/verify_scientific_integrity.py"],
+        "Comprehensive Scientific Integrity & Provenance Compliance Audit",
+    )
+
+    # 11. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 8. Camera-Ready PDF Compilation
+    # 12. Camera-Ready PDF Compilation
     timings["Camera-Ready PDF Compilation"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (14 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (17 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start

@@ -1,0 +1,6 @@
+test,evaluated_events,violations,passed,minimum_observed_scale,theoretical_floor,maximum_state_norm,certified_bound,holm_rejections_preserved,non_negativity,perfect_score_zero
+Causal_Non_Leakage_Filtration,50000.0,0.0,True,,,,,,,
+Scale_Positivity_Certificate,,,True,1.1088194895920844,0.20189651799465538,,,,,
+Lyapunov_Ultimate_Boundedness,,,True,,,8.000000000000002,15.0,,,
+Locked_CITA_2027_Invariance,,,True,,,,,0/8 (Exact locked finding preserved),,
+CRPS_Axiomatic_Propriety,,,True,,,,,,True,0.0

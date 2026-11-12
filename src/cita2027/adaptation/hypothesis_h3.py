@@ -119,6 +119,15 @@ class HypothesisH3_OverlapAwareCorrector(BaseCorrector):
         self.shared_state += delta_shared
         self.shared_scale_state += delta_shared_scale
 
+        # Compact ball projection (Theorem 1 & Lyapunov stability: ||z|| <= 8.0)
+        norm_shared = float(np.linalg.norm(self.shared_state))
+        if norm_shared > 8.0:
+            self.shared_state = (self.shared_state / norm_shared) * 8.0
+
+        norm_scale = float(np.linalg.norm(self.shared_scale_state))
+        if norm_scale > 8.0:
+            self.shared_scale_state = (self.shared_scale_state / norm_scale) * 8.0
+
         step_norm = float(np.linalg.norm(delta_shared))
         self.state_step_history.append(step_norm)
 

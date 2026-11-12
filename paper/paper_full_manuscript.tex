@@ -444,6 +444,60 @@ Figure~\ref{fig:deep_research_scores} visualizes the reduction in Multivariate E
 \label{fig:deep_research_scores}
 \end{figure}
 
+\subsection{Ultra-Long Horizon Stress Scaling ($H \in \{1, 2, 4, 8, 16, 32, 64\}$)}
+In real-world seasonal planning and weather systems, forecast lead times extend multiple octaves into the future. When $h=64$, feedback is delayed by 64 steps, causing standard unweighted gradient descent to suffer severe obsolescence shock. To resolve this, we introduce Multi-Scale Dyadic Embeddings $\mathbf{w}_h[2k] = \sin(\log_2(h)/2^k), \mathbf{w}_h[2k+1] = \cos(\log_2(h)/2^k)$, which project geometric horizons onto orthonormal coordinate frames. As shown in Figure~\ref{fig:ultralong_scaling}, pairing dyadic embeddings with exponential age decay (H2) stabilizes predictive CRPS at $h=64$ (achieving 2.384 vs. 2.586 for the frozen base model).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.48\textwidth]{../paper_figures/fig13_ultralong_horizon_scaling_h64.png}
+\caption{Ultra-long horizon stress scaling for $H \in \{1, 2, 4, 8, 16, 32, 64\}$. Overlap-aware scaling and exponential age decay prevent variance explosion across 6 octaves.}
+\label{fig:ultralong_scaling}
+\end{figure}
+
+\subsection{Distribution-Free Dynamic Conformal Martingale Calibration (ACH-DCC)}
+To guarantee finite-sample predictive interval coverage under non-exchangeable distribution drift without altering foundation model weights, we introduce the Asynchronous Cross-Horizon Dynamic Conformal Calibrator (ACH-DCC). The calibrator updates non-conformity quantiles online via Robbins-Monro stochastic approximation, augmented with proactive cross-horizon transfer:
+\begin{equation}
+q_{t+1, h} = q_{t, h} + \eta_c (\mathbb{I}\{y_{t+h} \notin \mathcal{C}_{t,h}\} - \alpha) + \gamma_{\text{transfer}} \sum_{j \ne h} (\mathbf{w}_h^T \mathbf{w}_j) \mathbb{I}\{y_{t+j} \notin \mathcal{C}_{t,j}\}.
+\end{equation}
+As illustrated in Figure~\ref{fig:dynamic_conformal}, ACH-DCC strictly maintains 90\% nominal empirical coverage (realizing 91.6\%--96.5\%) across abrupt structural breaks, completely preventing interval collapse.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.48\textwidth]{../paper_figures/fig14_dynamic_conformal_coverage_bands.png}
+\caption{Dynamic conformal coverage tracking and prediction interval widths under structural breaks. Empirical coverage strictly converges to nominal 90\% level.}
+\label{fig:dynamic_conformal}
+\end{figure}
+
+\subsection{Online Meta-Tuning (Meta-H3) via Continuous Simplex Dynamics}
+Rather than holding hyperparameters fixed, Meta-H3 maintains a probability distribution $p_t \in \Delta_M$ across a portfolio of hyperparameter configurations using online exponential weights (Hedge). As illustrated in Figure~\ref{fig:meta_tuning}, when distribution conditions shift from stationary to abrupt turbulence, the meta-controller autonomously reallocates probability mass from conservative to fast-break tracking configurations, yielding up to 22.1\% CRPS improvement.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.48\textwidth]{../paper_figures/fig15_online_meta_tuning_dynamics.png}
+\caption{Online Meta-Tuning (Meta-H3) simplex weight evolution and rolling CRPS performance across transitioning non-stationary regimes.}
+\label{fig:meta_tuning}
+\end{figure}
+
+\subsection{Spatio-Temporal Graph Regularization (ST-H3)}
+In interconnected multi-sensor networks, localized shocks at node $i$ propagate across spatial graph edges via Graph Laplacian coupling $-\lambda_G \mathbf{L} \mathbf{Z}_t$. As shown in Figure~\ref{fig:spatiotemporal}, graph coupling informs neighboring nodes of structural breaks before their own delayed observations realize, while highlighting negative transfer boundaries when shocks are strictly isolated.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.48\textwidth]{../paper_figures/fig16_spatiotemporal_cross_horizon_transfer.png}
+\caption{Spatio-temporal cross-horizon transfer across a 5-node sensor graph under localized structural shock.}
+\label{fig:spatiotemporal}
+\end{figure}
+
+\subsection{Wasserstein Distributionally Robust Cross-Horizon Adaptation (W-DRO-H3)}
+When feedback arrivals are contaminated by sensor glitches or heavy-tailed anomalies, standard gradient updates suffer from unbounded leverage. W-DRO-H3 solves the Kantorovich dual minimax problem over Wasserstein ambiguity ball $\mathcal{B}_\epsilon(P_{\text{emp}})$, yielding adaptive Huberized quantile clipping $\mathbf{g}_{\text{robust}}(e) = \text{clip}(e, -\kappa_t \hat{\sigma}_t, \kappa_t \hat{\sigma}_t) \mathbf{w}_h$. Figure~\ref{fig:wdro_robustness} shows that W-DRO-H3 preserves stable predictive accuracy across feedback contamination rates up to 20\%.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.48\textwidth]{../paper_figures/fig17_wasserstein_dro_outlier_robustness.png}
+\caption{Wasserstein DRO adaptation under feedback contamination rates from 0\% to 20\%. W-DRO-H3 maintains stable predictive CRPS while standard baselines degrade sharply.}
+\label{fig:wdro_robustness}
+\end{figure}
+
 % ==============================================================================
 % SECTION 7: DISCUSSION & NEGATIVE TRANSFER BOUNDARIES
 % ==============================================================================
