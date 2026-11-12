@@ -211,22 +211,52 @@ def main():
         "Industrial Digital Twin Atlas & 9D Radar (Figure 35 Milestone)",
     )
 
-    # 28. Scientific Integrity & Causal Provenance Audit
+    # 28. Hyperbolic Poincare Geometry Manifold Adaptation (Hyperbolic-H3)
+    timings["Hyperbolic Geometry Manifold (Hyperbolic-H3)"] = run(
+        [py, "scripts/run_hyperbolic_benchmarks.py"],
+        "Hyperbolic Poincare Ball Geometry (Hyperbolic-H3 - fig36)",
+    )
+
+    # 29. Stochastic Delayed Feedback Game-Theoretic Minimax Equilibrium (GameTheoretic-H3)
+    timings["Game-Theoretic Adversarial (GameTheoretic-H3)"] = run(
+        [py, "scripts/run_game_theoretic_benchmarks.py"],
+        "Game-Theoretic Minimax Adversarial Equilibrium (GameTheoretic-H3 - fig37)",
+    )
+
+    # 30. Asynchronous Non-Parametric Dirichlet Process Mixture (DPM-H3)
+    timings["Dirichlet Process Mixture (DPM-H3)"] = run(
+        [py, "scripts/run_dirichlet_process_benchmarks.py"],
+        "Asynchronous Dirichlet Process Mixture (DPM-H3 - fig38)",
+    )
+
+    # 31. Continuous-Time Neural Stochastic Differential Equations (NeuralSDE-H3)
+    timings["Neural SDE Continuous-Time (NeuralSDE-H3)"] = run(
+        [py, "scripts/run_neural_sde_benchmarks.py"],
+        "Continuous-Time Neural Stochastic Differential Equations (NeuralSDE-H3 - fig39)",
+    )
+
+    # 32. Definitive Grand Horizon Research Atlas (Figure 40)
+    timings["Grand Horizon Research Atlas (Figure 40)"] = run(
+        [py, "scripts/run_grand_horizon_atlas.py"],
+        "Definitive Grand Horizon Research Atlas (Figure 40 Milestone)",
+    )
+
+    # 33. Scientific Integrity & Causal Provenance Audit
     timings["Scientific Integrity & Compliance Audit"] = run(
         [py, "scripts/verify_scientific_integrity.py"],
         "Comprehensive Scientific Integrity & Provenance Compliance Audit",
     )
 
-    # 29. Master 10-Phase Pipeline
+    # 34. Master 10-Phase Pipeline
     timings["Master 10-Phase Pipeline"] = run(
         [py, "scripts/run_all_phases.py"],
         "End-to-End 10-Phase Adaptation Pipeline",
     )
 
-    # 30. Camera-Ready PDF Compilation
+    # 35. Camera-Ready PDF Compilation
     timings["Camera-Ready PDF Compilation"] = run(
         [py, "scripts/generate_comprehensive_paper_pdf.py"],
-        "Camera-Ready PDF Compilation (35 Figures 300 DPI)",
+        "Camera-Ready PDF Compilation (40 Figures 300 DPI)",
     )
 
     total_time = time.time() - t_start
