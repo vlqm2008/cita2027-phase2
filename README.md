@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Unit Tests: 287 Passed](https://img.shields.io/badge/unit%20tests-287%20passed-success.svg)](tests/)
 [![Paper Figures: 25 Generated](https://img.shields.io/badge/figures-25%20camera--ready-brightgreen.svg)](paper_figures/)
+[![Dataset: FJCAI 2026](https://img.shields.io/badge/Dataset-FJCAI%202026%20Spectral%20Benchmark-orange.svg)](https://github.com/vlqm2008/fjcai-2026-spectral-dataset)
 [![GitHub sync](https://img.shields.io/badge/github-vlqm2008%2Fcita2027--phase2-brightgreen)](https://github.com/vlqm2008/cita2027-phase2)
 
 > **CITA 2027 Collaborator Project C+ Master Research Suite**  
