@@ -43,20 +43,34 @@ def set_low_process_priority() -> None:
 
 def find_data_path(dataset_name: str, root_dir: Optional[Path] = None) -> Path:
     """Locate the processed data CSV for SPY or BTCUSDT."""
-    if root_dir is None:
-        root_dir = Path(".")
-    root_dir = root_dir.resolve()
+    search_dirs = []
+    if root_dir is not None:
+        search_dirs.append(Path(root_dir).resolve())
+    else:
+        search_dirs.append(Path(".").resolve())
+        # Fallback to repo root based on this source file location
+        repo_root = Path(__file__).resolve().parents[3]
+        if repo_root not in search_dirs:
+            search_dirs.append(repo_root)
 
-    if dataset_name.upper() == "SPY":
-        candidates = list((root_dir / "artifacts" / "processed").glob("SPY_*.csv"))
-        if not candidates:
-            raise FileNotFoundError("Could not find SPY dataset in artifacts/processed/")
-        return candidates[0]
-    elif dataset_name.upper() in ("BTC", "BTCUSDT"):
-        candidates = list((root_dir / "artifacts" / "btcusdt_data" / "snapshots").glob("*.csv"))
-        if not candidates:
-            raise FileNotFoundError("Could not find BTCUSDT dataset in artifacts/btcusdt_data/snapshots/")
-        return candidates[0]
+    dataset_key = dataset_name.upper()
+    for s_dir in search_dirs:
+        if dataset_key == "SPY":
+            candidates = list((s_dir / "artifacts" / "processed").glob("SPY_*.csv"))
+            if candidates:
+                return candidates[0]
+        elif dataset_key in ("BTC", "BTCUSDT"):
+            candidates = list((s_dir / "artifacts" / "btcusdt_data" / "snapshots").glob("*.csv"))
+            if candidates:
+                return candidates[0]
+            candidates = list((s_dir / "artifacts" / "processed").glob("*BTC*.csv"))
+            if candidates:
+                return candidates[0]
+
+    if dataset_key == "SPY":
+        raise FileNotFoundError("Could not find SPY dataset in artifacts/processed/")
+    elif dataset_key in ("BTC", "BTCUSDT"):
+        raise FileNotFoundError("Could not find BTCUSDT dataset in artifacts/btcusdt_data/snapshots/")
     else:
         raise ValueError(f"Unknown dataset name: {dataset_name}")
 

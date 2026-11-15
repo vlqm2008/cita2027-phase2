@@ -4,13 +4,13 @@ Greedy Short-Horizon,0.8,1.1,0.941,37.53
 Random Uniform Subsampling,0.8,1.1,0.9436,37.36
 Active Information Gain (Active-ACHA),1.5,1.1905,0.9568,36.48
 Greedy Short-Horizon,1.5,1.1,0.9474,37.1
-Random Uniform Subsampling,1.5,1.2345,0.9525,36.76
+Random Uniform Subsampling,1.5,1.2335,0.9587,36.35
 Active Information Gain (Active-ACHA),2.5,2.3106,0.9629,36.07
 Greedy Short-Horizon,2.5,2.2958,0.9385,37.69
-Random Uniform Subsampling,2.5,2.2504,0.9594,36.31
+Random Uniform Subsampling,2.5,2.2574,0.9732,35.39
 Active Information Gain (Active-ACHA),3.5,2.4905,0.9598,36.27
 Greedy Short-Horizon,3.5,2.2958,0.9391,37.65
-Random Uniform Subsampling,3.5,2.7134,0.9859,34.54
+Random Uniform Subsampling,3.5,2.7187,0.9854,34.58
 Active Information Gain (Active-ACHA),6.0,5.4246,0.9625,36.1
 Greedy Short-Horizon,6.0,5.4366,0.9639,36.0
-Random Uniform Subsampling,6.0,5.3525,0.9698,35.61
+Random Uniform Subsampling,6.0,5.344,0.9853,34.59

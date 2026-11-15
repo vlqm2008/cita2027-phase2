@@ -25,10 +25,10 @@ def print_banner(title: str) -> None:
     print("=" * 80 + "\n")
 
 
-def run_command(cmd: list[str], desc: str, env: dict) -> float:
+def run_command(cmd: list[str], desc: str, env: dict, cwd: Path | None = None) -> float:
     print_banner(f"STARTING: {desc}")
     t0 = time.time()
-    res = subprocess.run(cmd, env=env)
+    res = subprocess.run(cmd, env=env, cwd=cwd)
     elapsed = time.time() - t0
     if res.returncode != 0:
         print(f"\n[ERROR] Step '{desc}' failed with exit code {res.returncode}")
@@ -38,8 +38,9 @@ def run_command(cmd: list[str], desc: str, env: dict) -> float:
 
 
 def main():
+    default_root = Path(__file__).resolve().parent.parent
     parser = argparse.ArgumentParser(description="Master End-to-End Pipeline Runner")
-    parser.add_argument("--root", type=Path, default=Path("."))
+    parser.add_argument("--root", type=Path, default=default_root)
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -47,6 +48,9 @@ def main():
 
     env = os.environ.copy()
     env["PYTHONPATH"] = f"{root / 'src'};{root / 'scripts'};{env.get('PYTHONPATH', '')}"
+
+    def run_step(cmd: list[str], desc: str) -> float:
+        return run_command(cmd, desc, env, cwd=root)
 
     print("=" * 80)
     print("   CITA 2027: ASYNCHRONOUS CROSS-HORIZON ADAPTATION MASTER PIPELINE")
@@ -58,70 +62,61 @@ def main():
     timings = {}
 
     # Phase 1: Hypothesis H1
-    timings["Phase 1 (Hypothesis H1)"] = run_command(
+    timings["Phase 1 (Hypothesis H1)"] = run_step(
         [python_exe, str(root / "scripts" / "run_hypothesis_h1.py"), "--root", str(root)],
         "Phase 1: Hypothesis H1 Evaluation (Cross-Horizon Transferability)",
-        env,
     )
 
     # Phase 2: Hypothesis H2
-    timings["Phase 2 (Hypothesis H2)"] = run_command(
+    timings["Phase 2 (Hypothesis H2)"] = run_step(
         [python_exe, str(root / "scripts" / "run_hypothesis_h2.py"), "--root", str(root)],
         "Phase 2: Hypothesis H2 Evaluation (Stale Feedback & Age Decay)",
-        env,
     )
 
     # Phase 3: Hypothesis H3
-    timings["Phase 3 (Hypothesis H3)"] = run_command(
+    timings["Phase 3 (Hypothesis H3)"] = run_step(
         [python_exe, str(root / "scripts" / "run_hypothesis_h3.py"), "--root", str(root)],
         "Phase 3: Hypothesis H3 Evaluation (Unified Cross-Horizon Benchmark)",
-        env,
     )
 
     # Phase 4: Real-World Time Series Benchmark
-    timings["Phase 4 (Real-World Benchmark)"] = run_command(
+    timings["Phase 4 (Real-World Benchmark)"] = run_step(
         [python_exe, str(root / "scripts" / "run_real_data_adaptation.py"), "--root", str(root)],
         "Phase 4: Real-World Multi-Horizon Adaptation (SPY & BTCUSDT)",
-        env,
     )
 
     # Phase 5: Statistical Significance Tests
-    timings["Phase 5 (Statistical Tests)"] = run_command(
+    timings["Phase 5 (Statistical Tests)"] = run_step(
         [python_exe, str(root / "scripts" / "run_statistical_tests.py"), "--root", str(root)],
         "Phase 5: Paired Statistical Significance & Hypothesis Testing",
-        env,
     )
 
     # Phase 6: Systematic Ablation Studies
-    timings["Phase 6 (Ablation Studies)"] = run_command(
+    timings["Phase 6 (Ablation Studies)"] = run_step(
         [python_exe, str(root / "scripts" / "run_ablation_study.py"), "--root", str(root)],
         "Phase 6: Systematic Ablation Studies (Components, Capacity, Sensitivity)",
-        env,
     )
 
     # Phase 7: Publication Figures
-    timings["Phase 7 (Publication Figures)"] = run_command(
+    timings["Phase 7 (Publication Figures)"] = run_step(
         [python_exe, str(root / "scripts" / "plot_paper_figures.py"), "--root", str(root)],
         "Phase 7: Publication-Quality Figures Generation (300 DPI)",
-        env,
     )
 
     # Phase 8: Advanced Benchmarks & Theoretical Regret Bounds
-    timings["Phase 8 (Advanced Benchmarks & Theory)"] = run_command(
+    timings["Phase 8 (Advanced Benchmarks & Theory)"] = run_step(
         [python_exe, str(root / "scripts" / "run_advanced_benchmarks.py")],
         "Phase 8: Extended Competitor Stress Tests & Theorem 1 Regret Bounds",
-        env,
     )
 
     # Phase 9: Comprehensive Camera-Ready PDF Compilation
-    timings["Phase 9 (Camera-Ready PDF)"] = run_command(
+    timings["Phase 9 (Camera-Ready PDF)"] = run_step(
         [python_exe, str(root / "scripts" / "generate_comprehensive_paper_pdf.py")],
         "Phase 9: Comprehensive Camera-Ready PDF Compilation (Embedded 300 DPI)",
-        env,
     )
 
     # Phase 10: Pytest Unit Tests
-    timings["Phase 10 (Full Unit Test Suite)"] = run_command(
+    timings["Phase 10 (Full Unit Test Suite)"] = run_step(
         [
             python_exe,
             "-m",
@@ -136,7 +131,6 @@ def main():
             "-v",
         ],
         "Phase 10: Full Pytest Unit Test Suite Verification (40 Tests)",
-        env,
     )
 
     total_time = time.time() - start_total

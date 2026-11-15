@@ -1,0 +1,13 @@
+﻿Horizon_H,SPY_Return_ACF,SPY_Vol_ACF,SPY_Vol_Status,BTC_Return_ACF,BTC_Vol_ACF,BTC_Vol_Status,Val_Effective_Cycles,Overlap_Pct,Online_Feasibility
+1,-0.101,0.2738,Có ý nghĩa (Signal),-0.05,0.0992,Có ý nghĩa (Signal),502.0,0.0%,TỐI ƯU CHO ONLINE ADAPTATION
+2,-0.0101,0.4511,Có ý nghĩa (Signal),0.0483,0.0284,Nhiễu trắng (Noise),251.0,50.0%,TỐI ƯU CHO ONLINE ADAPTATION
+4,-0.0317,0.2932,Có ý nghĩa (Signal),0.0116,0.0748,Có ý nghĩa (Signal),125.5,75.0%,TỐI ƯU CHO ONLINE ADAPTATION
+5,-0.0108,0.3028,Có ý nghĩa (Signal),0.0254,0.0401,Có ý nghĩa (Signal),100.4,80.0%,TỐI ƯU CHO ONLINE ADAPTATION
+8,-0.037,0.2242,Có ý nghĩa (Signal),-0.0242,0.0201,Nhiễu trắng (Noise),62.8,87.5%,TỐI ƯU CHO ONLINE ADAPTATION
+10,0.0028,0.244,Có ý nghĩa (Signal),0.0449,0.0267,Nhiễu trắng (Noise),50.2,90.0%,TỐI ƯU CHO ONLINE ADAPTATION
+16,0.0603,0.1902,Có ý nghĩa (Signal),-0.0249,0.0311,Nhiễu trắng (Noise),31.4,93.8%,TỐI ƯU CHO ONLINE ADAPTATION
+21,-0.013,0.1539,Có ý nghĩa (Signal),-0.029,0.0402,Có ý nghĩa (Signal),23.9,95.2%,CHẤP NHẬN ĐƯỢC (Tín hiệu bắt đầu suy thoái)
+30,0.0107,0.111,Có ý nghĩa (Signal),0.0183,0.0085,Nhiễu trắng (Noise),16.7,96.7%,CHẤP NHẬN ĐƯỢC (Tín hiệu bắt đầu suy thoái)
+60,0.0059,0.0202,Nhiễu trắng (Noise),-0.0361,0.0164,Nhiễu trắng (Noise),8.4,98.3%,"KHÔNG KHẢ THI (Độ trễ quá lớn, Tín hiệu rủi ro = 0)"
+120,0.0013,0.0358,Có ý nghĩa (Signal),0.0027,-0.0006,Nhiễu trắng (Noise),4.2,99.2%,"KHÔNG KHẢ THI (Độ trễ quá lớn, Tín hiệu rủi ro = 0)"
+250,0.0144,-0.0069,Nhiễu trắng (Noise),-0.0057,-0.0005,Nhiễu trắng (Noise),2.0,99.6%,"KHÔNG KHẢ THI (Độ trễ quá lớn, Tín hiệu rủi ro = 0)"
