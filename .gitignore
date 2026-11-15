@@ -42,3 +42,9 @@ Thumbs.db
 
 # Local env
 .env.local
+
+# Temporary archives & handoff folders
+*.zip
+KET_QUA_CUOI_CUNG_CITA2027/
+Research_Handoff_Collaborator_P_Phase2/
+

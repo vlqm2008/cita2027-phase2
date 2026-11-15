@@ -1,11 +1,15 @@
 {
-    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python.defaultInterpreterPath": "D:/01_AI_Research_Projects/cita2027-phase2/.venv/Scripts/python.exe",
     "python.testing.pytestEnabled": true,
     "python.testing.pytestArgs": [
         "tests"
     ],
     "python.testing.unittestEnabled": false,
     "python.envFile": "${workspaceFolder}/.env",
+    "python.terminal.useEnvFile": true,
+    "python.terminal.activateEnvironment": true,
+    "git.path": "C:/Users/Admin/AppData/Local/GitHubDesktop/app-3.6.9/resources/app/git/cmd/git.exe",
+    "git.enabled": true,
     "terminal.integrated.env.windows": {
         "PYTHONPATH": "${workspaceFolder}\\src;${workspaceFolder}\\scripts"
     },
